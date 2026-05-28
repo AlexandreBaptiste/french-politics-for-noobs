@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "renaissance",
+    "last_updated": "2026-05-27",
+    "note_fr": "Inclut l'ensemble de la coalition Ensemble (Renaissance, MoDem, Horizons). MoDem a son propre fichier détaillé.",
+    "note_en": "Covers the full Ensemble coalition (Renaissance, MoDem, Horizons). MoDem has its own detailed file.",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "Renaissance (anciennement La République En Marche / En Marche!)",
+    "full_name_en": "Renaissance (formerly La République En Marche / En Marche!)",
+    "abbreviation": "RE",
+    "coalition": "Ensemble",
+    "former_names": ["En Marche! (2016)", "La République En Marche — LREM (2017-2022)"],
+    "founded": 2016,
+    "color": "#FFBE00",
+    "position_on_spectrum_fr": "Centre / Social-libéralisme / Progressisme",
+    "position_on_spectrum_en": "Centre / Social liberalism / Progressivism",
+    "website": "https://parti-renaissance.fr",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Centrisme ('en même temps' : conjuguer réformes économiques et progrès social)",
+      "Pro-européen (défense de l'intégration européenne)",
+      "Libéralisme économique tempéré",
+      "Réformisme institutionnel",
+      "Progressisme social (droits LGBTQ+, égalité femmes/hommes)",
+      "Pragmatisme plutôt qu'idéologie figée"
+    ],
+    "core_values_en": [
+      "Centrism ('en même temps': combining economic reform and social progress)",
+      "Pro-European (committed to European integration)",
+      "Tempered economic liberalism",
+      "Institutional reformism",
+      "Social progressivism (LGBTQ+ rights, gender equality)",
+      "Pragmatism over fixed ideology"
+    ],
+    "eu_position_fr": "Fortement pro-européen. Macron a poussé pour une Europe plus souveraine et plus intégrée (armée européenne, défense commune, solidarité budgétaire). Partisan d'un approfondissement de l'UE.",
+    "eu_position_en": "Strongly pro-European. Macron has pushed for a more sovereign and integrated Europe (European army, common defense, budget solidarity). Supports deepening the EU.",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 2016,
+        "event_fr": "Emmanuel Macron, alors ministre de l'Économie de Hollande, fonde 'En Marche!' en avril. Le mouvement se veut 'ni droite ni gauche', transpartisan.",
+        "event_en": "Emmanuel Macron, then Hollande's Economy Minister, founds 'En Marche!' in April. The movement presents itself as 'neither right nor left', transpartisan.",
+        "status": "verified"
+      },
+      {
+        "year": 2016,
+        "event_fr": "Macron démissionne du gouvernement Hollande en août et se consacre à la préparation de sa candidature présidentielle.",
+        "event_en": "Macron resigns from Hollande's government in August and dedicates himself to preparing his presidential campaign.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "Macron élu président (66,1%). Le mouvement devient La République En Marche (LREM). Victoire écrasante aux législatives (350 sièges). L'Assemblée est massivement renouvelée.",
+        "event_en": "Macron elected president (66.1%). The movement becomes La République En Marche (LREM). Crushing legislative victory (350 seats). The Assembly is massively renewed.",
+        "status": "verified"
+      },
+      {
+        "year": 2019,
+        "event_fr": "Crise des Gilets Jaunes. LREM subit un revers aux municipales (2020) et perd Paris, Lyon, Bordeaux. Macron peine à ancrer LREM localement.",
+        "event_en": "Yellow Vests crisis. LREM suffers a setback in the municipal elections (2020) and loses Paris, Lyon, Bordeaux. Macron struggles to establish LREM locally.",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "event_fr": "Le parti est renommé Renaissance avant les législatives. Macron réélu (58,5%). La coalition Ensemble (Renaissance + MoDem + Horizons) perd la majorité absolue (245 sièges).",
+        "event_en": "The party is renamed Renaissance before the legislative elections. Macron re-elected (58.5%). The Ensemble coalition (Renaissance + MoDem + Horizons) loses its absolute majority (245 seats).",
+        "status": "verified"
+      },
+      {
+        "year": 2023,
+        "event_fr": "La réforme des retraites via 49-3 affaiblit massivement Macron et Borne. Attal nommé Premier ministre le 9 janvier 2024.",
+        "event_en": "The 49-3 pension reform massively weakens Macron and Borne. Attal appointed Prime Minister on January 9, 2024.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "Défaite aux européennes (14,6%). Dissolution surprise. Aux législatives, Ensemble arrive 2e (~164 sièges). Macron ne peut pas se représenter en 2027 (2e mandat consécutif atteint).",
+        "event_en": "European election defeat (14.6%). Surprise dissolution. In legislative elections, Ensemble comes 2nd (~164 seats). Macron cannot run again in 2027 (second consecutive term reached).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "Emmanuel Macron",
+      "role_fr": "Fondateur, Président de la République (2017-). Ne peut pas se représenter en 2027.",
+      "role_en": "Founder, President of the Republic (2017-). Cannot run again in 2027.",
+      "status": "verified"
+    },
+    {
+      "name": "Gabriel Attal",
+      "role_fr": "Premier ministre (9 janvier – 5 septembre 2024). Plus jeune PM de la Ve République (34 ans), premier ouvertement homosexuel. Président du groupe Renaissance à l'Assemblée. Candidat officiel de Renaissance à la présidentielle 2027.",
+      "role_en": "Prime Minister (January 9 – September 5, 2024). Youngest PM of the Fifth Republic (34), first openly gay PM. President of the Renaissance parliamentary group. Official Renaissance candidate for the 2027 presidential election.",
+      "status": "verified",
+      "is_leader": true
+    },
+    {
+      "name": "Édouard Philippe",
+      "role_fr": "Premier ministre 2017-2020. A fondé son propre parti 'Horizons' (2021), allié de Renaissance. Potentiel candidat pour 2027.",
+      "role_en": "Prime Minister 2017-2020. Founded his own party 'Horizons' (2021), allied with Renaissance. Potential candidate for 2027.",
+      "status": "verified"
+    },
+    {
+      "name": "Bruno Le Maire",
+      "role_fr": "Ministre de l'Économie de 2017 à 2024. Longtemps la figure économique du gouvernement Macron. A quitté la vie politique active en 2024.",
+      "role_en": "Minister of the Economy from 2017 to 2024. Long the economic face of the Macron government. Left active political life in 2024.",
+      "status": "verified"
+    },
+    {
+      "name": "Élisabeth Borne",
+      "role_fr": "Première ministre (mai 2022-janvier 2024 environ). Première femme PM depuis Édith Cresson (1991). A porté la réforme des retraites 2023.",
+      "role_en": "Prime Minister (approx. May 2022-January 2024). First female PM since Édith Cresson (1991). Led the 2023 pension reform.",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_record": {
+    "note_fr": "Bilan du gouvernement Macron (2017-). Principales réformes portées par le parti au pouvoir.",
+    "note_en": "Macron government record (2017-). Main reforms carried out by the governing party.",
+    "major_reforms_carried_out": [
+      { "reform_fr": "Ordonnances Macron (réforme du droit du travail)", "year": 2017, "ref": "ordonnances-macron-travail-2017" },
+      { "reform_fr": "Suppression de l'ISF / création de l'IFI et flat tax", "year": 2018, "ref": "isf-ifi-2018" },
+      { "reform_fr": "Réforme de l'accès à l'université (Parcoursup) et du baccalauréat", "year": 2018, "ref": "parcoursup-bac-2018" },
+      { "reform_fr": "Loi Climat et Résilience", "year": 2021, "ref": "loi-climat-resilience-2021" },
+      { "reform_fr": "Réforme des retraites (âge légal 62→64 ans, via 49-3)", "year": 2023, "ref": "retraites-2023" },
+      { "reform_fr": "Loi immigration (Darmanin)", "year": 2024, "ref": "loi-immigration-2024" }
+    ],
+    "status": "verified"
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Macron ne peut pas se représenter. La question du candidat et du programme 2027 de Renaissance/Ensemble est encore ouverte. Les éléments ci-dessous reflètent les tendances macronistes, pas un programme officiel.",
+    "note_en": "🗓️ SNAPSHOT: Macron cannot run again. The candidate and 2027 program of Renaissance/Ensemble are still open questions. Elements below reflect Macronist tendencies, not an official program.",
+    "presidential_candidate_fr": "Gabriel Attal — candidat officiel de Renaissance pour la présidentielle 2027.",
+    "presidential_candidate_en": "Gabriel Attal — official Renaissance candidate for the 2027 presidential election.",
+    "key_policies": {
+      "economy_fr": "Poursuite de la politique d'offre (attractivité, compétitivité), réduction progressive du déficit, maintien des réformes du travail.",
+      "economy_en": "Continuation of supply-side policy (attractiveness, competitiveness), gradual deficit reduction, maintenance of labor reforms.",
+      "immigration_fr": "Politique migratoire ferme et humaine : contrôle aux frontières renforcé, intégration exigée, lutte contre l'immigration irrégulière. Maintien de la loi immigration de 2024.",
+      "immigration_en": "Firm and humane migration policy: stronger border controls, integration required, fight against irregular immigration. Maintain the 2024 immigration law.",
+      "retraites_fr": "Maintien de la réforme de 2023 (âge légal à 64 ans). Pas de retour arrière.",
+      "retraites_en": "Maintain the 2023 reform (legal retirement age 64). No rollback.",
+      "securite_fr": "Renforcement des moyens de la police et de la justice. Lutte contre la criminalité organisée et le trafic de drogue. Autorité de l'État réaffirmée.",
+      "securite_en": "Strengthen police and judicial resources. Fight against organized crime and drug trafficking. State authority reaffirmed.",
+      "europe_fr": "Approfondissement de l'Europe (défense commune, souveraineté technologique, Union des marchés de capitaux). France moteur de l'intégration européenne.",
+      "europe_en": "Deepening of Europe (common defense, technological sovereignty, Capital Markets Union). France as engine of European integration.",
+      "energie_fr": "Relance du nucléaire (EPR2). Poursuite du développement des énergies renouvelables. Ambition de souveraineté énergétique.",
+      "energie_en": "Relaunch nuclear (EPR2). Continue renewable energy development. Ambition for energy sovereignty.",
+      "sante_fr": "Poursuite des réformes de l'hôpital (financement, attractivité des carrières médicales). Investissement dans la prévention et contre les déserts médicaux.",
+      "sante_en": "Continue hospital reforms (funding, attractiveness of medical careers). Investment in prevention and against medical deserts.",
+      "environnement_fr": "Poursuite de la transition énergétique. Relance du nucléaire (EPR2). Loi Climat et Résilience comme cadre de référence.",
+      "environnement_en": "Continue energy transition. Relaunch nuclear (EPR2). Climate and Resilience Act as reference framework.",
+      "status": "verified"
+    },
+    "sources_for_verification": ["📎 SOURCE: https://parti-renaissance.fr"]
+  }
+}

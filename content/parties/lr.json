@@ -1,0 +1,208 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "lr",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "Les Républicains",
+    "full_name_en": "The Republicans",
+    "abbreviation": "LR",
+    "founded": 2015,
+    "predecessor_parties": ["UMP (2002-2015)", "RPR (1976-2002)", "UNR/UDR (1958-1976)"],
+    "color": "#0066CC",
+    "position_on_spectrum_fr": "Droite / Conservatisme / Gaullisme social",
+    "position_on_spectrum_en": "Right / Conservatism / Social Gaullism",
+    "website": "https://www.republicains.fr",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Gaullisme (souveraineté nationale, grandeur de la France)",
+      "Conservatisme social (famille, autorité, ordre)",
+      "Libéralisme économique (réduction des dépenses publiques, compétitivité)",
+      "Sécurité et fermeté",
+      "Immigration maîtrisée",
+      "Pro-européen mais attaché aux souverainetés nationales",
+      "Laïcité"
+    ],
+    "core_values_en": [
+      "Gaullism (national sovereignty, France's greatness)",
+      "Social conservatism (family, authority, order)",
+      "Economic liberalism (reduce public spending, competitiveness)",
+      "Security and firmness",
+      "Controlled immigration",
+      "Pro-European but attached to national sovereignty",
+      "Secularism"
+    ],
+    "internal_tensions_fr": "LR est traversé par des tensions entre une aile libérale-européenne (Juppé, Barnier), une aile souverainiste-conservatrice (Wauquiez) et une aile tentée par une alliance avec le RN (Ciotti, expulsé en 2024).",
+    "internal_tensions_en": "LR is torn between a liberal-European wing (Juppé, Barnier), a sovereignist-conservative wing (Wauquiez), and a wing tempted by an alliance with RN (Ciotti, expelled in 2024).",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 1958,
+        "event_fr": "De Gaulle fonde la Ve République. L'UNR (Union pour la Nouvelle République) est le parti gaulliste de soutien.",
+        "event_en": "De Gaulle founds the Fifth Republic. The UNR (Union for the New Republic) is the supporting Gaullist party.",
+        "status": "verified"
+      },
+      {
+        "year": 1976,
+        "event_fr": "Jacques Chirac fonde le RPR (Rassemblement pour la République) pour unifier la droite gaulliste.",
+        "event_en": "Jacques Chirac founds the RPR (Rally for the Republic) to unify the Gaullist right.",
+        "status": "verified"
+      },
+      {
+        "year": 1995,
+        "event_fr": "Jacques Chirac élu président. Bilan : réforme du service militaire, essais nucléaires, mandat marqué par les cohabitations (1997-2002).",
+        "event_en": "Jacques Chirac elected president. Key acts: military service reform, nuclear tests, term marked by cohabitation (1997-2002).",
+        "status": "verified"
+      },
+      {
+        "year": 2002,
+        "event_fr": "Le RPR fusionne avec d'autres formations de droite pour créer l'UMP, sous l'impulsion de Nicolas Sarkozy.",
+        "event_en": "The RPR merges with other right-wing parties to create the UMP, driven by Nicolas Sarkozy.",
+        "status": "verified"
+      },
+      {
+        "year": 2007,
+        "event_fr": "Sarkozy élu président. Bilan : révision constitutionnelle de 2008, réforme des retraites (2010), rôle actif dans la crise financière mondiale (G20).",
+        "event_en": "Sarkozy elected president. Key acts: 2008 constitutional revision, pension reform (2010), active role in the global financial crisis (G20).",
+        "status": "verified"
+      },
+      {
+        "year": 2012,
+        "event_fr": "Sarkozy perd face à Hollande. L'UMP entre dans l'opposition. Crise de leadership (Fillon vs Copé).",
+        "event_en": "Sarkozy loses to Hollande. UMP enters opposition. Leadership crisis (Fillon vs Copé).",
+        "status": "verified"
+      },
+      {
+        "year": 2015,
+        "event_fr": "L'UMP est rebaptisée 'Les Républicains' (LR). Sarkozy reprend la présidence du parti.",
+        "event_en": "UMP renamed 'Les Républicains' (LR). Sarkozy returns as party president.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "Désastre électoral : le scandale Penelopegate élimine Fillon. Macron capte l'électorat de centre-droit. LR n'obtient que 113 sièges. La droite est marginalisée.",
+        "event_en": "Electoral disaster: Penelopegate scandal eliminates Fillon. Macron captures the centre-right electorate. LR wins only 113 seats. The right is marginalized.",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "event_fr": "Valérie Pécresse obtient seulement 4,8% à la présidentielle. LR ne remporte que 61 sièges. Parti en survie, beaucoup de cadres rejoignent Macron ou Renaissance.",
+        "event_en": "Valérie Pécresse wins only 4.8% in the presidential election. LR wins just 61 seats. Party in survival mode; many senior figures join Macron or Renaissance.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "Éric Ciotti (président de LR) tente une alliance avec le RN pour les législatives. Il est expulsé de LR. Scission. Michel Barnier (LR) nommé Premier ministre le 5 septembre 2024 — censuré le 5 décembre 2024.",
+        "event_en": "Éric Ciotti (LR president) attempts an alliance with RN for the legislative elections. He is expelled from LR. Split. Michel Barnier (LR) appointed Prime Minister on September 5, 2024 — censured on December 5, 2024.",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "Bruno Retailleau",
+      "role_fr": "Président de LR (depuis 2025), sénateur de la Vendée. Ancien ministre de l'Intérieur (2024-2025). Désigné candidat officiel des Républicains pour la présidentielle 2027 le 19 avril 2026.",
+      "role_en": "LR president (since 2025), senator for Vendée. Former Interior Minister (2024-2025). Designated official LR candidate for the 2027 presidential election on April 19, 2026.",
+      "status": "verified",
+      "is_leader": true
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "role_fr": "Président de la République (2007-2012). Condamné dans plusieurs affaires aux peines définitives : affaire des écoutes (3 ans dont 1 ferme, cassation déc. 2023) et affaire Bygmalion. Peines exécutées sous bracelet électronique.",
+      "role_en": "President of the Republic (2007-2012). Convicted in several cases with final sentences: wiretapping affair (3 years, 1 firm, cassation confirmed Dec. 2023) and Bygmalion affair. Sentences served under electronic monitoring.",
+      "status": "verified"
+    },
+    {
+      "name": "François Fillon",
+      "role_fr": "Premier ministre sous Sarkozy (2007-2012). Candidat présidentiel 2017, éliminé par le Penelopegate. Condamné en 2020 pour détournement de fonds publics.",
+      "role_en": "Prime Minister under Sarkozy (2007-2012). 2017 presidential candidate, eliminated by Penelopegate. Convicted in 2020 for misuse of public funds.",
+      "status": "verified"
+    },
+    {
+      "name": "Laurent Wauquiez",
+      "role_fr": "Président de LR de 2017 à 2019, puis de 2024 à 2025. Président du groupe Droite Républicaine à l'Assemblée nationale (depuis 2024). A reconnu Bruno Retailleau comme 'candidat légitime des Républicains' et renoncé à sa propre candidature (12 mai 2026).",
+      "role_en": "LR president 2017–2019, then 2024–2025. President of the Droite Républicaine group in the National Assembly (since 2024). Acknowledged Bruno Retailleau as 'the legitimate LR candidate' and stepped aside (May 12, 2026).",
+      "status": "verified"
+    },
+    {
+      "name": "Michel Barnier",
+      "role_fr": "Ancien commissaire européen, négociateur du Brexit. Premier ministre de septembre à décembre 2024 (censuré le 5 décembre). Député de Paris (depuis septembre 2025). Président du Conseil National des Républicains (depuis 2025). Candidat pressenti pour 2027.",
+      "role_en": "Former EU Commissioner, Brexit negotiator. Prime Minister September–December 2024 (censured December 5). MP for Paris (since September 2025). President of the LR National Council (since 2025). Presumed candidate for 2027.",
+      "status": "verified"
+    },
+    {
+      "name": "Alain Juppé",
+      "role_fr": "Ancien Premier ministre (1995-1997), ancien maire de Bordeaux. Représentait l'aile modérée-européenne. A rejoint le Conseil constitutionnel (2019).",
+      "role_en": "Former Prime Minister (1995-1997), former Mayor of Bordeaux. Represented the moderate-European wing. Joined the Constitutional Council (2019).",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_record": {
+    "in_power_fr": "LR a gouverné sous les présidences Chirac (1995-2007) et Sarkozy (2007-2012). Depuis 2012, dans l'opposition.",
+    "in_power_en": "LR governed under Presidents Chirac (1995-2007) and Sarkozy (2007-2012). In opposition since 2012.",
+    "major_reforms_when_in_power": [
+      { "reform_fr": "Création de l'UMP (2002)", "year": 2002 },
+      { "reform_fr": "Révision constitutionnelle (2008)", "year": 2008, "ref": "revision-constitutionnelle-2008" },
+      { "reform_fr": "Réforme des retraites Woerth (60→62 ans)", "year": 2010, "ref": "retraites-woerth-2010" }
+    ],
+    "key_opposition_votes": [
+      {
+        "subject_fr": "Mariage pour tous (2013)",
+        "position_fr": "Vote contre unanimement.",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Réforme des retraites 2023",
+        "position_fr": "Soutien au gouvernement Macron (vote pour ou abstention bienveillante selon les cas).",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Motion de censure contre Barnier (2024)",
+        "position_fr": "Vote contre (soutien à Barnier, issu de leurs rangs).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Candidat officiel 2027 : Bruno Retailleau, désigné par les adhérents le 19 avril 2026. Slogan de campagne : 'Ne plus subir.'",
+    "note_en": "🗓️ SNAPSHOT: Official 2027 candidate: Bruno Retailleau, designated by party members on April 19, 2026. Campaign slogan: 'Ne plus subir' (No more putting up with it).",
+    "presidential_candidate_fr": "Bruno Retailleau. Officiellement désigné candidat des Républicains le 19 avril 2026 par vote des adhérents. Président de LR depuis 2025, ancien ministre de l'Intérieur (2024-2025), sénateur de la Vendée.",
+    "presidential_candidate_en": "Bruno Retailleau. Officially designated LR candidate on April 19, 2026 by member vote. LR president since 2025, former Interior Minister (2024-2025), senator for Vendée.",
+    "key_policies": {
+      "economy_fr": "Réduction des dépenses publiques et de la dette, baisse des impôts sur les entreprises, simplification administrative, compétitivité de l'industrie française.",
+      "economy_en": "Reduce public spending and debt, cut corporate taxes, simplify administration, boost French industrial competitiveness.",
+      "immigration_fr": "Immigration ferme et maîtrisée, durcissement des conditions d'accès aux aides sociales, expulsion des étrangers délinquants, révision du droit d'asile.",
+      "immigration_en": "Firm and controlled immigration, tighter conditions for welfare benefits, deportation of foreign criminals, revision of asylum law.",
+      "securite_fr": "Autorité de l'État renforcée, peines planchers, rétablissement de l'ordre, plus de moyens pour la police et la justice.",
+      "securite_en": "Strengthened state authority, mandatory minimum sentences, restore order, more resources for police and justice.",
+      "retraites_fr": "Maintien de la réforme 2023 (64 ans). Pas de retour en arrière.",
+      "retraites_en": "Maintain the 2023 reform (64 years). No rollback.",
+      "europe_fr": "Pro-européen mais défense des intérêts nationaux. Subsidiarité renforcée. Opposition au fédéralisme.",
+      "europe_en": "Pro-European but defense of national interests. Stronger subsidiarity. Opposition to federalism.",
+      "energie_fr": "Relance du programme nucléaire français (EPR2). Réduction de la dépendance aux énergies importées. Opposition à la fermeture précipitée des centrales nucléaires.",
+      "energie_en": "Relaunch the French nuclear programme (EPR2). Reduce dependence on imported energy. Opposition to premature nuclear plant closures.",
+      "sante_fr": "Défense de la Sécurité sociale universelle. Réforme du financement hospitalier. Lutte contre les déserts médicaux. Revalorisation des soignants.",
+      "sante_en": "Defense of universal social security. Hospital funding reform. Fight against medical deserts. Recognition and pay rises for healthcare workers.",
+      "environnement_fr": "Écologie de bon sens : pragmatisme, refus de la 'punition verte'. Nucléaire comme pilier de la transition. Solutions de marché plutôt que contraintes étatiques.",
+      "environnement_en": "Common-sense ecology: pragmatism, rejection of 'green punishment'. Nuclear as transition pillar. Market-based solutions over state constraints.",
+      "status": "verified"
+    },
+    "sources_for_verification": ["📎 SOURCE: https://www.republicains.fr"]
+  }
+}

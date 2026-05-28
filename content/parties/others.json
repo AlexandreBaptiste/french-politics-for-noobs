@@ -1,0 +1,413 @@
+﻿{
+  "_meta": {
+    "section": "parties",
+    "party_id": "others",
+    "last_updated": "2026-05-27",
+    "description_fr": "Profils de partis significatifs mais plus petits : EELV, PCF, Horizons, Reconquête!",
+    "description_en": "Profiles of significant but smaller parties: EELV, PCF, Horizons, Reconquête!",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "parties": [
+    {
+      "party_id": "eelv",
+      "identity": {
+        "full_name_fr": "Les Écologistes – Europe Écologie Les Verts",
+        "full_name_en": "The Ecologists – Europe Ecology The Greens",
+        "abbreviation": "EELV / Les Écologistes",
+        "founded": 1984,
+        "color": "#2EB82E",
+        "position_on_spectrum_fr": "Gauche / Écologie politique / Social-écologie",
+        "position_on_spectrum_en": "Left / Political ecology / Social ecology",
+        "website": "https://www.lesecologistes.fr",
+        "status": "verified"
+      },
+      "ideology": {
+        "core_values_fr": [
+          "Transition écologique urgente",
+          "Justice sociale et écologie combinées",
+          "Féminisme",
+          "Non-violence",
+          "Décroissance ou croissance verte selon les courants",
+          "Anti-nucléaire (historique, débattu)"
+        ],
+        "core_values_en": [
+          "Urgent ecological transition",
+          "Social justice and ecology combined",
+          "Feminism",
+          "Non-violence",
+          "Degrowth or green growth depending on factions",
+          "Anti-nuclear (historic position, debated)"
+        ],
+        "status": "verified"
+      },
+      "history_summary": {
+        "summary_fr": "Fondé en 1984, EELV est le principal parti vert français. A participé au gouvernement Jospin (Dominique Voynet). Résultats variés : bons aux européennes, faibles aux présidentielles. Eva Joly obtient 2,3% en 2012. Yannick Jadot obtient 4,6% en 2022. A rejoint la NUPES (2022) puis le NFP (2024) au sein d'une coalition de gauche.",
+        "summary_en": "Founded in 1984, EELV is the main French green party. Participated in Jospin's government (Dominique Voynet). Mixed results: strong in European elections, weak in presidential elections. Eva Joly wins 2.3% in 2012. Yannick Jadot wins 4.6% in 2022. Joined NUPES (2022) then NFP (2024) in a left-wing coalition.",
+        "status": "verified"
+      },
+      "key_figures": [
+        {
+          "name": "Marine Tondelier",
+          "role_fr": "Secrétaire nationale d'EELV depuis novembre 2022.",
+          "role_en": "EELV national secretary since November 2022.",
+          "status": "verified",
+          "is_leader": true
+        }
+      ],
+      "program_2027": {
+        "snapshot_date": "2026-05-27",
+        "note_fr": "🗓️ SNAPSHOT : Position 2027 non encore formalisée. EELV pourrait soutenir un(e) candidat(e) commun(e) au sein du NFP.",
+        "note_en": "🗓️ SNAPSHOT: 2027 position not yet formalized. EELV may support a common NFP candidate.",
+        "key_issues_fr": "Sortie des énergies fossiles, interdiction des pesticides, rénovation thermique des bâtiments, transport ferroviaire, agriculture biologique.",
+        "key_issues_en": "Exit from fossil fuels, pesticide ban, building thermal renovation, rail transport, organic farming.",
+        "key_policies": {
+          "immigration": {
+            "position_fr": "Accueil des personnes exilées, régularisation des sans-papiers, voies légales d'immigration. Opposition aux politiques répressives.",
+            "position_en": "Welcome exiled people, regularize undocumented workers, legal immigration pathways. Opposition to repressive policies.",
+            "status": "verified"
+          },
+          "economy": {
+            "position_fr": "Transition vers une économie verte et post-croissance. Taxe sur les super-profits, réduction des inégalités, investissement public dans la transition.",
+            "position_en": "Transition toward a green and post-growth economy. Tax super-profits, reduce inequalities, public investment in the transition.",
+            "status": "verified"
+          },
+          "retraites": {
+            "position_fr": "Retour à la retraite à 60 ans (dans le cadre du NFP). Reconnaissance de la pénibilité liée aux conditions de travail.",
+            "position_en": "Return to retirement at 60 (within the NFP framework). Recognition of the arduousness of working conditions.",
+            "status": "verified"
+          },
+          "securite": {
+            "position_fr": "Approche préventive et sociale de la sécurité. Réforme de la police. Lutte contre les violences faites aux femmes.",
+            "position_en": "Preventive and social approach to security. Police reform. Fight against violence against women.",
+            "status": "verified"
+          },
+          "europe": {
+            "position_fr": "Europe sociale et écologique. Réforme du Green Deal pour l'accélérer. Coopération climatique internationale.",
+            "position_en": "Social and ecological Europe. Reform the Green Deal to accelerate it. International climate cooperation.",
+            "status": "verified"
+          },
+          "energie": {
+            "position_fr": "Sortie totale des énergies fossiles. Sortie progressive du nucléaire. 100% renouvelables comme objectif. Plan massif de sobriété énergétique.",
+            "position_en": "Complete exit from fossil fuels. Gradual nuclear phase-out. 100% renewables as objective. Massive energy sobriety plan.",
+            "status": "verified"
+          },
+          "sante": {
+            "position_fr": "Santé environnementale : lier santé publique et préservation de l'environnement. Défense de l'hôpital public. Interdiction des perturbateurs endocriniens.",
+            "position_en": "Environmental health: link public health and environmental protection. Defense of public hospitals. Ban endocrine disruptors.",
+            "status": "verified"
+          },
+          "environnement": {
+            "position_fr": ["Sortie des énergies fossiles et du nucléaire", "Interdiction des pesticides les plus dangereux", "Rénovation thermique massive des logements", "Agriculture biologique et agro-écologie", "Protection de la biodiversité"],
+            "position_en": ["Exit fossil fuels and nuclear power", "Ban the most dangerous pesticides", "Massive thermal renovation of housing", "Organic farming and agroecology", "Biodiversity protection"],
+            "status": "verified"
+          }
+        },
+        "status": "verified"
+      }
+    },
+
+    {
+      "party_id": "pcf",
+      "identity": {
+        "full_name_fr": "Parti Communiste Français",
+        "full_name_en": "French Communist Party",
+        "abbreviation": "PCF",
+        "founded": 1920,
+        "color": "#CC0000",
+        "position_on_spectrum_fr": "Gauche radicale / Communisme / Socialisme démocratique",
+        "position_on_spectrum_en": "Radical left / Communism / Democratic socialism",
+        "website": "https://www.pcf.fr",
+        "status": "verified"
+      },
+      "ideology": {
+        "core_values_fr": [
+          "Socialisme démocratique",
+          "Service public renforcé",
+          "Lutte contre le capitalisme financier",
+          "Droits des travailleurs",
+          "Laïcité",
+          "Internationalisme",
+          "Patriotisme républicain (depuis les années 2000)"
+        ],
+        "core_values_en": [
+          "Democratic socialism",
+          "Strengthened public service",
+          "Fight against financial capitalism",
+          "Workers' rights",
+          "Secularism",
+          "Internationalism",
+          "Republican patriotism (since the 2000s)"
+        ],
+        "status": "verified"
+      },
+      "history_summary": {
+        "summary_fr": "Fondé en 1920 au Congrès de Tours par scission de la SFIO. Puissant jusqu'aux années 1970 (>20%). Affaibli par la montée du PS sous Mitterrand. Participe aux gouvernements de la gauche (Mauroy, Jospin). Déclin régulier. Fabien Roussel obtient 2,3% à la présidentielle 2022. Dans la NUPES puis le NFP. Maintient une identité propre face à LFI.",
+        "summary_en": "Founded in 1920 at the Tours Congress by splitting from the SFIO. Powerful until the 1970s (>20%). Weakened by the rise of the PS under Mitterrand. Participates in left-wing governments (Mauroy, Jospin). Steady decline. Fabien Roussel wins 2.3% in the 2022 presidential election. In NUPES then NFP. Maintains its own identity against LFI.",
+        "status": "verified"
+      },
+      "key_figures": [
+        {
+          "name": "Fabien Roussel",
+          "role_fr": "Secrétaire national du PCF depuis 2018. Candidat à la présidentielle 2022 (2,3%).",
+          "role_en": "PCF national secretary since 2018. Presidential candidate in 2022 (2.3%).",
+          "status": "verified",
+          "is_leader": true
+        }
+      ],
+      "program_2027": {
+        "snapshot_date": "2026-05-27",
+        "note_fr": "🗓️ SNAPSHOT : Position 2027 non encore formalisée. Le PCF pourrait présenter Roussel ou soutenir un candidat commun.",
+        "note_en": "🗓️ SNAPSHOT: 2027 position not yet formalized. PCF may run Roussel or support a common candidate.",
+        "key_issues_fr": "Services publics, salaires, retraites, nationalisations, paix internationale.",
+        "key_issues_en": "Public services, wages, pensions, nationalizations, international peace.",
+        "key_policies": {
+          "immigration": {
+            "position_fr": "Régularisation des travailleurs sans-papiers, défense du droit d'asile, solidarité internationale. Opposition à toute forme de 'préférence nationale'.",
+            "position_en": "Regularize undocumented workers, defend the right to asylum, international solidarity. Opposition to any form of 'national preference'.",
+            "status": "verified"
+          },
+          "economy": {
+            "position_fr": ["Augmentation des salaires et du SMIC", "Nationalisations dans les secteurs stratégiques (énergie, banques)", "Réduction du temps de travail (32h)", "Justice fiscale : taxer le capital et les grandes fortunes"],
+            "position_en": ["Increase wages and minimum wage", "Nationalizations in strategic sectors (energy, banks)", "Reduce working hours (32h week)", "Fiscal justice: tax capital and large fortunes"],
+            "status": "verified"
+          },
+          "retraites": {
+            "position_fr": "Retour à la retraite à 60 ans pour toutes et tous. Abrogation de la réforme de 2023.",
+            "position_en": "Return to retirement at 60 for everyone. Repeal the 2023 reform.",
+            "status": "verified"
+          },
+          "securite": {
+            "position_fr": "Sécurité par la solidarité sociale. Davantage de policiers de proximité. Lutte contre les causes économiques de la délinquance.",
+            "position_en": "Security through social solidarity. More community policing. Fight against the economic causes of delinquency.",
+            "status": "verified"
+          },
+          "europe": {
+            "position_fr": "Europe des peuples et des travailleurs. Renégociation des traités. Contre l'austérité européenne. Coopération sans fédéralisme libéral.",
+            "position_en": "Europe of peoples and workers. Renegotiate treaties. Against European austerity. Cooperation without liberal federalism.",
+            "status": "verified"
+          },
+          "energie": {
+            "position_fr": "Transition vers les renouvelables. Position historiquement pro-nucléaire (évoluant). Nationalisation et planification publique du secteur énergétique.",
+            "position_en": "Transition to renewables. Historically pro-nuclear (evolving). Nationalize and publicly plan the energy sector.",
+            "status": "verified"
+          },
+          "sante": {
+            "position_fr": "Gratuité et universalité des soins. Revalorisation des soignants. Arrêt des fermetures de lits. Défense absolue de l'hôpital public.",
+            "position_en": "Free and universal healthcare. Raise pay for healthcare workers. Stop closing hospital beds. Absolute defense of public hospitals.",
+            "status": "verified"
+          },
+          "environnement": {
+            "position_fr": "Éco-socialisme : planification écologique publique, transition juste sans faire payer les classes populaires, agriculture paysanne et durable.",
+            "position_en": "Eco-socialism: public ecological planning, just transition without burdening working classes, small-scale and sustainable farming.",
+            "status": "verified"
+          }
+        },
+        "status": "verified"
+      }
+    },
+
+    {
+      "party_id": "horizons",
+      "identity": {
+        "full_name_fr": "Horizons",
+        "full_name_en": "Horizons",
+        "abbreviation": "Horizons",
+        "founded": 2021,
+        "color": "#003189",
+        "position_on_spectrum_fr": "Centre-droit / Libéral-conservateur / Pro-européen",
+        "position_on_spectrum_en": "Centre-right / Liberal-conservative / Pro-European",
+        "website": "https://www.parti-horizons.fr",
+        "status": "verified"
+      },
+      "ideology": {
+        "core_values_fr": [
+          "Réformisme pragmatique",
+          "Libéralisme économique mesuré",
+          "Pro-européen",
+          "Sécurité et responsabilité budgétaire",
+          "Centre-droit indépendant de LR"
+        ],
+        "core_values_en": [
+          "Pragmatic reformism",
+          "Measured economic liberalism",
+          "Pro-European",
+          "Security and fiscal responsibility",
+          "Centre-right independent from LR"
+        ],
+        "status": "verified"
+      },
+      "history_summary": {
+        "summary_fr": "Fondé en 2021 par Édouard Philippe après son départ du gouvernement Macron (il était Premier ministre 2017-2020). Horizons est membre de la coalition Ensemble. Philippe est maire du Havre. Il est candidat déclaré à la présidentielle 2027 (annonce sept. 2024), concurrent d'Attal (Renaissance) sur l'espace centriste. Refuse toute primaire. Sondages mai 2026 : ~17-22%.",
+        "summary_en": "Founded in 2021 by Édouard Philippe after leaving the Macron government (he was Prime Minister 2017-2020). Horizons is a member of the Ensemble coalition. Philippe is Mayor of Le Havre. He is a declared presidential candidate for 2027 (announced Sept. 2024), competing with Attal (Renaissance) in the centrist space. Refuses any primary. May 2026 polls: ~17–22%.",
+        "status": "verified"
+      },
+      "key_figures": [
+        {
+          "name": "Édouard Philippe",
+          "role_fr": "Fondateur et président d'Horizons. Ancien Premier ministre (2017-2020). Maire du Havre. Candidat déclaré à la présidentielle 2027.",
+          "role_en": "Horizons founder and president. Former Prime Minister (2017-2020). Mayor of Le Havre. Declared 2027 presidential candidate.",
+          "status": "verified",
+          "is_leader": true
+        }
+      ],
+      "program_2027": {
+        "snapshot_date": "2026-05-27",
+        "note_fr": "🗓️ SNAPSHOT : Édouard Philippe est candidat déclaré à la présidentielle 2027 sous la bannière Horizons. Il concurrence directement Gabriel Attal (Renaissance) sur l'espace centriste et refuse une primaire.",
+        "note_en": "🗓️ SNAPSHOT: Édouard Philippe is a declared presidential candidate for 2027 under the Horizons banner. He directly competes with Gabriel Attal (Renaissance) in the centrist space and refuses a primary.",
+        "key_issues_fr": "Équilibre budgétaire, réformes structurelles, sécurité, défense, Europe.",
+        "key_issues_en": "Budget balance, structural reforms, security, defense, Europe.",
+        "key_policies": {
+          "immigration": {
+            "position_fr": "Immigration maîtrisée et humaniste. Fermeté sur les frontières, intégration exigée, respect du droit d'asile.",
+            "position_en": "Controlled and humanist immigration. Firm borders, integration required, respect for asylum law.",
+            "status": "verified"
+          },
+          "economy": {
+            "position_fr": "Compétitivité, attractivité, réduction des déficits et de la dette publique. Réformes structurelles pour améliorer la croissance potentielle.",
+            "position_en": "Competitiveness, attractiveness, reduce deficits and public debt. Structural reforms to improve potential growth.",
+            "status": "verified"
+          },
+          "retraites": {
+            "position_fr": "Maintien de la réforme de 2023 (64 ans). Considère cette réforme comme nécessaire à l'équilibre des finances publiques.",
+            "position_en": "Maintain the 2023 reform (64 years). Considers this reform necessary for balanced public finances.",
+            "status": "verified"
+          },
+          "securite": {
+            "position_fr": "Sécurité comme condition de la liberté. Augmentation des moyens de la police et de la justice. Fermeté contre la récidive.",
+            "position_en": "Security as a condition of freedom. Increase police and justice resources. Firm stance against recidivism.",
+            "status": "verified"
+          },
+          "europe": {
+            "position_fr": "Profondément pro-européen. Défense européenne commune, souveraineté industrielle et technologique, approfondissement de l'intégration.",
+            "position_en": "Deeply pro-European. Common European defense, industrial and technological sovereignty, deepening of integration.",
+            "status": "verified"
+          },
+          "energie": {
+            "position_fr": "Pro-nucléaire. Relance des EPR2 comme priorité nationale. Transition énergétique pragmatique.",
+            "position_en": "Pro-nuclear. Relaunch EPR2 as a national priority. Pragmatic energy transition.",
+            "status": "verified"
+          },
+          "sante": {
+            "position_fr": "Réforme du financement et de l'organisation du système de santé. Lutte contre les déserts médicaux. Attractivité des carrières de soignants.",
+            "position_en": "Reform the funding and organization of the health system. Fight against medical deserts. Attract healthcare careers.",
+            "status": "verified"
+          },
+          "environnement": {
+            "position_fr": "Écologie réaliste : nucléaire comme socle de la décarbonation, transition progressive, refus des interdictions brutales pénalisant l'économie.",
+            "position_en": "Realistic ecology: nuclear as the basis of decarbonization, gradual transition, rejection of brutal bans that penalize the economy.",
+            "status": "verified"
+          }
+        },
+        "status": "verified",
+        "sources_for_verification": ["📎 SOURCE: https://www.parti-horizons.fr"]
+      }
+    },
+
+    {
+      "party_id": "reconquete",
+      "identity": {
+        "full_name_fr": "Reconquête!",
+        "full_name_en": "Reconquest!",
+        "abbreviation": "REC",
+        "founded": 2021,
+        "color": "#00308F",
+        "position_on_spectrum_fr": "Extrême droite / Nationalisme / Conservatisme intégral",
+        "position_on_spectrum_en": "Far right / Nationalism / Integral conservatism",
+        "website": "https://www.reconquete.fr",
+        "status": "verified"
+      },
+      "ideology": {
+        "core_values_fr": [
+          "Identitarisme (défense de l'identité française et européenne)",
+          "Immigration zéro ou quasi-nulle",
+          "Remigration (reconduire les immigrés en situation irrégulière et certains réguliers)",
+          "Civilisation chrétienne",
+          "Anti-islamisme politique",
+          "Conservatisme culturel radical",
+          "Euroscepticisme (réforme ou sortie de l'UE)"
+        ],
+        "core_values_en": [
+          "Identitarianism (defense of French and European identity)",
+          "Zero or near-zero immigration",
+          "Remigration (return of irregular and some regular migrants)",
+          "Christian civilization",
+          "Political anti-Islamism",
+          "Radical cultural conservatism",
+          "Euroscepticism (reform or exit from the EU)"
+        ],
+        "status": "verified"
+      },
+      "history_summary": {
+        "summary_fr": "Fondé en 2021 par Éric Zemmour, ancien éditorialiste condamné pour provocation à la discrimination. Zemmour obtient 7,1% à la présidentielle 2022 (3e au 1er tour). Marion Maréchal, petite-fille de Jean-Marie Le Pen, rejoint brièvement le parti avant de le quitter. Le parti reste marginal aux législatives. Zemmour se présente comme potentiel candidat en 2027.",
+        "summary_en": "Founded in 2021 by Éric Zemmour, a former columnist convicted for incitement to discrimination. Zemmour wins 7.1% in the 2022 presidential election (3rd in round 1). Marion Maréchal, granddaughter of Jean-Marie Le Pen, briefly joins the party before leaving. The party remains marginal in legislative elections. Zemmour presents himself as a potential 2027 candidate.",
+        "status": "verified"
+      },
+      "notable_controversy_fr": "🔀 CONTROVERSIAL : Éric Zemmour a été condamné à au moins deux reprises pour provocation à la discrimination et à la haine raciale (2011 et 2021). Ces condamnations sont des faits documentés (dossier judiciaire).",
+      "notable_controversy_en": "🔀 CONTROVERSIAL: Éric Zemmour has been convicted at least twice for incitement to discrimination and racial hatred (2011 and 2021). These convictions are documented facts (judicial record).",
+      "key_figures": [
+        {
+          "name": "Éric Zemmour",
+          "role_fr": "Fondateur et président de Reconquête!. Candidat à la présidentielle 2022 (7,1%). Éditorialiste condamné pour provocation à la discrimination.",
+          "role_en": "Reconquête! founder and president. 2022 presidential candidate (7.1%). Columnist convicted for incitement to discrimination.",
+          "status": "verified",
+          "is_leader": true
+        }
+      ],
+      "program_2027": {
+        "snapshot_date": "2026-05-27",
+        "note_fr": "🗓️ SNAPSHOT : Zemmour potentiellement candidat en 2027. Programme officiel à vérifier sur reconquete.fr.",
+        "note_en": "🗓️ SNAPSHOT: Zemmour potentially running in 2027. Official program to verify at reconquete.fr.",
+        "key_issues_fr": "Immigration (arrêt total), remigration, identité nationale, laïcité contre l'islamisme, ordre, famille.",
+        "key_issues_en": "Immigration (complete halt), remigration, national identity, secularism against Islamism, order, family.",
+        "key_policies": {
+          "immigration": {
+            "position_fr": ["Arrêt total de l'immigration légale et illégale", "Remigration : reconduire les immigrés irréguliers et certains résidents réguliers", "Abrogation du droit du sol", "Préférence nationale absolue dans tous les droits sociaux"],
+            "position_en": ["Complete halt to legal and illegal immigration", "Remigration: return undocumented migrants and some legal residents", "Abolish birthright citizenship", "Absolute national preference in all social rights"],
+            "status": "verified"
+          },
+          "economy": {
+            "position_fr": "Protectionnisme national, défense du pouvoir d'achat des classes moyennes, réduction des impôts. Priorité aux entreprises françaises dans les marchés publics.",
+            "position_en": "National protectionism, defense of middle-class purchasing power, tax cuts. Priority for French companies in public procurement.",
+            "status": "verified"
+          },
+          "retraites": {
+            "position_fr": "Retour à la retraite à 60 ans pour les carrières complètes. Abrogation de la réforme de 2023.",
+            "position_en": "Return to retirement at 60 for full careers. Repeal the 2023 reform.",
+            "status": "verified"
+          },
+          "securite": {
+            "position_fr": ["Tolérance zéro. Peines maximales sans remises automatiques", "Expulsion systématique des étrangers délinquants", "Arrêt de l'immigration présenté comme facteur premier d'insécurité"],
+            "position_en": ["Zero tolerance. Maximum sentences without automatic reductions", "Systematic deportation of foreign criminals", "Halt immigration presented as primary security factor"],
+            "status": "verified"
+          },
+          "europe": {
+            "position_fr": "Eurosceptique. Réforme profonde des traités ou sortie de l'UE. Refus du fédéralisme. Préférence pour une Europe des nations souveraines.",
+            "position_en": "Eurosceptic. Deep reform of treaties or EU exit. Rejection of federalism. Preference for a Europe of sovereign nations.",
+            "status": "verified"
+          },
+          "energie": {
+            "position_fr": "100% nucléaire comme solution française. Opposition aux éoliennes et aux panneaux solaires subventionnés. Contre les politiques énergétiques européennes jugées nuisibles.",
+            "position_en": "100% nuclear as the French solution. Opposition to wind turbines and subsidized solar panels. Against European energy policies deemed harmful.",
+            "status": "verified"
+          },
+          "sante": {
+            "position_fr": "Défense du système de santé français. Opposition au 'tourisme médical'. Priorité aux citoyens français dans les soins.",
+            "position_en": "Defense of the French health system. Opposition to 'medical tourism'. Priority for French citizens in healthcare.",
+            "status": "verified"
+          },
+          "environnement": {
+            "position_fr": "Écologie identitaire : défense du terroir et du patrimoine naturel. Opposition aux politiques 'vertes' européennes jugées décroissantistes. Nucléaire comme solution écologique.",
+            "position_en": "Identity ecology: defense of French local heritage and nature. Opposition to European 'green' policies seen as degrowth-driven. Nuclear as an ecological solution.",
+            "status": "verified"
+          }
+        },
+        "status": "verified",
+        "sources_for_verification": ["📎 SOURCE: https://www.reconquete.fr"]
+      }
+    }
+  ]
+}

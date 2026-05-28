@@ -1,0 +1,573 @@
+{
+  "_meta": {
+    "section": "reforms",
+    "language_primary": "fr",
+    "language_secondary": "en",
+    "last_updated": "2026-05-27",
+    "scope_fr": "Réformes majeures par domaine, 1997-2026",
+    "scope_en": "Major reforms by policy area, 1997-2026",
+    "status_legend": {
+      "verified": "Content confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    },
+    "perspective_note_fr": "Conformément à la charte éditoriale, chaque réforme présente la position des partisans ET des opposants, sans prise de position.",
+    "perspective_note_en": "In line with editorial guidelines, each reform presents both supporters' AND opponents' positions, without taking sides.",
+    "areas": ["retraites", "travail", "fiscal", "sante-social", "education", "environnement", "institutionnel", "immigration", "securite"]
+  },
+
+  "reforms": [
+
+    {
+      "id": "cmu-1999",
+      "name_fr": "Couverture Maladie Universelle (CMU)",
+      "name_en": "Universal Health Coverage",
+      "area": "sante-social",
+      "date_enacted": "1999-07",
+      "president": "Jacques Chirac",
+      "prime_minister": "Lionel Jospin",
+      "minister_fr": "Martine Aubry (ministre de l'Emploi et de la Solidarité)",
+      "context_fr": "Des millions de personnes vivant en France (notamment les précaires, SDF, sans-papiers régularisés) n'avaient pas accès aux soins faute de couverture maladie ou de moyens pour payer.",
+      "context_en": "Millions of people in France (particularly precarious workers, homeless, recently regularized undocumented immigrants) had no access to healthcare due to lack of coverage or funds.",
+      "what_changed": [
+        {
+          "change_fr": "Création d'une couverture maladie de base gratuite pour les résidents en France sans couverture, quelle que soit leur situation professionnelle",
+          "change_en": "Creation of free basic health coverage for all residents in France without existing coverage, regardless of employment status"
+        },
+        {
+          "change_fr": "Création de la CMU-C (couverture complémentaire gratuite) pour les personnes aux revenus les plus faibles",
+          "change_en": "Creation of supplementary free coverage (CMU-C) for the lowest-income individuals"
+        },
+        {
+          "change_fr": "En 2019, la CMU-C est remplacée par la Complémentaire Santé Solidaire (CSS)",
+          "change_en": "In 2019, CMU-C replaced by the Complémentaire Santé Solidaire (CSS)"
+        }
+      ],
+      "impact_fr": "Environ 6 à 7 millions de personnes bénéficient de la protection de base. Mesure considérée comme un succès en termes d'accès aux soins. Réduit le non-recours aux soins parmi les plus précaires.",
+      "impact_en": "Around 6-7 million people benefit from basic protection. Considered a success in terms of healthcare access. Reduces foregone care among the most precarious.",
+      "current_status_fr": "Toujours en vigueur. La CMU de base a été intégrée à la PUMA (Protection Universelle Maladie) en 2016. La CMU-C est devenue la CSS en 2019.",
+      "current_status_en": "Still in force. Basic CMU was integrated into PUMA (Universal Health Protection) in 2016. CMU-C became CSS in 2019.",
+      "perspectives": {
+        "supporters_fr": "Progrès social majeur : plus personne n'est privé de soins pour des raisons financières ou administratives. Réduit les inégalités de santé.",
+        "supporters_en": "Major social progress: no one is denied care for financial or administrative reasons. Reduces health inequalities.",
+        "opponents_fr": "Certains critiquent le coût pour les finances publiques et des abus potentiels dans l'accès au dispositif par des personnes qui n'auraient pas dû en bénéficier.",
+        "opponents_en": "Some criticize the cost to public finances and potential abuse by those who should not have been eligible."
+      },
+      "controversy_level": "low",
+      "sources": ["📎 SOURCE: https://www.ameli.fr/assure/droits-et-demarches/situations-particulieres/complementaire-sante-solidaire", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394829"],
+      "status": "verified"
+    },
+
+    {
+      "id": "35h-1998-2000",
+      "name_fr": "Réduction du temps de travail : les 35 heures",
+      "name_en": "35-hour work week",
+      "area": "travail",
+      "date_enacted": "1998-06",
+      "president": "Jacques Chirac",
+      "prime_minister": "Lionel Jospin",
+      "minister_fr": "Martine Aubry (ministre de l'Emploi)",
+      "context_fr": "Chômage élevé en France (autour de 11-12%). La gauche promeut la réduction du temps de travail comme outil de partage de l'emploi : si chaque salarié travaille moins, plus de personnes peuvent être embauchées.",
+      "context_en": "High unemployment in France (around 11-12%). The left promotes reduced working hours as a tool for job-sharing: if each employee works less, more people can be hired.",
+      "what_changed": [
+        {
+          "change_fr": "Loi Aubry I (juin 1998) : fixe à 35h la durée légale, incite les entreprises à négocier en échange d'aides financières",
+          "change_en": "Aubry I law (June 1998): sets 35h as legal duration, incentivizes companies to negotiate in exchange for financial aid"
+        },
+        {
+          "change_fr": "Loi Aubry II (janvier 2000) : généralise les 35h à toutes les entreprises (avec délais selon la taille)",
+          "change_en": "Aubry II law (January 2000): extends 35h to all companies (with deadlines based on size)"
+        },
+        {
+          "change_fr": "Introduction des RTT (Réduction du Temps de Travail) : jours de repos compensateurs",
+          "change_en": "Introduction of RTT (Time Off in Lieu) days as compensatory rest"
+        }
+      ],
+      "impact_fr": "Création estimée de 300 000 à 500 000 emplois selon certaines études, mais chiffre contesté. RTT deviennent une réalité du monde du travail français, notamment dans les grandes entreprises et la fonction publique. Complexification du droit du travail.",
+      "impact_en": "Estimated job creation of 300,000 to 500,000 according to some studies, but disputed. RTT days become a reality in French work life, especially in large companies and the public sector. Added complexity to labor law.",
+      "current_status_fr": "Toujours en vigueur. Des assouplissements successifs ont été apportés (heures supplémentaires défiscalisées, accords d'entreprise plus flexibles). La droite et le patronat demandent régulièrement son assouplissement ou sa suppression.",
+      "current_status_en": "Still in force. Successive relaxations added (tax-exempt overtime, more flexible company agreements). The right and employers regularly call for its relaxation or abolition.",
+      "perspectives": {
+        "supporters_fr": "Amélioration de la qualité de vie et de l'équilibre travail-vie personnelle. Outil de partage de l'emploi qui a contribué à réduire le chômage. Modèle de gauche d'organisation du travail.",
+        "supporters_en": "Improved quality of life and work-life balance. A job-sharing tool that contributed to reducing unemployment. A left-wing model of work organization.",
+        "opponents_fr": "Nuit à la compétitivité des entreprises françaises. A alourdì les coûts salariaux. La réduction du temps de travail n'a pas durablement réduit le chômage. Complexité administrative.",
+        "opponents_en": "Harms the competitiveness of French companies. Increased labor costs. Reduced working hours did not durably reduce unemployment. Administrative complexity."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-reduction-du-temps-de-travail-les-35-heures", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000572208"],
+      "status": "verified"
+    },
+
+    {
+      "id": "retraites-fillon-2003",
+      "name_fr": "Réforme des retraites Fillon (2003)",
+      "name_en": "Fillon pension reform (2003)",
+      "area": "retraites",
+      "date_enacted": "2003-08",
+      "president": "Jacques Chirac",
+      "prime_minister": "Jean-Pierre Raffarin",
+      "minister_fr": "François Fillon (ministre des Affaires sociales)",
+      "context_fr": "Le régime de retraite des fonctionnaires (37,5 annuités de cotisation) était plus avantageux que celui du privé (40 annuités depuis la réforme Balladur de 1993). La réforme vise à aligner les régimes et à assurer la pérennité du système face au vieillissement démographique.",
+      "context_en": "The civil servants' pension scheme (37.5 contribution years) was more favorable than the private sector's (40 years since the 1993 Balladur reform). The reform aims to align regimes and ensure the system's sustainability amid demographic aging.",
+      "what_changed": [
+        {
+          "change_fr": "Extension de la durée de cotisation des fonctionnaires de 37,5 à 40 annuités (alignement sur le privé)",
+          "change_en": "Extension of civil servants' contribution period from 37.5 to 40 years (alignment with private sector)"
+        },
+        {
+          "change_fr": "Allongement progressif vers 41 annuités pour tous à l'horizon 2012",
+          "change_en": "Gradual extension to 41 contribution years for everyone by 2012"
+        },
+        {
+          "change_fr": "Création d'un système d'épargne retraite complémentaire (PERCO, PERP)",
+          "change_en": "Creation of supplementary pension savings plans (PERCO, PERP)"
+        }
+      ],
+      "impact_fr": "Forte opposition syndicale (grèves importantes dans la fonction publique). L'objectif d'alignement est atteint. La question de la durée de cotisation reste centrale dans tous les débats ultérieurs.",
+      "impact_en": "Strong union opposition (major strikes in the public sector). The alignment objective is achieved. The question of contribution years remains central in all subsequent debates.",
+      "current_status_fr": "Largement dépassée par les réformes de 2010 et 2023. A posé le cadre des débats suivants.",
+      "current_status_en": "Largely superseded by the 2010 and 2023 reforms. Set the framework for subsequent debates.",
+      "perspectives": {
+        "supporters_fr": "Nécessaire pour rétablir l'équité entre fonctionnaires et salariés du privé. Indispensable à l'équilibre financier à long terme du système.",
+        "supporters_en": "Necessary to restore fairness between civil servants and private-sector workers. Essential for the long-term financial balance of the system.",
+        "opponents_fr": "Remet en cause les acquis sociaux des fonctionnaires. Ne résout pas le problème du chômage (travailler plus longtemps quand des jeunes sont au chômage).",
+        "opponents_en": "Undermines civil servants' acquired rights. Does not solve the unemployment problem (working longer while young people are unemployed)."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-reforme-des-retraites-de-2003", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000601957"],
+      "status": "verified"
+    },
+
+    {
+      "id": "retraites-woerth-2010",
+      "name_fr": "Réforme des retraites Woerth (2010)",
+      "name_en": "Woerth pension reform (2010)",
+      "area": "retraites",
+      "date_enacted": "2010-11",
+      "president": "Nicolas Sarkozy",
+      "prime_minister": "François Fillon",
+      "minister_fr": "Éric Woerth (ministre du Travail)",
+      "context_fr": "Le système de retraites est déficitaire et les projections montrent un déséquilibre croissant dû au vieillissement. La crise de 2008 a aggravé les finances publiques. L'âge légal de 60 ans est perçu comme insuffisant dans un contexte d'allongement de l'espérance de vie.",
+      "context_en": "The pension system is in deficit and projections show a growing imbalance due to aging. The 2008 crisis worsened public finances. The legal retirement age of 60 is seen as insufficient given increasing life expectancy.",
+      "what_changed": [
+        {
+          "change_fr": "Relèvement de l'âge légal de départ à la retraite de 60 à 62 ans",
+          "change_en": "Legal retirement age raised from 60 to 62"
+        },
+        {
+          "change_fr": "Relèvement de l'âge du taux plein automatique de 65 à 67 ans",
+          "change_en": "Full-rate pension age raised from 65 to 67"
+        },
+        {
+          "change_fr": "Maintien de la retraite à 60 ans pour les carrières longues (ceux ayant commencé à travailler jeunes)",
+          "change_en": "Retirement at 60 maintained for long careers (those who started working young)"
+        }
+      ],
+      "impact_fr": "Mobilisation syndicale massive (plusieurs journées avec plus d'un million de manifestants). Forte impopularité. La réforme passe mais affaiblit le gouvernement. Hollande promettra en 2012 de rétablir la retraite à 60 ans (ne le fera que partiellement).",
+      "impact_en": "Massive union mobilization (multiple days with over one million protesters). Highly unpopular. Reform passes but weakens the government. Hollande will promise in 2012 to restore retirement at 60 (only partially fulfills it).",
+      "current_status_fr": "Modifiée par la réforme Touraine (2014) et remplacée dans ses grandes lignes par la réforme de 2023 (64 ans).",
+      "current_status_en": "Modified by the Touraine reform (2014) and largely superseded by the 2023 reform (64 years).",
+      "perspectives": {
+        "supporters_fr": "Indispensable pour rétablir l'équilibre financier du système face au défi démographique. L'espérance de vie ayant augmenté, il est normal de travailler un peu plus longtemps.",
+        "supporters_en": "Essential to restore the financial balance of the system given the demographic challenge. With increased life expectancy, working slightly longer is reasonable.",
+        "opponents_fr": "Injuste pour les travailleurs aux métiers pénibles. Pousse des seniors vers le chômage ou l'invalidité plutôt que vers l'emploi. La solution est de taxer davantage le capital.",
+        "opponents_en": "Unfair for workers in strenuous jobs. Pushes older workers toward unemployment or disability rather than employment. The solution is to tax capital more."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-reforme-des-retraites-de-2010"],
+      "status": "verified"
+    },
+
+    {
+      "id": "isf-ifi-2018",
+      "name_fr": "Suppression de l'ISF et création de l'IFI",
+      "name_en": "Abolition of the ISF (wealth tax) and creation of the IFI",
+      "area": "fiscal",
+      "date_enacted": "2018-01",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Édouard Philippe",
+      "minister_fr": "Bruno Le Maire (ministre de l'Économie)",
+      "context_fr": "L'Impôt de Solidarité sur la Fortune (ISF) taxait l'ensemble du patrimoine au-delà de 1,3 million d'euros (immobilier et capital financier). La majorité LREM juge qu'il pénalise l'investissement et incite les grands patrimoines à quitter la France.",
+      "context_en": "The ISF (solidarity tax on wealth) taxed all assets over €1.3 million (real estate and financial). The LREM majority argues it penalizes investment and encourages large wealth-holders to leave France.",
+      "what_changed": [
+        {
+          "change_fr": "Suppression de l'ISF, qui existait depuis 1982 (sous sa forme actuelle depuis 1989)",
+          "change_en": "Abolition of the ISF, which had existed since 1982 (in its current form since 1989)"
+        },
+        {
+          "change_fr": "Création de l'IFI (Impôt sur la Fortune Immobilière), qui ne taxe plus que le patrimoine immobilier non professionnel au-delà de 1,3 M€",
+          "change_en": "Creation of the IFI (Real Estate Wealth Tax), taxing only non-professional real estate assets above €1.3M"
+        },
+        {
+          "change_fr": "Introduction du PFU (Prélèvement Forfaitaire Unique, la 'flat tax') de 30% sur les revenus du capital",
+          "change_en": "Introduction of the PFU (flat tax) of 30% on capital income"
+        }
+      ],
+      "impact_fr": "Économie estimée de 3 à 4 milliards d'euros pour les contribuables les plus aisés. Retour de certains exilés fiscaux selon le gouvernement. Vaut à Macron l'étiquette de 'président des riches'.",
+      "impact_en": "Estimated €3-4 billion saving for the wealthiest taxpayers. Government claims some tax exiles returned. Earns Macron the label of 'president of the rich'.",
+      "current_status_fr": "Toujours en vigueur. La gauche (LFI, PS) promet régulièrement de rétablir l'ISF. Sujet central dans les débats sur la justice fiscale.",
+      "current_status_en": "Still in force. The left (LFI, PS) regularly promises to restore the ISF. A central subject in debates on fiscal justice.",
+      "perspectives": {
+        "supporters_fr": "Supprime un impôt anti-investissement qui faisait fuir les capitaux à l'étranger. Favorise le financement des entreprises françaises. L'IFI préserve un impôt sur la richesse immobilière non productive.",
+        "supporters_en": "Eliminates an anti-investment tax that drove capital abroad. Favors financing of French companies. The IFI preserves a tax on non-productive real estate wealth.",
+        "opponents_fr": "Cadeau fiscal aux plus riches au moment où on demande des efforts aux classes moyennes et populaires. L'exil fiscal n'était pas prouvé à grande échelle. Symbole de politique inégalitaire.",
+        "opponents_en": "A tax gift to the wealthy while middle and working classes are asked to make sacrifices. Large-scale tax exile was not proven. Symbol of an unequal policy."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.impots.gouv.fr/particulier/lifi", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036339197"],
+      "status": "verified"
+    },
+
+    {
+      "id": "loi-travail-2016",
+      "name_fr": "Loi Travail (loi El Khomri)",
+      "name_en": "Labour Law (El Khomri law)",
+      "area": "travail",
+      "date_enacted": "2016-07",
+      "president": "François Hollande",
+      "prime_minister": "Manuel Valls",
+      "minister_fr": "Myriam El Khomri (ministre du Travail)",
+      "context_fr": "Chômage élevé malgré les années de croissance. La France est perçue comme ayant un marché du travail rigide. Le rapport Combrexelle (2015) recommande d'élargir la place de la négociation collective d'entreprise par rapport à la loi et aux branches.",
+      "context_en": "High unemployment despite years of growth. France seen as having a rigid labor market. The Combrexelle report (2015) recommends expanding company-level collective bargaining relative to law and sector agreements.",
+      "what_changed": [
+        {
+          "change_fr": "Inversion de la hiérarchie des normes : les accords d'entreprise peuvent déroger aux accords de branche sur certains points (temps de travail)",
+          "change_en": "Inversion of the hierarchy of norms: company agreements can derogate from sector agreements on certain matters (working time)"
+        },
+        {
+          "change_fr": "Barémisation des indemnités prud'homales : plafonnement des indemnités pour licenciement sans cause réelle et sérieuse",
+          "change_en": "Capping of employment tribunal damages: ceiling set for unfair dismissal compensation"
+        },
+        {
+          "change_fr": "Assouplissement des conditions du licenciement économique (définition des difficultés économiques)",
+          "change_en": "Eased conditions for economic redundancies (definition of economic difficulties)"
+        },
+        {
+          "change_fr": "Adoptée via l'article 49-3 après une fronde au sein de la majorité PS",
+          "change_en": "Passed via Article 49-3 after a rebellion within the PS majority"
+        }
+      ],
+      "impact_fr": "Mois de mobilisation sociale (Nuit debout, manifestations). Profondes divisions au sein du PS. Hollande et Valls sortent très affaiblis. Préfigure les réformes Macron de 2017.",
+      "impact_en": "Months of social mobilization (Nuit debout, demonstrations). Deep divisions within the PS. Hollande and Valls emerge severely weakened. Foreshadows Macron's 2017 reforms.",
+      "current_status_fr": "En vigueur. Partiellement modifiée et complétée par les ordonnances Macron de 2017.",
+      "current_status_en": "In force. Partially modified and completed by Macron's 2017 ordinances.",
+      "perspectives": {
+        "supporters_fr": "Modernise le Code du travail, adapté à la réalité des entreprises. Donne plus de souplesse pour créer de l'emploi. Fidèle à l'esprit du rapport Combrexelle.",
+        "supporters_en": "Modernizes the Labor Code to match business reality. Gives more flexibility to create jobs. True to the spirit of the Combrexelle report.",
+        "opponents_fr": "Détricote les protections des salariés. L'inversion de la hiérarchie des normes affaiblit les droits collectifs. La barémisation des indemnités est une victoire pour les employeurs qui licencient.",
+        "opponents_en": "Unravels workers' protections. The inversion of norms hierarchy weakens collective rights. Capping damages is a victory for employers who dismiss workers."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032983085", "📎 SOURCE: https://www.vie-publique.fr/fiches/la-loi-du-8-aout-2016-relative-au-travail"],
+      "status": "verified"
+    },
+
+    {
+      "id": "ordonnances-macron-travail-2017",
+      "name_fr": "Ordonnances Macron sur le travail",
+      "name_en": "Macron labour ordinances",
+      "area": "travail",
+      "date_enacted": "2017-09",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Édouard Philippe",
+      "minister_fr": "Muriel Pénicaud (ministre du Travail)",
+      "context_fr": "Macron avait promis une réforme 'en profondeur' du marché du travail dès le début de son mandat. Il procède par ordonnances pour aller vite, en concertation avec les partenaires sociaux.",
+      "context_en": "Macron had promised a 'deep' labor market reform from the start of his term. He proceeds by ordinances to move fast, in consultation with social partners.",
+      "what_changed": [
+        {
+          "change_fr": "Fusion des instances représentatives du personnel en une seule (CSE : Comité Social et Économique)",
+          "change_en": "Merger of employee representative bodies into a single one (CSE: Social and Economic Committee)"
+        },
+        {
+          "change_fr": "Plafonnement (barémisation) des indemnités prud'homales en cas de licenciement sans cause réelle",
+          "change_en": "Cap on employment tribunal damages for unfair dismissal"
+        },
+        {
+          "change_fr": "Renforcement de la primauté des accords d'entreprise sur les accords de branche pour davantage de sujets",
+          "change_en": "Strengthening of company agreements' primacy over sector agreements on more subjects"
+        },
+        {
+          "change_fr": "Facilitation du licenciement collectif et des 'plans de départs volontaires'",
+          "change_en": "Facilitation of collective redundancies and voluntary departure plans"
+        },
+        {
+          "change_fr": "Création du 'CDI de projet' (contrat de chantier dans tous les secteurs)",
+          "change_en": "Creation of the 'project-based CDI' (construction-site contract extended to all sectors)"
+        }
+      ],
+      "impact_fr": "Réforme la plus importante du droit du travail depuis des décennies. Baisses des saisines des prud'hommes observées. Syndicats critiques mais CGT seule à manifester massivement. Les résultats sur l'emploi restent débattus.",
+      "impact_en": "Most significant labor law reform in decades. Observed decline in employment tribunal cases. Unions critical but only CGT protests massively. Impact on employment remains debated.",
+      "current_status_fr": "Toujours en vigueur. Le CSE est désormais une réalité dans toutes les entreprises de plus de 11 salariés.",
+      "current_status_en": "Still in force. The CSE is now a reality in all companies with 11+ employees.",
+      "perspectives": {
+        "supporters_fr": "Donne de la visibilité aux employeurs (coût connu du licenciement). Simplifie le dialogue social. Rend le marché du travail plus adaptatif. A favorisé la reprise de l'emploi.",
+        "supporters_en": "Gives employers predictability (known cost of dismissal). Simplifies industrial relations. Makes the labor market more adaptive. Favored employment recovery.",
+        "opponents_fr": "Fragilise les salariés face aux employeurs. La barémisation des indemnités encourage les licenciements abusifs. Détruit les contre-pouvoirs dans l'entreprise.",
+        "opponents_en": "Weakens employees against employers. Damage caps encourage abusive dismissals. Destroys employee counterweights in the company."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000035523234/", "📎 SOURCE: https://www.vie-publique.fr/fiches/les-ordonnances-travail-de-septembre-2017"],
+      "status": "verified"
+    },
+
+    {
+      "id": "parcoursup-bac-2018",
+      "name_fr": "Réforme de l'accès à l'université (Parcoursup) et du baccalauréat",
+      "name_en": "University access reform (Parcoursup) and baccalaureate reform",
+      "area": "education",
+      "date_enacted": "2018-01",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Édouard Philippe",
+      "minister_fr": "Frédérique Vidal (ESR), puis Jean-Michel Blanquer (Éducation nationale)",
+      "context_fr": "APB (Admission Post-Bac) était critiqué pour son tirage au sort opaque dans les filières en tension. Le bac était considéré comme dévalué (taux de réussite supérieur à 80%). La réforme vise à mieux orienter les lycéens et à valoriser les parcours.",
+      "context_en": "The APB system (university application) was criticized for its opaque lottery in high-demand courses. The baccalaureate was seen as devalued (pass rates over 80%). The reform aims to better guide students and value academic paths.",
+      "what_changed": [
+        {
+          "change_fr": "Remplacement d'APB par Parcoursup : algorithme transparent, universités peuvent émettre des 'attendus' et prendre en compte le dossier scolaire",
+          "change_en": "Replacement of APB by Parcoursup: transparent algorithm, universities can state 'expectations' and consider academic records"
+        },
+        {
+          "change_fr": "Réforme du baccalauréat (Blanquer, 2019-2021) : fin des séries S/ES/L, introduction du Grand Oral, contrôle continu (40%), spécialités au choix",
+          "change_en": "Baccalaureate reform (Blanquer, 2019-2021): end of S/ES/L tracks, introduction of Grand Oral, continuous assessment (40%), chosen specializations"
+        },
+        {
+          "change_fr": "Fin du tirage au sort pour l'accès à l'université",
+          "change_en": "End of lottery for university access"
+        }
+      ],
+      "impact_fr": "Parcoursup toujours controversé : les lycéens des milieux favorisés mieux armés pour valoriser leur dossier. Stress important pour les terminales. Amélioration de l'adéquation orientation/formation selon le gouvernement.",
+      "impact_en": "Parcoursup remains controversial: students from privileged backgrounds better equipped to present their files. Significant stress for final-year students. Government claims improved alignment between orientation and training.",
+      "current_status_fr": "Toujours en vigueur. Parcoursup fait l'objet de critiques régulières et d'ajustements. Le nouveau bac est en place depuis 2021.",
+      "current_status_en": "Still in force. Parcoursup is subject to regular criticism and adjustments. The new baccalaureate has been in place since 2021.",
+      "perspectives": {
+        "supporters_fr": "Fin du tirage au sort opaque. Meilleure adéquation entre profil étudiant et formation. Le nouveau bac valorise mieux les parcours individuels.",
+        "supporters_en": "End of the opaque lottery. Better matching between student profiles and programs. The new baccalaureate better values individual paths.",
+        "opponents_fr": "Parcoursup crée une sélection à l'entrée de l'université, contraire au principe d'accès libre. Aggrave les inégalités sociales. Le contrôle continu favorise les lycées d'élite.",
+        "opponents_en": "Parcoursup creates selective university entry, contrary to the principle of open access. Worsens social inequalities. Continuous assessment favors elite high schools."
+      },
+      "controversy_level": "medium",
+      "sources": ["📎 SOURCE: https://www.parcoursup.fr", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036265042"],
+      "status": "verified"
+    },
+
+    {
+      "id": "loi-transition-energetique-2015",
+      "name_fr": "Loi relative à la transition énergétique pour la croissance verte",
+      "name_en": "Energy Transition for Green Growth Act",
+      "area": "environnement",
+      "date_enacted": "2015-08",
+      "president": "François Hollande",
+      "prime_minister": "Manuel Valls",
+      "minister_fr": "Ségolène Royal (ministre de l'Écologie)",
+      "context_fr": "Préparation à la COP21 (Paris, décembre 2015). Engagement de la France à réduire ses émissions de gaz à effet de serre et à diversifier son mix énergétique, notamment en réduisant la part du nucléaire.",
+      "context_en": "Preparation for COP21 (Paris, December 2015). France commits to reducing greenhouse gas emissions and diversifying its energy mix, notably by reducing the share of nuclear power.",
+      "what_changed": [
+        {
+          "change_fr": "Objectif de réduire la part du nucléaire dans la production d'électricité de 75% à 50% d'ici 2025 (objectif repoussé plusieurs fois)",
+          "change_en": "Target to reduce nuclear power's share of electricity from 75% to 50% by 2025 (target pushed back several times)"
+        },
+        {
+          "change_fr": "Objectif de 40% d'énergies renouvelables dans la production électrique d'ici 2030",
+          "change_en": "Target for 40% renewable electricity by 2030"
+        },
+        {
+          "change_fr": "Objectif de réduction de 50% de la consommation d'énergie finale d'ici 2050",
+          "change_en": "Target to reduce final energy consumption by 50% by 2050"
+        },
+        {
+          "change_fr": "Introduction de nouvelles normes pour les bâtiments, le transport, les déchets",
+          "change_en": "New standards for buildings, transport, waste"
+        }
+      ],
+      "impact_fr": "Cadre législatif de référence pour la transition énergétique française. L'objectif de 50% de nucléaire en 2025 n'a pas été atteint. La crise énergétique de 2022 a conduit Macron à annoncer un retour au nucléaire.",
+      "impact_en": "Reference legislative framework for France's energy transition. The 50% nuclear target for 2025 was not met. The 2022 energy crisis led Macron to announce a return to nuclear power.",
+      "current_status_fr": "Toujours en vigueur mais ses objectifs ont été révisés. Macron a annoncé la construction de nouveaux réacteurs EPR en 2022, revenant sur l'objectif de réduction du nucléaire.",
+      "current_status_en": "Still in force but objectives revised. Macron announced construction of new EPR nuclear reactors in 2022, reversing the nuclear reduction target.",
+      "perspectives": {
+        "supporters_fr": "Indispensable pour répondre au défi climatique. Donne un cap à long terme pour la politique énergétique. La diversification du mix est une nécessité de sécurité.",
+        "supporters_en": "Essential to meet the climate challenge. Sets a long-term direction for energy policy. Energy mix diversification is a security necessity.",
+        "opponents_fr": "Nucléaire (gauche pro-climat, EELV) : aller plus vite sur la sortie du nucléaire. Droite/libéraux : le nucléaire est une énergie décarbonée à conserver. Industriels : les objectifs créent de l'incertitude.",
+        "opponents_en": "Nuclear (pro-climate left, EELV): accelerate nuclear exit. Right/liberals: nuclear is a low-carbon energy to preserve. Industry: objectives create uncertainty."
+      },
+      "controversy_level": "medium",
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031044385", "📎 SOURCE: https://www.vie-publique.fr/fiches/la-loi-de-transition-energetique-de-2015"],
+      "status": "verified"
+    },
+
+    {
+      "id": "loi-climat-resilience-2021",
+      "name_fr": "Loi Climat et Résilience",
+      "name_en": "Climate and Resilience Act",
+      "area": "environnement",
+      "date_enacted": "2021-08",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Jean Castex",
+      "minister_fr": "Barbara Pompili (ministre de la Transition écologique)",
+      "context_fr": "Issue des travaux de la Convention Citoyenne pour le Climat (CCC), 150 citoyens tirés au sort qui ont formulé 149 propositions. Macron avait promis de les reprendre 'sans filtre' (promesse tenue partiellement).",
+      "context_en": "Based on the work of the Citizens' Convention for the Climate (CCC), 150 randomly selected citizens who formulated 149 proposals. Macron had promised to adopt them 'unfiltered' (partially kept).",
+      "what_changed": [
+        {
+          "change_fr": "Interdiction de la publicité pour les énergies fossiles",
+          "change_en": "Ban on advertising for fossil fuels"
+        },
+        {
+          "change_fr": "Interdiction progressive des vols intérieurs (moins de 2h30 de trajet en train)",
+          "change_en": "Progressive ban on domestic flights (where train journey is under 2h30)"
+        },
+        {
+          "change_fr": "Fin des nouvelles chaudières au fioul dès 2022",
+          "change_en": "Ban on new oil boilers from 2022"
+        },
+        {
+          "change_fr": "Interdiction à terme des passoires thermiques à la location",
+          "change_en": "Future ban on renting out energy-inefficient 'thermal sieves'"
+        },
+        {
+          "change_fr": "Objectif de réduction de 40% des émissions en 2030 vs 1990",
+          "change_en": "Target: 40% emissions reduction by 2030 vs 1990"
+        }
+      ],
+      "impact_fr": "Loi saluée mais jugée insuffisante par les membres de la CCC eux-mêmes et les associations environnementales. Plusieurs mesures phares (crime d'écocide, référendum) abandonnées ou édulcorées.",
+      "impact_en": "Law praised but deemed insufficient by CCC members themselves and environmental associations. Several flagship measures (ecocide crime, referendum) dropped or watered down.",
+      "current_status_fr": "En vigueur. L'application de certaines mesures est progressive. La question des passoires thermiques est source de tensions pour les propriétaires bailleurs.",
+      "current_status_en": "In force. Application of some measures is gradual. Energy-inefficient rental housing is a source of tension for landlords.",
+      "perspectives": {
+        "supporters_fr": "Pas de réponse à la crise climatique sans mesures réglementaires contraignantes. Engagement historique de la France envers ses citoyens via la Convention.",
+        "supporters_en": "No response to the climate crisis without binding regulatory measures. Historic commitment to citizens via the Convention.",
+        "opponents_fr": "Associations : trop timide, ne respecte pas les engagements de Paris. Droite/propriétaires : trop contraignante, pénalise les classes moyennes propriétaires.",
+        "opponents_en": "Associations: too timid, doesn't honor Paris commitments. Right/landlords: too restrictive, penalizes middle-class property owners."
+      },
+      "controversy_level": "medium",
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043956924", "📎 SOURCE: https://www.vie-publique.fr/fiches/la-loi-climat-et-resilience"],
+      "status": "verified"
+    },
+
+    {
+      "id": "non-cumul-mandats-2013",
+      "name_fr": "Loi sur le non-cumul des mandats",
+      "name_en": "Anti-dual mandate law",
+      "area": "institutionnel",
+      "date_enacted": "2013-02",
+      "president": "François Hollande",
+      "prime_minister": "Jean-Marc Ayrault",
+      "minister_fr": "Marylise Lebranchu (ministre de la Réforme de l'État)",
+      "context_fr": "La France était l'un des rares pays à autoriser le cumul d'un mandat national (député, sénateur) avec un mandat exécutif local (maire, président de région). Pratique très répandue, notamment chez les barons du PS et de l'UMP.",
+      "context_en": "France was one of the few countries to allow holding a national mandate (deputy, senator) simultaneously with a local executive office (mayor, regional president). Very widespread practice, especially among PS and UMP 'barons'.",
+      "what_changed": [
+        {
+          "change_fr": "Interdiction pour les parlementaires (députés et sénateurs) de cumuler leur mandat avec une fonction exécutive locale (maire, président de région/département)",
+          "change_en": "Members of Parliament (deputies and senators) banned from holding their mandate simultaneously with a local executive office (mayor, regional/departmental president)"
+        },
+        {
+          "change_fr": "Application différée à 2017 pour laisser le temps aux parlementaires concernés de choisir",
+          "change_en": "Deferred application to 2017 to allow affected parliamentarians to choose"
+        }
+      ],
+      "impact_fr": "Renouvellement significatif des parlementaires en 2017 (beaucoup ont préféré leur mandat local). Renforce la professionnalisation de la vie parlementaire. Réduit les conflits d'intérêts entre niveaux de gouvernement.",
+      "impact_en": "Significant renewal of parliamentarians in 2017 (many chose their local mandate). Strengthens the professionalization of parliamentary life. Reduces conflicts of interest between levels of government.",
+      "current_status_fr": "En vigueur depuis 2017.",
+      "current_status_en": "In force since 2017.",
+      "perspectives": {
+        "supporters_fr": "Met fin à une pratique incompréhensible pour la plupart des démocraties. Permet aux parlementaires de se consacrer pleinement à leur mandat national.",
+        "supporters_en": "Ends a practice incomprehensible to most democracies. Allows parliamentarians to fully devote themselves to their national mandate.",
+        "opponents_fr": "Les élus locaux apportaient une expertise terrain précieuse au Parlement. Crée des parlementaires 'déconnectés' des réalités locales. Les maires ont perdu de l'influence au Parlement.",
+        "opponents_en": "Local elected officials brought valuable grassroots expertise to Parliament. Creates 'disconnected' parliamentarians. Mayors have lost influence in Parliament."
+      },
+      "controversy_level": "low",
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000026944880", "📎 SOURCE: https://www.vie-publique.fr/fiches/le-non-cumul-des-mandats"],
+      "status": "verified"
+    },
+
+    {
+      "id": "retraites-2023",
+      "name_fr": "Réforme des retraites 2023 (loi Borne)",
+      "name_en": "2023 pension reform (Borne law)",
+      "area": "retraites",
+      "date_enacted": "2023-04",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Élisabeth Borne",
+      "minister_fr": "Olivier Dussopt (ministre du Travail)",
+      "context_fr": "Macron avait fait de la réforme des retraites un engagement central de ses deux campagnes présidentielles. Le Conseil d'Orientation des Retraites (COR) projette un déficit croissant du système. Sans majorité absolue à l'Assemblée depuis 2022, le gouvernement ne peut faire adopter le texte par un vote.",
+      "context_en": "Macron had made pension reform a central commitment in both presidential campaigns. The COR (Pensions Advisory Council) projects a growing system deficit. Without an absolute majority in the Assembly since 2022, the government cannot pass the text by vote.",
+      "what_changed": [
+        {
+          "change_fr": "Relèvement de l'âge légal de départ à la retraite de 62 à 64 ans",
+          "change_en": "Legal retirement age raised from 62 to 64"
+        },
+        {
+          "change_fr": "Accélération de l'allongement de la durée de cotisation requise (vers 43 annuités en 2027)",
+          "change_en": "Acceleration of required contribution period extension (toward 43 years by 2027)"
+        },
+        {
+          "change_fr": "Maintien du départ à 62 ans pour les carrières longues",
+          "change_en": "Retirement at 62 maintained for long careers"
+        },
+        {
+          "change_fr": "Adoptée via l'article 49-3 ; les motions de censure échouent à 9 voix près",
+          "change_en": "Passed via Article 49-3; motions of no confidence fail by 9 votes"
+        },
+        {
+          "change_fr": "Validée par le Conseil constitutionnel (avec censure de certains 'cavaliers sociaux')",
+          "change_en": "Validated by the Constitutional Council (with some 'unrelated social riders' struck down)"
+        }
+      ],
+      "impact_fr": "Mouvement social le plus long et le plus suivi depuis des années (14 journées de grève nationale, plusieurs millions de manifestants). Borne et Macron très affaiblis. La réforme entre en vigueur mais reste très impopulaire.",
+      "impact_en": "The longest and most followed social movement in years (14 national strike days, several million protesters). Borne and Macron severely weakened. Reform enters into force but remains deeply unpopular.",
+      "current_status_fr": "En vigueur depuis septembre 2023. La gauche et les syndicats continuent d'exiger son abrogation. Sujet central de la présidentielle 2027.",
+      "current_status_en": "In force since September 2023. The left and unions continue to demand its repeal. A central issue for the 2027 presidential election.",
+      "perspectives": {
+        "supporters_fr": "Nécessaire pour équilibrer le système à long terme. L'espérance de vie ayant augmenté de 20 ans depuis 1945, travailler 2 ans de plus est raisonnable. Évite de transférer la dette aux générations futures.",
+        "supporters_en": "Necessary for long-term system balance. With life expectancy up by 20 years since 1945, working 2 more years is reasonable. Avoids passing debt to future generations.",
+        "opponents_fr": "Injuste pour les travailleurs aux métiers pénibles et aux carrières courtes. Passée de force sans vote démocratique. Le COR ne prévoyait pas de crise imminente. L'argent peut être trouvé via la taxation du capital.",
+        "opponents_en": "Unfair for workers in strenuous jobs or with short careers. Forced through without a democratic vote. The COR did not forecast an imminent crisis. Money can be found through capital taxation."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/actualites/decision-2023-849-dc", "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000047575988"],
+      "status": "verified"
+    },
+
+    {
+      "id": "loi-immigration-2024",
+      "name_fr": "Loi Immigration (Darmanin, 2024)",
+      "name_en": "Immigration Law (Darmanin, 2024)",
+      "area": "immigration",
+      "date_enacted": "2024-01",
+      "president": "Emmanuel Macron",
+      "prime_minister": "Gabriel Attal",
+      "minister_fr": "Gérald Darmanin (ministre de l'Intérieur)",
+      "context_fr": "La droite et l'extrême droite réclament depuis années un durcissement de la politique migratoire. Le gouvernement cherche à reprendre l'initiative sur un terrain où le RN est dominant. Texte âprement négocié au Sénat avec LR.",
+      "context_en": "The right and far right have long demanded tougher immigration policy. The government tries to take back ground where RN is dominant. Text negotiated with LR in the Senate.",
+      "what_changed": [
+        {
+          "change_fr": "Durcissement des conditions de regroupement familial et de délivrance de titres de séjour",
+          "change_en": "Tightened conditions for family reunification and residence permits"
+        },
+        {
+          "change_fr": "Rétablissement du délit de séjour irrégulier (supprimé en 2012)",
+          "change_en": "Restoration of the offence of irregular stay (abolished in 2012)"
+        },
+        {
+          "change_fr": "Conditionnalité de certaines aides sociales à la durée de présence en France",
+          "change_en": "Conditioning of some social benefits on length of stay in France"
+        },
+        {
+          "change_fr": "Le Conseil constitutionnel a censuré 35 articles (dont la conditionnalité des aides) comme 'cavaliers législatifs'",
+          "change_en": "The Constitutional Council struck down 35 articles (including social benefits conditioning) as unrelated 'legislative riders'"
+        }
+      ],
+      "impact_fr": "Vive polémique : Marine Le Pen dit voter pour, plusieurs ministres et personnalités LREM démissionnent ou s'indignent. Décision du CC considérée comme victoire partielle par la gauche. Macron qualifie la loi de 'compromis'.",
+      "impact_en": "Sharp controversy: Marine Le Pen says she'll vote for it; several LREM ministers and figures resign or express outrage. CC decision seen as partial victory by the left. Macron calls the law a 'compromise'.",
+      "current_status_fr": "En vigueur dans sa version censurée par le Conseil constitutionnel. Plusieurs dispositions annulées. Sujet toujours actif dans les débats politiques.",
+      "current_status_en": "In force in its version amended by the Constitutional Council. Several provisions annulled. Still an active topic in political debates.",
+      "perspectives": {
+        "supporters_fr": "Nécessaire pour reprendre le contrôle des flux migratoires. Répond aux inquiétudes légitimes des Français. Renforce les outils d'éloignement.",
+        "supporters_en": "Necessary to regain control of migration flows. Addresses legitimate concerns of the French. Strengthens deportation tools.",
+        "opponents_fr": "Texte rédigé sous la dictée du RN (Le Pen elle-même approuve). Porte atteinte aux droits fondamentaux des étrangers. La conditionnalité des aides stigmatise les immigrés. Dangereux glissement vers la droite extrême.",
+        "opponents_en": "Text written under RN's dictation (Le Pen herself approves). Undermines the fundamental rights of foreigners. Benefits conditioning stigmatizes immigrants. Dangerous drift toward the far right."
+      },
+      "controversy_level": "high",
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/actualites/decision-2024-863-dc", "📎 SOURCE: https://www.legifrance.gouv.fr"],
+      "status": "verified"
+    }
+
+  ]
+}

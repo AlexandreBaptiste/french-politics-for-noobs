@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "modem",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "Mouvement Démocrate",
+    "full_name_en": "Democratic Movement",
+    "abbreviation": "MoDem",
+    "founded": 2007,
+    "predecessor_fr": "UDF (Union pour la Démocratie Française), après le refus de Bayrou de fusionner dans l'UMP",
+    "predecessor_en": "UDF (Union for French Democracy), after Bayrou refused to merge into the UMP",
+    "color": "#FF8000",
+    "position_on_spectrum_fr": "Centre / Démocratie chrétienne / Social-libéralisme",
+    "position_on_spectrum_en": "Centre / Christian democracy / Social liberalism",
+    "website": "https://www.mouvementdemocrate.fr",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Centrisme humaniste",
+      "Démocratie chrétienne",
+      "Pro-européen (fédéralisme européen)",
+      "Réforme institutionnelle (proportionnelle, démocratie participative)",
+      "Économie sociale de marché",
+      "Indépendance vis-à-vis des grands blocs droite/gauche"
+    ],
+    "core_values_en": [
+      "Humanist centrism",
+      "Christian democracy",
+      "Pro-European (European federalism)",
+      "Institutional reform (proportional representation, participatory democracy)",
+      "Social market economy",
+      "Independence from the right/left blocs"
+    ],
+    "eu_position_fr": "Fortement pro-européen. Favorable à une intégration plus poussée, notamment en matière de défense et de monnaie commune. Bayrou est un fédéraliste européen convaincu.",
+    "eu_position_en": "Strongly pro-European. Favors deeper integration, especially in defense and the common currency. Bayrou is a committed European federalist.",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 1978,
+        "event_fr": "Bayrou adhère à l'UDF (Union pour la Démocratie Française), parti centriste fondé par Valéry Giscard d'Estaing.",
+        "event_en": "Bayrou joins the UDF (Union for French Democracy), centrist party founded by Valéry Giscard d'Estaing.",
+        "status": "verified"
+      },
+      {
+        "year": 2002,
+        "event_fr": "Bayrou s'illustre à la présidentielle avec 6,8%. Refuse de se fondre dans l'UMP de Sarkozy.",
+        "event_en": "Bayrou performs notably in the presidential election with 6.8%. Refuses to merge into Sarkozy's UMP.",
+        "status": "verified"
+      },
+      {
+        "year": 2007,
+        "event_fr": "Bayrou obtient 18,6% au 1er tour de la présidentielle — meilleur score centriste depuis Giscard. Il crée le MoDem après avoir refusé l'UMP. Ni gauche ni droite.",
+        "event_en": "Bayrou wins 18.6% in round 1 of the presidential election — best centrist score since Giscard. He creates MoDem after refusing to join the UMP. Neither left nor right.",
+        "status": "verified"
+      },
+      {
+        "year": 2012,
+        "event_fr": "Bayrou obtient seulement 9,1%. Il soutient Hollande au second tour contre Sarkozy (décision controversée qui lui coûte une partie de son électorat de droite).",
+        "event_en": "Bayrou wins only 9.1%. He backs Hollande in the runoff against Sarkozy (controversial decision that costs him part of his right-wing electorate).",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "MoDem soutient Macron dès le premier tour. Bayrou rejoint le gouvernement Philippe comme ministre de la Justice. Il démissionne quelques semaines plus tard, mis en cause dans une affaire d'assistants parlementaires européens fictifs.",
+        "event_en": "MoDem backs Macron from the first round. Bayrou joins the Philippe government as Minister of Justice. He resigns weeks later, implicated in an affair over fictitious EU parliamentary assistants.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "MoDem reste un allié clé de LREM/Renaissance dans la coalition Ensemble malgré l'affaire. Obtient environ 42 sièges à l'Assemblée.",
+        "event_en": "MoDem remains a key LREM/Renaissance ally in the Ensemble coalition despite the affair. Wins around 42 seats in the Assembly.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "Après la censure du gouvernement Barnier, Bayrou est nommé Premier ministre le 13 décembre 2024. Son gouvernement tombe le 9 septembre 2025 — premier gouvernement de la Ve République renversé après un vote de confiance perdu (article 49-1).",
+        "event_en": "Following the Barnier government's censure, Bayrou is appointed Prime Minister on December 13, 2024. His government falls on September 9, 2025 — the first Fifth Republic government brought down after losing a confidence vote (Article 49-1).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "François Bayrou",
+      "role_fr": "Fondateur et figure tutélaire du MoDem. Candidat à la présidentielle en 2002, 2007, 2012. Premier ministre du 13 décembre 2024 au 9 septembre 2025 — premier gouvernement renversé par un vote de confiance perdu sous la Ve République.",
+      "role_en": "MoDem founder and dominant figure. Presidential candidate in 2002, 2007, 2012. Prime Minister from December 13, 2024 to September 9, 2025 — first government brought down by a lost confidence vote under the Fifth Republic.",
+      "status": "verified",
+      "is_leader": true
+    },
+    {
+      "name": "Marc Fesneau",
+      "role_fr": "Figure importante du MoDem. A occupé plusieurs postes ministériels sous Macron (Agriculture notamment, 2022-2024). Député du Loir-et-Cher (MoDem).",
+      "role_en": "Key MoDem figure. Held several ministerial posts under Macron (Agriculture notably, 2022-2024). Deputy for Loir-et-Cher (MoDem).",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_record": {
+    "note_fr": "MoDem est un partenaire de coalition de Renaissance depuis 2017. Son bilan se confond largement avec celui du gouvernement Macron.",
+    "note_en": "MoDem has been a coalition partner of Renaissance since 2017. Its record largely overlaps with the Macron government's.",
+    "distinctive_positions_fr": "MoDem pousse notamment pour une réforme du mode de scrutin vers la proportionnelle, et pour une plus grande intégration européenne.",
+    "distinctive_positions_en": "MoDem notably pushes for electoral system reform toward proportional representation, and for deeper European integration."
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Bayrou n'est plus Premier ministre depuis septembre 2025. MoDem s'inscrit dans la coalition Ensemble et soutient la candidature de Gabriel Attal (Renaissance) pour 2027. Programme officiel à vérifier sur mouvementdemocrate.fr.",
+    "note_en": "🗓️ SNAPSHOT: Bayrou has not been Prime Minister since September 2025. MoDem remains in the Ensemble coalition and supports Gabriel Attal's (Renaissance) candidacy for 2027. Official program to verify at mouvementdemocrate.fr.",
+    "presidential_candidate_fr": "MoDem soutient la candidature officielle de Gabriel Attal (Renaissance) pour la présidentielle 2027 dans le cadre de la coalition Ensemble.",
+    "presidential_candidate_en": "MoDem supports Gabriel Attal's (Renaissance) official candidacy for the 2027 presidential election within the Ensemble coalition.",
+    "key_policies": {
+      "institutions_fr": "Introduction de la proportionnelle dans le scrutin législatif (revendication constante de Bayrou). Renforcement du dialogue politique.",
+      "institutions_en": "Introduction of proportional representation in legislative elections (Bayrou's constant demand). Strengthened political dialogue.",
+      "economy_fr": "Économie de marché régulée, soutien aux PME, simplification administrative. Proche des orientations macronistes avec une sensibilité sociale-démocrate.",
+      "economy_en": "Regulated market economy, support for SMEs, administrative simplification. Close to Macronist orientations with a social-democratic sensitivity.",
+      "immigration_fr": "Position centriste : immigration maîtrisée mais humaine. Respect du droit d'asile. Intégration comme priorité.",
+      "immigration_en": "Centrist position: controlled but humane immigration. Respect for asylum law. Integration as priority.",
+      "retraites_fr": "Soutien à la réforme de 2023 (64 ans) dans le cadre de la coalition Ensemble.",
+      "retraites_en": "Support for the 2023 reform (64 years) as part of the Ensemble coalition.",
+      "securite_fr": "Sécurité et État de droit comme piliers. Approche équilibrée entre fermeté et respect des libertés civiles.",
+      "securite_en": "Security and rule of law as pillars. Balanced approach between firmness and respect for civil liberties.",
+      "europe_fr": "Approfondir l'intégration européenne, notamment la défense commune et la souveraineté technologique. MoDem est historiquement le parti le plus pro-européen de France.",
+      "europe_en": "Deepen European integration, especially common defense and technological sovereignty. MoDem is historically France's most pro-European party.",
+      "energie_fr": "Soutien au mix nucléaire-renouvelables dans le cadre de la transition énergétique européenne.",
+      "energie_en": "Support for a nuclear-renewables mix within the European energy transition framework.",
+      "sante_fr": "Défense du système de santé public. Investissement dans la prévention. Lutte contre les déserts médicaux.",
+      "sante_en": "Defense of the public health system. Investment in prevention. Fight against medical deserts.",
+      "environnement_fr": "Transition écologique ambitieuse dans le cadre européen. Soutien au Green Deal tout en préservant la compétitivité industrielle.",
+      "environnement_en": "Ambitious ecological transition within the European framework. Support for the Green Deal while preserving industrial competitiveness.",
+      "status": "verified"
+    },
+    "sources_for_verification": ["📎 SOURCE: https://www.mouvementdemocrate.fr"]
+  }
+}

@@ -1,0 +1,463 @@
+﻿{
+  "_meta": {
+    "section": "electoral-system",
+    "language_primary": "fr",
+    "language_secondary": "en",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Content confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    },
+    "diagram_hint": "This file supports multiple diagrams: (1) two-round system flowchart, (2) election calendar, (3) threshold comparison table across election types"
+  },
+
+  "overview": {
+    "title_fr": "Le système électoral français",
+    "title_en": "The French electoral system",
+    "summary_fr": "La France utilise principalement le scrutin uninominal (ou de liste) majoritaire à deux tours pour la plupart de ses élections. Ce système favorise les grandes formations politiques et pousse à la formation de coalitions pour le second tour. La proportionnelle est utilisée uniquement pour les élections européennes et une partie des élections sénatoriales.",
+    "summary_en": "France primarily uses a two-round majority system (single candidate or list) for most elections. This system favors large political formations and encourages coalition-building for the second round. Proportional representation is used only for European elections and some Senate elections.",
+    "right_to_vote_fr": "Tout citoyen français de 18 ans et plus, inscrit sur les listes électorales. Les ressortissants de l'Union européenne peuvent voter aux élections municipales et européennes.",
+    "right_to_vote_en": "All French citizens 18+, registered on electoral rolls. EU citizens may vote in municipal and European elections.",
+    "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/les-grands-principes-du-droit-electoral-francais"],
+    "status": "verified"
+  },
+
+  "elections": [
+
+    {
+      "id": "election-presidentielle",
+      "name_fr": "Élection présidentielle",
+      "name_en": "Presidential election",
+      "elects_fr": "Président de la République",
+      "elects_en": "President of the Republic",
+      "frequency_years": 5,
+      "system_fr": "Scrutin uninominal majoritaire à deux tours",
+      "system_en": "Two-round majority vote (single candidate)",
+      "constituency_fr": "Circonscription nationale unique (la France entière vote)",
+      "constituency_en": "Single national constituency",
+      "next_scheduled": "Printemps 2027",
+      "last_held": "Avril 2022",
+
+      "eligibility_to_run": {
+        "conditions_fr": [
+          "Être citoyen français",
+          "Avoir 18 ans révolus",
+          "Jouir de ses droits civils et politiques",
+          "Obtenir 500 parrainages d'élus habilités (maires, conseillers régionaux, départementaux, parlementaires, etc.) issus d'au moins 30 départements/collectivités différents, avec pas plus de 10% provenant du même département",
+          "Satisfaire aux obligations relatives aux partis politiques et au financement de campagne"
+        ],
+        "conditions_en": [
+          "Be a French citizen",
+          "Be at least 18 years old",
+          "Hold full civil and political rights",
+          "Obtain 500 sponsorships (parrainages) from eligible elected officials from at least 30 different departments/territories, with no more than 10% from the same department",
+          "Comply with campaign finance regulations"
+        ],
+        "age_note_fr": "L'âge minimum a été abaissé de 23 à 18 ans par la loi organique n° 2006-404 du 5 avril 2006.",
+        "age_note_en": "The minimum age was lowered from 23 to 18 by the loi organique No. 2006-404 of April 5, 2006.",
+        "status": "verified"
+      },
+
+      "how_it_works": {
+        "round_1": {
+          "title_fr": "Premier tour",
+          "title_en": "First round",
+          "win_condition_fr": "Un candidat est élu au premier tour s'il obtient la majorité absolue des suffrages exprimés ET au moins 25% des inscrits. En pratique, cela ne s'est jamais produit sous la Ve République.",
+          "win_condition_en": "A candidate wins in the first round with an absolute majority of votes cast AND at least 25% of registered voters. In practice, this has never happened under the Fifth Republic.",
+          "if_no_winner_fr": "Les deux candidats arrivés en tête se qualifient pour le second tour",
+          "if_no_winner_en": "The top two candidates advance to the second round",
+          "status": "verified"
+        },
+        "round_2": {
+          "title_fr": "Second tour (14 jours après le 1er tour)",
+          "title_en": "Second round (14 days after the 1st round)",
+          "win_condition_fr": "Le candidat obtenant le plus de suffrages exprimés est élu (majorité relative suffit)",
+          "win_condition_en": "The candidate with the most votes is elected (relative majority suffices)",
+          "status": "verified"
+        }
+      },
+
+      "key_rules": [
+        {
+          "rule_fr": "Les parrainages sont rendus publics depuis 2017 (avant, ils étaient anonymes)",
+          "rule_en": "Sponsorships (parrainages) have been made public since 2017 (previously anonymous)",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Chaque candidat reçoit un financement public et est soumis à un plafond de dépenses de campagne",
+          "rule_en": "Each candidate receives public funding and is subject to a campaign spending cap",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Temps de parole strictement égal dans les médias audiovisuels (réglementé par l'ARCOM)",
+          "rule_en": "Strictly equal broadcast airtime for all candidates (regulated by ARCOM)",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "La publication de sondages est interdite la veille et le jour du scrutin",
+          "rule_en": "Publication of polls is banned the day before and on election day",
+          "status": "verified"
+        }
+      ],
+
+      "recent_results_summary": [
+        {
+          "year": 2002,
+          "round_1_fr": "Chirac (RPR) 19,9% | Le Pen père (FN) 16,9% | Jospin (PS) éliminé 16,2%",
+          "round_2_fr": "Chirac 82,2% vs Le Pen 17,8% (front républicain massif)",
+          "winner": "Jacques Chirac",
+          "status": "verified"
+        },
+        {
+          "year": 2007,
+          "round_1_fr": "Sarkozy (UMP) 31,2% | Royal (PS) 25,9%",
+          "round_2_fr": "Sarkozy 53,1% vs Royal 46,9%",
+          "winner": "Nicolas Sarkozy",
+          "status": "verified"
+        },
+        {
+          "year": 2012,
+          "round_1_fr": "Hollande (PS) 28,6% | Sarkozy (UMP) 27,2%",
+          "round_2_fr": "Hollande 51,6% vs Sarkozy 48,4%",
+          "winner": "François Hollande",
+          "status": "verified"
+        },
+        {
+          "year": 2017,
+          "round_1_fr": "Macron (LREM) 24,0% | Le Pen (RN) 21,3% | Fillon (LR) 20,0% | Mélenchon (LFI) 19,6%",
+          "round_2_fr": "Macron 66,1% vs Le Pen 33,9%",
+          "winner": "Emmanuel Macron",
+          "status": "verified"
+        },
+        {
+          "year": 2022,
+          "round_1_fr": "Macron (LREM/Renaissance) 27,8% | Le Pen (RN) 23,2% | Mélenchon (LFI) 22,0%",
+          "round_2_fr": "Macron 58,5% vs Le Pen 41,5%",
+          "winner": "Emmanuel Macron (2e mandat)",
+          "status": "verified"
+        }
+      ],
+
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles", "📎 SOURCE: https://www.vie-publique.fr/fiches/19596-comment-se-deroule-lelection-presidentielle"],
+      "status": "verified"
+    },
+
+    {
+      "id": "elections-legislatives",
+      "name_fr": "Élections législatives",
+      "name_en": "Legislative elections",
+      "elects_fr": "577 députés de l'Assemblée nationale",
+      "elects_en": "577 deputies of the National Assembly",
+      "frequency_years": 5,
+      "system_fr": "Scrutin uninominal majoritaire à deux tours, par circonscription",
+      "system_en": "Two-round majority vote (single candidate), by constituency",
+      "constituency_fr": "577 circonscriptions (dont 11 pour les Français établis hors de France)",
+      "constituency_en": "577 constituencies (including 11 for French citizens abroad)",
+      "last_held": "Juillet 2024 (dissolution anticipée)",
+      "next_scheduled": "Juin 2027 (sauf dissolution)",
+
+      "how_it_works": {
+        "round_1": {
+          "title_fr": "Premier tour",
+          "title_en": "First round",
+          "win_condition_fr": "Élu directement si obtention de la majorité absolue des suffrages exprimés ET au moins 25% des inscrits",
+          "win_condition_en": "Elected directly with absolute majority of votes cast AND at least 25% of registered voters",
+          "qualify_for_round_2_fr": "Se qualifient pour le second tour tous les candidats ayant obtenu au moins 12,5% des inscrits. Si moins de 2 candidats atteignent ce seuil, les 2 premiers se qualifient automatiquement.",
+          "qualify_for_round_2_en": "All candidates with at least 12.5% of registered voters qualify for the second round. If fewer than 2 reach this threshold, the top 2 qualify automatically.",
+          "three_way_race_fr": "Quand trois candidats se qualifient au second tour, on parle de 'triangulaire'. Quand quatre ou plus se qualifient, on parle de 'quadrangulaire' (très rare).",
+          "three_way_race_en": "When three candidates qualify for the second round, it's called a 'triangulaire'. Four or more is a 'quadrangulaire' (very rare).",
+          "status": "verified"
+        },
+        "round_2": {
+          "title_fr": "Second tour (une semaine après le 1er tour)",
+          "title_en": "Second round (one week after the 1st round)",
+          "win_condition_fr": "Le candidat obtenant le plus de suffrages exprimés est élu (majorité relative). En cas d'égalité parfaite, le plus âgé est élu.",
+          "win_condition_en": "The candidate with the most votes is elected (relative majority). In the event of a tie, the older candidate wins.",
+          "desistement_fr": "Les candidats qualifiés peuvent se désister avant le second tour, stratégiquement, pour concentrer les votes sur un autre candidat.",
+          "desistement_en": "Qualified candidates may withdraw before the second round to consolidate votes behind another candidate.",
+          "status": "verified"
+        }
+      },
+
+      "key_rules": [
+        {
+          "rule_fr": "Un député ne peut cumuler son mandat avec certaines fonctions exécutives locales (loi sur le non-cumul des mandats, entrée en vigueur en 2017)",
+          "rule_en": "A deputy cannot simultaneously hold their seat with certain local executive offices (anti-dual mandate law, in force since 2017)",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Les partis recevant un financement public doivent respecter la parité hommes/femmes dans leurs investitures (sous peine de réduction du financement)",
+          "rule_en": "Parties receiving public funding must respect gender parity in candidate nominations (or face reduced funding)",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "En cas de dissolution, de nouvelles élections ont lieu entre 20 et 40 jours après la dissolution",
+          "rule_en": "Following a dissolution, new elections are held between 20 and 40 days afterward",
+          "article": "Article 12",
+          "status": "verified"
+        }
+      ],
+
+      "notable_elections": [
+        {
+          "year": 2017,
+          "note_fr": "Victoire massive de LREM (308 sièges sur 577 avec ses alliés). Renouvellement massif de l'Assemblée, nombreux élus sans expérience politique.",
+          "note_en": "Massive LREM victory (308 seats out of 577 with allies). Sweeping renewal of the Assembly, many deputies with no prior political experience.",
+          "status": "verified"
+        },
+        {
+          "year": 2022,
+          "note_fr": "Ensemble (Macron) perd la majorité absolue (245 sièges). NUPES (union de gauche) obtient 151 sièges. RN fait une percée historique avec 89 sièges. Gouvernement en situation de majorité relative.",
+          "note_en": "Ensemble (Macron) loses absolute majority (245 seats). NUPES (left-wing union) wins 151 seats. RN makes a historic breakthrough with 89 seats. Government in minority situation.",
+          "status": "verified"
+        },
+        {
+          "year": 2024,
+          "note_fr": "Après dissolution surprise par Macron en juin 2024 suite aux européennes, le NFP (Nouveau Front Populaire) arrive en tête avec ~193 sièges, suivi d'Ensemble (~164) et du RN (~143). Assemblée très fragmentée, sans majorité claire.",
+          "note_en": "After Macron's surprise dissolution in June 2024 following the European elections, the NFP (New Popular Front) leads with ~193 seats, followed by Ensemble (~164) and RN (~143). Highly fragmented Assembly with no clear majority.",
+          "status": "verified"
+        }
+      ],
+
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-elections-legislatives", "📎 SOURCE: https://www.vie-publique.fr/fiches/19601-comment-se-deroulent-les-elections-legislatives"],
+      "status": "verified"
+    },
+
+    {
+      "id": "elections-senatoriales",
+      "name_fr": "Élections sénatoriales",
+      "name_en": "Senate elections",
+      "elects_fr": "348 sénateurs",
+      "elects_en": "348 senators",
+      "frequency_years": 3,
+      "renewal_fr": "Renouvelé par moitié tous les 3 ans (les 348 sénateurs se répartissent en deux séries)",
+      "renewal_en": "Renewed by half every 3 years (348 senators split into two series)",
+      "system_fr": "Suffrage universel indirect. Le mode de scrutin varie selon la taille du département.",
+      "system_en": "Indirect universal suffrage. The voting method varies depending on the department size.",
+      "electors_fr": "Environ 162 000 grands électeurs : maires, conseillers municipaux (la majorité), conseillers départementaux et régionaux, et parlementaires.",
+      "electors_en": "Approximately 162,000 electors: mayors, municipal councillors (the majority), departmental and regional councillors, and parliamentarians.",
+
+      "how_it_works": {
+        "small_departments": {
+          "threshold_fr": "Départements élisant 1 ou 2 sénateurs",
+          "threshold_en": "Departments electing 1 or 2 senators",
+          "system_fr": "Scrutin majoritaire à deux tours (même principe que les législatives, mais par les grands électeurs)",
+          "system_en": "Two-round majority vote (same principle as legislative elections, but by electors)",
+          "status": "verified"
+        },
+        "large_departments": {
+          "threshold_fr": "Départements élisant 3 sénateurs ou plus",
+          "threshold_en": "Departments electing 3 or more senators",
+          "system_fr": "Scrutin de liste à la représentation proportionnelle (à la plus forte moyenne)",
+          "system_en": "List system with proportional representation (highest average method)",
+          "status": "verified"
+        }
+      },
+
+      "key_characteristics": [
+        {
+          "note_fr": "Les sénateurs ne peuvent pas être dissous par le Président de la République",
+          "note_en": "Senators cannot be dissolved by the President",
+          "status": "verified"
+        },
+        {
+          "note_fr": "Le Sénat est structurellement plus à droite que l'Assemblée, du fait de la surreprésentation des communes rurales dans le collège électoral",
+          "note_en": "The Senate is structurally more right-leaning than the Assembly, due to the over-representation of rural municipalities in the electoral college",
+          "status": "verified"
+        },
+        {
+          "note_fr": "Pour être candidat, il faut avoir au moins 24 ans",
+          "note_en": "Candidates must be at least 24 years old",
+          "status": "verified"
+        }
+      ],
+
+      "sources": ["📎 SOURCE: https://www.senat.fr/role/role_senat.html", "📎 SOURCE: https://www.vie-publique.fr/fiches/comment-sont-elus-les-senateurs"],
+      "status": "verified"
+    },
+
+    {
+      "id": "elections-europeennes",
+      "name_fr": "Élections européennes",
+      "name_en": "European Parliament elections",
+      "elects_fr": "Eurodéputés français au Parlement européen",
+      "elects_en": "French MEPs to the European Parliament",
+      "seats_approx": 81,
+      "seats_note_fr": "La France dispose de 81 sièges au Parlement européen pour la législature 2024-2029.",
+      "seats_note_en": "France holds 81 seats in the European Parliament for the 2024-2029 legislature.",
+      "frequency_years": 5,
+      "last_held": "Juin 2024",
+      "next_scheduled": "Juin 2029",
+      "system_fr": "Scrutin de liste proportionnel à un tour, à la plus forte moyenne (méthode de Jefferson/D'Hondt). Circonscription nationale unique depuis 2018.",
+      "system_en": "Single-round proportional list vote (Jefferson/D'Hondt method). Single national constituency since 2018.",
+
+      "key_rules": [
+        {
+          "rule_fr": "Seuil de 5% des suffrages exprimés pour obtenir des sièges",
+          "rule_en": "5% threshold of votes cast to win seats",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Circonscription nationale unique depuis 2018 (remplace les 8 grandes circonscriptions régionales en vigueur de 2003 à 2018)",
+          "rule_en": "Single national constituency since 2018 (replaces the 8 regional constituencies used from 2003 to 2018)",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Les ressortissants de l'UE résidant en France peuvent voter (et se présenter) à ces élections",
+          "rule_en": "EU citizens residing in France can vote (and run) in these elections",
+          "status": "verified"
+        }
+      ],
+
+      "result_2024_fr": "RN (Jordan Bardella) 31,4% · Renaissance (Valérie Hayer) 14,6% · PS-Place Publique (Raphaël Glucksmann) 13,8% · LFI (Manon Aubry) 9,9% · LR (François-Xavier Bellamy) 7,3% · Les Écologistes (Marie Toussaint) 5,5% · Reconquête! (Marion Maréchal) 5,5%. Le RN arrive largement en tête, ce qui pousse Macron à dissoudre l'Assemblée nationale dans la foulée.",
+      "result_2024_en": "RN (Jordan Bardella) 31.4% · Renaissance (Valérie Hayer) 14.6% · PS-Place Publique (Raphaël Glucksmann) 13.8% · LFI (Manon Aubry) 9.9% · LR (François-Xavier Bellamy) 7.3% · The Ecologists (Marie Toussaint) 5.5% · Reconquête! (Marion Maréchal) 5.5%. RN comes out comfortably ahead, leading Macron to dissolve the National Assembly shortly after.",
+      "result_2024_status": "verified",
+
+      "sources": ["📎 SOURCE: https://www.europarl.europa.eu/france/fr/", "📎 SOURCE: https://www.vie-publique.fr/fiches/comment-se-deroulent-les-elections-europeennes"],
+      "status": "verified"
+    },
+
+    {
+      "id": "elections-regionales",
+      "name_fr": "Élections régionales",
+      "name_en": "Regional elections",
+      "elects_fr": "Conseillers régionaux (et Président de région)",
+      "elects_en": "Regional councillors (and regional President)",
+      "frequency_years": 6,
+      "last_held": "Juin 2021",
+      "next_scheduled": "2027",
+      "system_fr": "Scrutin de liste à deux tours avec prime majoritaire. La liste arrivée en tête au second tour remporte automatiquement le quart des sièges (prime majoritaire), puis les sièges restants sont répartis à la proportionnelle entre toutes les listes ayant obtenu au moins 5% des suffrages exprimés.",
+      "system_en": "Two-round list vote with a majority bonus. The leading list at the second round automatically wins a quarter of seats (majority bonus), then remaining seats are distributed proportionally among all lists with at least 5% of the vote.",
+
+      "key_rules": [
+        {
+          "rule_fr": "Pour se maintenir au second tour : avoir obtenu au moins 5% des suffrages exprimés au premier tour",
+          "rule_en": "To qualify for the second round: at least 5% of votes cast in the first round",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Pour fusionner avec d'autres listes entre les deux tours : avoir obtenu au moins 5%",
+          "rule_en": "To merge with other lists between rounds: at least 5% required",
+          "status": "verified"
+        },
+        {
+          "rule_fr": "Listes composées en alternance homme/femme (parité stricte)",
+          "rule_en": "Lists must alternate man/woman (strict parity)",
+          "status": "verified"
+        }
+      ],
+
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/comment-se-deroulent-les-elections-regionales"],
+      "status": "verified"
+    },
+
+    {
+      "id": "elections-departementales",
+      "name_fr": "Élections départementales",
+      "name_en": "Departmental elections",
+      "elects_fr": "Conseillers départementaux",
+      "elects_en": "Departmental councillors",
+      "frequency_years": 6,
+      "last_held": "Juin 2021",
+      "next_scheduled": "2027",
+      "system_fr": "Scrutin binominal majoritaire à deux tours. Les candidats se présentent obligatoirement par binôme (un homme et une femme) dans chaque canton. Le binôme obtenant la majorité absolue au premier tour (ou le plus de voix au second) remporte les deux sièges du canton.",
+      "system_en": "Binomial two-round majority vote. Candidates must stand as a pair (one man, one woman) in each canton. The pair winning an absolute majority in round 1 (or most votes in round 2) wins both seats.",
+      "reform_note_fr": "Ce système binominal a été instauré par la loi du 17 mai 2013, remplaçant l'ancien scrutin uninominal dans les cantons (qui produisait une forte inégalité hommes/femmes).",
+      "reform_note_en": "This binomial system was introduced by the law of May 17, 2013, replacing the previous single-candidate system per canton (which produced strong gender imbalance).",
+      "status": "verified",
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/comment-se-deroulent-les-elections-departementales"]
+    },
+
+    {
+      "id": "elections-municipales",
+      "name_fr": "Élections municipales",
+      "name_en": "Municipal elections",
+      "elects_fr": "Conseillers municipaux (et Maire)",
+      "elects_en": "Municipal councillors (and Mayor)",
+      "frequency_years": 6,
+      "last_held": "Mars 2020",
+      "next_scheduled": "2026",
+      "system_varies": true,
+      "systems": [
+        {
+          "applies_to_fr": "Communes de moins de 1 000 habitants",
+          "applies_to_en": "Municipalities with fewer than 1,000 inhabitants",
+          "system_fr": "Scrutin plurinominal majoritaire à deux tours. Les électeurs peuvent voter pour des candidats individuels, sur des listes ou panacher (choisir des candidats de différentes listes). Pas d'obligation de liste.",
+          "system_en": "Multi-candidate majority vote, two rounds. Voters can vote for individual candidates, lists, or mix candidates across lists (panachage). No list requirement.",
+          "status": "verified"
+        },
+        {
+          "applies_to_fr": "Communes de 1 000 habitants et plus",
+          "applies_to_en": "Municipalities with 1,000+ inhabitants",
+          "system_fr": "Scrutin de liste à deux tours avec prime majoritaire (même principe que les régionales). La liste gagnante obtient la moitié des sièges, l'autre moitié est répartie proportionnellement.",
+          "system_en": "Two-round list vote with majority bonus (same principle as regional elections). The winning list gets half the seats, the other half is distributed proportionally.",
+          "status": "verified"
+        }
+      ],
+      "mayor_election_fr": "Le Maire est élu par les conseillers municipaux lors du premier conseil municipal suivant les élections.",
+      "mayor_election_en": "The Mayor is elected by the municipal councillors at the first council meeting following the elections.",
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/comment-se-deroulent-les-elections-municipales"],
+      "status": "verified"
+    },
+
+    {
+      "id": "referendum",
+      "name_fr": "Référendum",
+      "name_en": "Referendum",
+      "description_fr": "Procédure par laquelle les citoyens sont directement consultés sur un texte de loi ou une révision constitutionnelle. Rare sous la Ve République.",
+      "description_en": "Procedure by which citizens are directly consulted on a bill or constitutional revision. Rare under the Fifth Republic.",
+
+      "types": [
+        {
+          "type": "Article 11",
+          "name_fr": "Référendum législatif",
+          "name_en": "Legislative referendum",
+          "description_fr": "Permet au Président de soumettre un projet de loi à référendum sur proposition du gouvernement (pendant les sessions) ou des deux chambres réunies. Porte sur l'organisation des pouvoirs publics, les réformes économiques ou sociales, les ratifications de traités.",
+          "description_en": "Allows the President to submit a bill to referendum on the government's proposal (during sessions) or a joint parliamentary proposal. Covers organization of public powers, economic/social reforms, treaty ratifications.",
+          "examples_fr": ["1962 : Élection du président au suffrage universel direct (De Gaulle)", "1972 : Élargissement de la CEE", "1992 : Traité de Maastricht (oui à 51%)", "2000 : Quinquennat"],
+          "status": "verified"
+        },
+        {
+          "type": "Article 89",
+          "name_fr": "Référendum constituant",
+          "name_en": "Constitutional referendum",
+          "description_fr": "Une révision constitutionnelle peut être soumise au référendum après adoption par les deux chambres en termes identiques. Alternative : adoption par le Congrès (réunion des deux chambres) à la majorité des 3/5.",
+          "description_en": "A constitutional revision can be submitted to referendum after adoption by both chambers in identical terms. Alternative: adoption by Congress (joint session) with 3/5 majority.",
+          "status": "verified"
+        },
+        {
+          "type": "RIP",
+          "name_fr": "Référendum d'initiative partagée (RIP)",
+          "name_en": "Shared-initiative referendum",
+          "description_fr": "Introduit par la révision constitutionnelle de 2008. Peut être déclenché par 1/5 des parlementaires soutenu par 1/10 des électeurs inscrits. Si les conditions sont réunies, le Parlement doit examiner la proposition. Si non examinée dans les 6 mois, un référendum peut être organisé.",
+          "description_en": "Introduced by the 2008 constitutional revision. Can be triggered by 1/5 of parliamentarians supported by 1/10 of registered voters. If conditions are met, Parliament must examine the proposal. If not examined within 6 months, a referendum may be held.",
+          "note_fr": "N'a jamais abouti à un référendum depuis sa création en 2008.",
+          "note_en": "Has never resulted in a referendum since its creation in 2008.",
+          "status": "verified"
+        }
+      ],
+
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-referendums", "📎 SOURCE: https://www.vie-publique.fr/fiches/le-referendum-en-france"],
+      "status": "verified"
+    }
+
+  ],
+
+  "election_calendar": {
+    "title_fr": "Calendrier électoral français (cycles normaux)",
+    "title_en": "French electoral calendar (normal cycles)",
+    "note_fr": "Les mandats peuvent être écourtés (dissolution pour l'AN) ou décalés. Ce tableau montre les cycles normaux.",
+    "note_en": "Terms can be cut short (dissolution for the AN) or shifted. This table shows normal cycles.",
+    "cycles": [
+      { "election_fr": "Présidentielle", "election_en": "Presidential", "frequency": "5 ans", "last": "2022", "next_normal": "2027" },
+      { "election_fr": "Législatives", "election_en": "Legislative", "frequency": "5 ans", "last": "2024", "next_normal": "2029 (sauf dissolution)" },
+      { "election_fr": "Européennes", "election_en": "European", "frequency": "5 ans", "last": "2024", "next_normal": "2029" },
+      { "election_fr": "Régionales", "election_en": "Regional", "frequency": "6 ans", "last": "2021", "next_normal": "2027" },
+      { "election_fr": "Départementales", "election_en": "Departmental", "frequency": "6 ans", "last": "2021", "next_normal": "2027" },
+      { "election_fr": "Municipales", "election_en": "Municipal", "frequency": "6 ans", "last": "2020", "next_normal": "2026" },
+      { "election_fr": "Sénatoriales (série 1)", "election_en": "Senate (series 1)", "frequency": "6 ans", "last": "2023", "next_normal": "2029" },
+      { "election_fr": "Sénatoriales (série 2)", "election_en": "Senate (series 2)", "frequency": "6 ans", "last": "2026", "next_normal": "2032" }
+    ],
+    "status": "verified"
+  }
+}

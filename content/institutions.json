@@ -1,0 +1,668 @@
+﻿{
+  "_meta": {
+    "section": "institutions",
+    "language_primary": "fr",
+    "language_secondary": "en",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Content confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    },
+    "diagram_hint": "This file is structured to support a hierarchical diagram: executive (top) → legislative (checks executive) → judiciary (checks both) → territorial (below all)"
+  },
+
+  "institutions": [
+
+    {
+      "id": "presidence",
+      "name_fr": "Présidence de la République",
+      "name_en": "Presidency of the Republic",
+      "branch": "executive",
+      "level": "national",
+      "location_fr": "Palais de l'Élysée, Paris (8e)",
+      "location_en": "Élysée Palace, Paris",
+      "role_fr": "Le Président de la République est le chef de l'État. Il veille au respect de la Constitution, assure la continuité de l'État, est garant de l'indépendance nationale et de l'intégrité du territoire. Il incarne la France dans les relations internationales.",
+      "role_en": "The President is head of state. They ensure the Constitution is respected, guarantee the continuity of the state, and represent France internationally.",
+      "composition": {
+        "members": 1,
+        "title_fr": "Président de la République",
+        "title_en": "President of the Republic"
+      },
+      "selection": {
+        "method_fr": "Élection au suffrage universel direct, scrutin uninominal majoritaire à deux tours",
+        "method_en": "Direct universal suffrage, two-round majority system",
+        "elected_by_fr": "Tous les citoyens français de 18 ans et plus inscrits sur les listes électorales",
+        "elected_by_en": "All French citizens 18+ registered to vote"
+      },
+      "term": {
+        "duration_years": 5,
+        "name_fr": "Quinquennat",
+        "renewable": "once_consecutively",
+        "note_fr": "Instauré par référendum en septembre 2000, remplaçant le septennat (7 ans). La limitation à deux mandats consécutifs est inscrite dans la Constitution depuis la révision du 23 juillet 2008 (Article 6 : 'Nul ne peut exercer plus de deux mandats consécutifs').",
+        "note_en": "Established by referendum in September 2000, replacing the 7-year septennat. The two-consecutive-term limit was enshrined in the Constitution by the July 23, 2008 revision (Article 6: 'No one may serve more than two consecutive terms').",
+        "status": "verified"
+      },
+      "key_powers": [
+        {
+          "power_fr": "Nomme le Premier ministre",
+          "power_en": "Appoints the Prime Minister",
+          "article": "Article 8",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Préside le Conseil des ministres",
+          "power_en": "Chairs the Council of Ministers",
+          "article": "Article 9",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Dissout l'Assemblée nationale (sauf dans les 12 mois suivant une dissolution précédente)",
+          "power_en": "Dissolves the National Assembly (not within 12 months of a previous dissolution)",
+          "article": "Article 12",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Promulgue les lois dans les 15 jours suivant leur adoption",
+          "power_en": "Promulgates laws within 15 days of their adoption",
+          "article": "Article 10",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Peut soumettre un projet de loi au référendum (sur proposition du gouvernement ou des deux chambres)",
+          "power_en": "May submit a bill to referendum (on government or joint parliamentary proposal)",
+          "article": "Article 11",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Dispose des pouvoirs exceptionnels en cas de crise grave (utilisé une seule fois en 1961)",
+          "power_en": "Holds emergency powers in serious crises (used only once, in 1961)",
+          "article": "Article 16",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Est le chef des armées",
+          "power_en": "Is commander-in-chief of the armed forces",
+          "article": "Article 15",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Nomme 3 des 9 membres du Conseil constitutionnel (dont son président)",
+          "power_en": "Appoints 3 of the 9 members of the Constitutional Council (including its president)",
+          "article": "Article 56",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Négocie et ratifie les traités internationaux",
+          "power_en": "Negotiates and ratifies international treaties",
+          "article": "Article 52",
+          "status": "verified"
+        }
+      ],
+      "constraints": [
+        {
+          "constraint_fr": "Ne peut pas dissoudre le Sénat",
+          "constraint_en": "Cannot dissolve the Senate",
+          "status": "verified"
+        },
+        {
+          "constraint_fr": "Doit nommer un Premier ministre capable d'avoir la confiance de l'Assemblée nationale (contrainte de fait, non constitutionnelle)",
+          "constraint_en": "Must appoint a PM capable of holding the Assembly's confidence (practical constraint, not written in the Constitution)",
+          "status": "verified"
+        },
+        {
+          "constraint_fr": "Ne peut pas légiférer seul (hors Article 16)",
+          "constraint_en": "Cannot legislate alone (except under Article 16)",
+          "status": "verified"
+        }
+      ],
+      "sources": ["📎 SOURCE: https://www.elysee.fr/la-presidence/le-role-du-president-de-la-republique", "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"],
+      "status": "verified"
+    },
+
+    {
+      "id": "gouvernement",
+      "name_fr": "Gouvernement (Premier ministre & Cabinet)",
+      "name_en": "Government (Prime Minister & Cabinet)",
+      "branch": "executive",
+      "level": "national",
+      "location_fr": "Hôtel de Matignon, Paris (7e)",
+      "location_en": "Hôtel de Matignon, Paris",
+      "role_fr": "Le gouvernement détermine et conduit la politique de la Nation. Il est responsable devant l'Assemblée nationale. Le Premier ministre dirige l'action du gouvernement et assure l'exécution des lois. Il dispose du pouvoir réglementaire général.",
+      "role_en": "The government determines and conducts national policy. It is accountable to the National Assembly. The Prime Minister leads government action and ensures laws are implemented. They hold general regulatory power.",
+      "composition": {
+        "prime_minister": 1,
+        "ministers_fr": "Nombre variable selon les gouvernements (généralement entre 15 et 40 membres : ministres, ministres délégués, secrétaires d'État)",
+        "ministers_en": "Variable number depending on the government (typically 15–40 members: ministers, junior ministers, secretaries of state)"
+      },
+      "selection": {
+        "pm_appointed_by_fr": "Nommé par le Président de la République (Article 8). En pratique, il doit refléter la majorité parlementaire.",
+        "pm_appointed_by_en": "Appointed by the President (Article 8). In practice, must reflect the parliamentary majority.",
+        "ministers_appointed_by_fr": "Nommés par le Président sur proposition du Premier ministre",
+        "ministers_appointed_by_en": "Appointed by the President on the Prime Minister's recommendation"
+      },
+      "term": {
+        "duration_fr": "Pas de durée fixe. Le gouvernement démissionne à la demande du Président, après une motion de censure adoptée, ou après des élections présidentielles/législatives.",
+        "duration_en": "No fixed term. The government resigns at the President's request, after a successful motion of no confidence, or following presidential/legislative elections."
+      },
+      "key_powers": [
+        {
+          "power_fr": "Dépose des projets de loi devant le Parlement",
+          "power_en": "Submits bills to Parliament",
+          "article": "Article 39",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Prend des décrets et ordonnances",
+          "power_en": "Issues decrees and ordinances",
+          "article": "Articles 13, 21, 38",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Peut engager sa responsabilité sur un texte (49-3)",
+          "power_en": "Can stake its survival on a bill (49-3)",
+          "article": "Article 49 alinéa 3",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Détermine l'ordre du jour prioritaire du Parlement",
+          "power_en": "Sets the priority legislative agenda in Parliament",
+          "article": "Article 48",
+          "status": "verified"
+        }
+      ],
+      "accountability_fr": "Responsable devant l'Assemblée nationale : peut être renversé par une motion de censure (Article 49). N'est pas responsable devant le Sénat.",
+      "accountability_en": "Accountable to the National Assembly: can be brought down by a motion of no confidence (Article 49). Not accountable to the Senate.",
+      "sources": ["📎 SOURCE: https://www.gouvernement.fr/le-premier-ministre", "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"],
+      "status": "verified"
+    },
+
+    {
+      "id": "assemblee-nationale",
+      "name_fr": "Assemblée nationale",
+      "name_en": "National Assembly",
+      "branch": "legislative",
+      "level": "national",
+      "location_fr": "Palais Bourbon, Paris (7e)",
+      "location_en": "Palais Bourbon, Paris",
+      "role_fr": "Chambre basse du Parlement français. Vote les lois, vote le budget, contrôle l'action du gouvernement. En cas de désaccord persistant avec le Sénat, elle a le dernier mot sur les textes de loi.",
+      "role_en": "Lower house of the French Parliament. Passes laws, votes on the budget, scrutinizes the government. Has the final say over the Senate in legislative disputes.",
+      "composition": {
+        "total_members": 577,
+        "title_fr": "Députés",
+        "title_en": "Deputies",
+        "breakdown_fr": "577 circonscriptions (dont 11 pour les Français établis hors de France)",
+        "breakdown_en": "577 constituencies (including 11 for French citizens abroad)"
+      },
+      "selection": {
+        "method_fr": "Suffrage universel direct, scrutin uninominal majoritaire à deux tours",
+        "method_en": "Direct universal suffrage, two-round majority system"
+      },
+      "term": {
+        "duration_years": 5,
+        "note_fr": "Peut être raccourci par dissolution présidentielle (Article 12)",
+        "note_en": "Can be cut short by presidential dissolution (Article 12)"
+      },
+      "key_powers": [
+        {
+          "power_fr": "Vote les lois",
+          "power_en": "Passes laws",
+          "article": "Article 34",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Vote le budget et les lois de financement de la sécurité sociale",
+          "power_en": "Votes on the budget and social security finance bills",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Renverse le gouvernement via une motion de censure",
+          "power_en": "Can bring down the government via a motion of no confidence",
+          "article": "Article 49",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Contrôle l'action du gouvernement (questions au gouvernement, commissions d'enquête)",
+          "power_en": "Scrutinizes government action (questions to government, investigative committees)",
+          "status": "verified"
+        },
+        {
+          "power_fr": "A le dernier mot en cas de désaccord avec le Sénat (hors révisions constitutionnelles)",
+          "power_en": "Has the final say in disagreements with the Senate (except constitutional revisions)",
+          "status": "verified"
+        }
+      ],
+      "internal_organization_fr": "Présidée par un Président de l'Assemblée nationale (élu par les députés). Organisée en groupes politiques (minimum 15 députés pour former un groupe). Travaille en commissions permanentes thématiques.",
+      "internal_organization_en": "Led by a President of the National Assembly (elected by deputies). Organized into political groups (minimum 15 deputies). Works through thematic standing committees.",
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale"],
+      "status": "verified"
+    },
+
+    {
+      "id": "senat",
+      "name_fr": "Sénat",
+      "name_en": "Senate",
+      "branch": "legislative",
+      "level": "national",
+      "location_fr": "Palais du Luxembourg, Paris (6e)",
+      "location_en": "Palais du Luxembourg, Paris",
+      "role_fr": "Chambre haute du Parlement. Représente les collectivités territoriales. Examine et amende les textes de loi. En cas de désaccord persistant avec l'Assemblée nationale, cette dernière a le dernier mot (sauf pour les révisions constitutionnelles).",
+      "role_en": "Upper house of Parliament. Represents territorial communities. Examines and amends legislation. In persistent disagreements with the National Assembly, the Assembly has the final say (except for constitutional revisions).",
+      "composition": {
+        "total_members": 348,
+        "title_fr": "Sénateurs",
+        "title_en": "Senators",
+        "note_fr": "348 sénateurs depuis 2011 (contre 343 auparavant)",
+        "note_en": "348 senators since 2011 (previously 343)"
+      },
+      "selection": {
+        "method_fr": "Suffrage universel indirect. Élus par un collège d'environ 162 000 grands électeurs composé principalement d'élus locaux (conseillers municipaux, conseillers départementaux, conseillers régionaux, députés).",
+        "method_en": "Indirect universal suffrage. Elected by a college of approximately 162,000 electors, mainly local elected officials.",
+        "status": "verified"
+      },
+      "term": {
+        "duration_years": 6,
+        "renewal_fr": "Renouvelé par moitié tous les 3 ans",
+        "renewal_en": "Renewed by half every 3 years",
+        "note_fr": "Les sénateurs ne peuvent pas être dissous par le Président",
+        "note_en": "Senators cannot be dissolved by the President"
+      },
+      "key_powers": [
+        {
+          "power_fr": "Examine et amende les projets et propositions de loi",
+          "power_en": "Examines and amends bills",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Doit obligatoirement voter les révisions constitutionnelles (à la majorité des 3/5) ou participer au Congrès",
+          "power_en": "Must vote on constitutional revisions (3/5 majority) or participate in Congress",
+          "article": "Article 89",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Son président assure l'intérim de la présidence de la République",
+          "power_en": "Its president serves as acting President of the Republic in case of vacancy",
+          "article": "Article 7",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Peut saisir le Conseil constitutionnel",
+          "power_en": "Can refer laws to the Constitutional Council",
+          "status": "verified"
+        }
+      ],
+      "limits_fr": "Le Sénat ne peut pas renverser le gouvernement (pas de motion de censure). En cas de blocage législatif, l'Assemblée nationale a le dernier mot sur les lois ordinaires.",
+      "limits_en": "The Senate cannot bring down the government (no motion of no confidence). In legislative deadlock, the National Assembly has the final say on ordinary laws.",
+      "sources": ["📎 SOURCE: https://www.senat.fr/role/index.html"],
+      "status": "verified"
+    },
+
+    {
+      "id": "conseil-constitutionnel",
+      "name_fr": "Conseil constitutionnel",
+      "name_en": "Constitutional Council",
+      "branch": "judiciary",
+      "level": "national",
+      "location_fr": "Palais-Royal, Paris (1er)",
+      "location_en": "Palais-Royal, Paris",
+      "role_fr": "Garant du respect de la Constitution. Contrôle la constitutionnalité des lois avant leur promulgation (contrôle a priori) et depuis 2008, après leur adoption via la QPC (contrôle a posteriori). Tranche également les conflits électoraux.",
+      "role_en": "Guardian of constitutional compliance. Reviews laws for constitutionality before promulgation (a priori review) and since 2008, after adoption via the QPC procedure (a posteriori review). Also rules on electoral disputes.",
+      "composition": {
+        "total_members": 9,
+        "appointed_by": [
+          {
+            "appointer_fr": "Président de la République",
+            "appointer_en": "President of the Republic",
+            "count": 3,
+            "includes_fr": "dont le Président du Conseil constitutionnel",
+            "includes_en": "including the Council's President"
+          },
+          {
+            "appointer_fr": "Président de l'Assemblée nationale",
+            "appointer_en": "President of the National Assembly",
+            "count": 3
+          },
+          {
+            "appointer_fr": "Président du Sénat",
+            "appointer_en": "President of the Senate",
+            "count": 3
+          }
+        ],
+        "ex_officio_fr": "Les anciens Présidents de la République sont membres de droit à vie (mais rarement siègent)",
+        "ex_officio_en": "Former Presidents of the Republic are ex officio lifetime members (but rarely sit)"
+      },
+      "term": {
+        "duration_years": 9,
+        "renewable": false,
+        "renewal_fr": "Renouvelé par tiers tous les 3 ans",
+        "renewal_en": "Renewed by a third every 3 years"
+      },
+      "key_powers": [
+        {
+          "power_fr": "Contrôle la constitutionnalité des lois organiques et des lois ordinaires (si saisi)",
+          "power_en": "Reviews constitutionality of organic and ordinary laws (when referred)",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Statue sur la QPC (Question Prioritaire de Constitutionnalité) depuis 2008",
+          "power_en": "Rules on Priority Constitutional Questions (QPC) since 2008",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Veille à la régularité des élections présidentielles et législatives, et des référendums",
+          "power_en": "Oversees the regularity of presidential and legislative elections, and referendums",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Constate l'empêchement du Président de la République",
+          "power_en": "Certifies the President's incapacity to govern",
+          "article": "Article 7",
+          "status": "verified"
+        }
+      ],
+      "who_can_refer_fr": "Depuis 1974 : Président, Premier ministre, Présidents des chambres, ou 60 députés ou 60 sénateurs. Depuis 2008 : tout justiciable (via QPC).",
+      "who_can_refer_en": "Since 1974: President, PM, Presidents of chambers, or 60 deputies or senators. Since 2008: any litigant (via QPC).",
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/le-conseil-constitutionnel/presentation-du-conseil-constitutionnel"],
+      "status": "verified"
+    },
+
+    {
+      "id": "conseil-etat",
+      "name_fr": "Conseil d'État",
+      "name_en": "Council of State",
+      "branch": "judiciary",
+      "level": "national",
+      "location_fr": "Palais-Royal, Paris (1er)",
+      "location_en": "Palais-Royal, Paris",
+      "role_fr": "Double mission : juridictionnelle (plus haute juridiction de l'ordre administratif — juge les litiges entre citoyens et administration publique) et consultative (conseille le gouvernement sur les projets de loi et décrets).",
+      "role_en": "Dual role: judicial (highest court in the administrative legal order — adjudicates disputes between citizens and public administration) and advisory (advises the government on bills and decrees).",
+      "composition": {
+        "note_fr": "Composé de conseillers d'État (hauts fonctionnaires). Présidé par le Vice-Président du Conseil d'État (le Président officiel est le Premier ministre, par tradition, mais ne siège jamais).",
+        "note_en": "Composed of State Councillors (senior civil servants). Presided over by the Vice-President of the Council of State (the nominal president is the PM by tradition, but never sits).",
+        "status": "verified"
+      },
+      "key_powers": [
+        {
+          "power_fr": "Juge en appel ou en cassation les décisions des tribunaux administratifs et cours administratives d'appel",
+          "power_en": "Rules on appeal or cassation for decisions from administrative tribunals",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Donne son avis obligatoire sur tous les projets de loi du gouvernement",
+          "power_en": "Gives mandatory advisory opinions on all government bills",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Donne son avis sur les ordonnances et décrets importants",
+          "power_en": "Advises on major ordinances and decrees",
+          "status": "verified"
+        }
+      ],
+      "sources": ["📎 SOURCE: https://www.conseil-etat.fr/le-conseil-d-etat/missions"],
+      "status": "verified"
+    },
+
+    {
+      "id": "cour-de-cassation",
+      "name_fr": "Cour de cassation",
+      "name_en": "Court of Cassation",
+      "branch": "judiciary",
+      "level": "national",
+      "location_fr": "Palais de justice, Paris (1er)",
+      "location_en": "Palais de justice, Paris",
+      "role_fr": "Plus haute juridiction de l'ordre judiciaire (civil, commercial, social et pénal). Ne juge pas les faits, mais vérifie si la loi a été correctement appliquée par les juridictions inférieures. En cas d'erreur de droit, elle 'casse' la décision et renvoie l'affaire.",
+      "role_en": "Highest court in the judicial (non-administrative) legal order (civil, commercial, social, criminal). Does not rule on the facts but checks whether the law was correctly applied. If not, it 'quashes' the ruling and refers the case.",
+      "key_powers": [
+        {
+          "power_fr": "Unifie l'interprétation du droit sur tout le territoire",
+          "power_en": "Ensures uniform interpretation of law across the country",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Peut transmettre une QPC au Conseil constitutionnel",
+          "power_en": "Can refer a QPC to the Constitutional Council",
+          "status": "verified"
+        }
+      ],
+      "sources": ["📎 SOURCE: https://www.courdecassation.fr/la-cour/presentation/role-et-missions"],
+      "status": "verified"
+    },
+
+    {
+      "id": "cour-des-comptes",
+      "name_fr": "Cour des comptes",
+      "name_en": "Court of Auditors",
+      "branch": "judiciary",
+      "level": "national",
+      "location_fr": "Paris (1er)",
+      "location_en": "Paris",
+      "role_fr": "Juridiction financière chargée de contrôler l'utilisation des fonds publics par l'État, les collectivités locales et les organismes publics. Publie des rapports annuels et des rapports thématiques accessibles au public. Ne sanctionne pas directement, mais informe le Parlement et les citoyens.",
+      "role_en": "Financial court responsible for auditing the use of public funds by the state, local authorities, and public bodies. Publishes annual and thematic reports available to the public. Does not impose direct sanctions but informs Parliament and citizens.",
+      "key_powers": [
+        {
+          "power_fr": "Certifie les comptes de l'État et de la Sécurité sociale",
+          "power_en": "Certifies state and social security accounts",
+          "status": "verified"
+        },
+        {
+          "power_fr": "Publie des rapports d'évaluation des politiques publiques",
+          "power_en": "Publishes public policy evaluation reports",
+          "status": "verified"
+        }
+      ],
+      "sources": ["📎 SOURCE: https://www.ccomptes.fr/fr/cour-des-comptes/missions"],
+      "status": "verified"
+    },
+
+    {
+      "id": "organisation-territoriale",
+      "name_fr": "Organisation territoriale de la République",
+      "name_en": "Territorial organization of the Republic",
+      "branch": "territorial",
+      "level": "sub-national",
+      "role_fr": "La France est un État unitaire (mais décentralisé depuis les lois Defferre de 1982). Elle est divisée en plusieurs niveaux de collectivités territoriales disposant d'une autonomie administrative et financière.",
+      "role_en": "France is a unitary state (but decentralized since the 1982 Defferre laws). It is divided into several levels of territorial communities with administrative and financial autonomy.",
+      "levels": [
+        {
+          "id": "region",
+          "name_fr": "Région",
+          "name_en": "Region",
+          "count": 18,
+          "breakdown_fr": "13 régions métropolitaines + 5 régions d'outre-mer",
+          "breakdown_en": "13 metropolitan regions + 5 overseas regions",
+          "elected_body_fr": "Conseil régional (présidé par un Président de région élu par les conseillers régionaux)",
+          "elected_body_en": "Regional Council (chaired by a regional President elected by councillors)",
+          "responsibilities_fr": "Développement économique, formation professionnelle, lycées, transports régionaux",
+          "responsibilities_en": "Economic development, vocational training, high schools (lycées), regional transport",
+          "status": "verified"
+        },
+        {
+          "id": "departement",
+          "name_fr": "Département",
+          "name_en": "Department",
+          "count": 101,
+          "breakdown_fr": "96 départements métropolitains + 5 départements d'outre-mer",
+          "breakdown_en": "96 metropolitan + 5 overseas departments",
+          "elected_body_fr": "Conseil départemental (présidé par un Président de département)",
+          "elected_body_en": "Departmental Council (chaired by a departmental President)",
+          "responsibilities_fr": "Action sociale (RSA, aide aux personnes âgées), collèges, routes départementales",
+          "responsibilities_en": "Social welfare (housing benefit/RSA, elderly care), middle schools (collèges), departmental roads",
+          "status": "verified"
+        },
+        {
+          "id": "commune",
+          "name_fr": "Commune",
+          "name_en": "Municipality / Commune",
+          "count_approx": 34935,
+          "count_note_fr": "Environ 34 935 communes au 1er janvier 2024 (source INSEE), en légère baisse due aux fusions intercommunales.",
+          "count_note_en": "Approximately 34,935 communes as of January 1, 2024 (INSEE), slightly declining due to inter-municipal mergers.",
+          "elected_body_fr": "Conseil municipal (présidé par le Maire)",
+          "elected_body_en": "Municipal Council (chaired by the Mayor)",
+          "responsibilities_fr": "État civil, gestion locale (espaces publics, écoles primaires, permis de construire), police municipale",
+          "responsibilities_en": "Civil status, local management (public spaces, primary schools, building permits), municipal police",
+          "status": "verified"
+        }
+      ],
+      "prefet": {
+        "id": "prefet",
+        "name_fr": "Préfet",
+        "name_en": "Prefect",
+        "role_fr": "Représentant de l'État dans les départements et régions. Nommé en Conseil des ministres. Assure le respect des lois, l'ordre public et coordonne l'action de l'État sur le territoire. Contrôle la légalité des actes des collectivités (contrôle de légalité).",
+        "role_en": "Representative of the central state in departments and regions. Appointed in the Council of Ministers. Ensures laws are respected, maintains public order, and coordinates state action at local level. Reviews legality of local authority decisions.",
+        "status": "verified"
+      },
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/organisation-territoriale-de-la-republique-francaise", "📎 SOURCE: https://www.interieur.gouv.fr/Le-ministere/Prefectures"],
+      "status": "verified"
+    }
+
+  ],
+
+  "checks_and_balances": [
+    {
+      "from_fr": "Président de la République",
+      "from_en": "President",
+      "action_fr": "Peut dissoudre l'Assemblée nationale",
+      "action_en": "Can dissolve the National Assembly",
+      "target_fr": "Assemblée nationale",
+      "target_en": "National Assembly",
+      "article": "Article 12",
+      "status": "verified"
+    },
+    {
+      "from_fr": "Assemblée nationale",
+      "from_en": "National Assembly",
+      "action_fr": "Peut renverser le gouvernement (motion de censure)",
+      "action_en": "Can bring down the government (motion of no confidence)",
+      "target_fr": "Gouvernement",
+      "target_en": "Government",
+      "article": "Article 49",
+      "status": "verified"
+    },
+    {
+      "from_fr": "Conseil constitutionnel",
+      "from_en": "Constitutional Council",
+      "action_fr": "Peut invalider une loi votée par le Parlement si inconstitutionnelle",
+      "action_en": "Can invalidate a law passed by Parliament if unconstitutional",
+      "target_fr": "Parlement",
+      "target_en": "Parliament",
+      "status": "verified"
+    },
+    {
+      "from_fr": "Sénat",
+      "from_en": "Senate",
+      "action_fr": "Peut bloquer une révision constitutionnelle",
+      "action_en": "Can block a constitutional revision",
+      "target_fr": "Gouvernement & Assemblée nationale",
+      "target_en": "Government & National Assembly",
+      "article": "Article 89",
+      "status": "verified"
+    },
+    {
+      "from_fr": "60 députés ou 60 sénateurs",
+      "from_en": "60 deputies or 60 senators",
+      "action_fr": "Peuvent saisir le Conseil constitutionnel sur une loi",
+      "action_en": "Can refer a law to the Constitutional Council",
+      "target_fr": "Lois votées par le Parlement",
+      "target_en": "Laws passed by Parliament",
+      "status": "verified"
+    },
+    {
+      "from_fr": "Tout justiciable",
+      "from_en": "Any citizen/litigant",
+      "action_fr": "Peut contester la constitutionnalité d'une loi via une QPC",
+      "action_en": "Can challenge the constitutionality of a law via a QPC",
+      "target_fr": "Lois en vigueur",
+      "target_en": "Laws in force",
+      "article": "Article 61-1 (depuis 2008)",
+      "status": "verified"
+    },
+    {
+      "from_fr": "Cour des comptes",
+      "from_en": "Court of Auditors",
+      "action_fr": "Contrôle et publie l'utilisation des fonds publics",
+      "action_en": "Audits and publishes the use of public funds",
+      "target_fr": "Gouvernement & collectivités",
+      "target_en": "Government & local authorities",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_process": {
+    "title_fr": "Comment une loi est adoptée en France",
+    "title_en": "How a law is passed in France",
+    "steps": [
+      {
+        "step": 1,
+        "name_fr": "Initiative",
+        "name_en": "Initiative",
+        "description_fr": "Un texte peut être initié par le gouvernement ('projet de loi') ou par un parlementaire ('proposition de loi'). Les projets de loi du gouvernement sont d'abord soumis au Conseil d'État pour avis.",
+        "description_en": "A text can be initiated by the government ('bill' / projet de loi) or a parliamentarian ('private member's bill' / proposition de loi). Government bills are first sent to the Council of State for opinion.",
+        "status": "verified"
+      },
+      {
+        "step": 2,
+        "name_fr": "Examen en commission",
+        "name_en": "Committee examination",
+        "description_fr": "Le texte est examiné par une commission permanente compétente (ex. commission des finances, des lois...) qui peut l'amender avant la séance plénière.",
+        "description_en": "The text is reviewed by a relevant standing committee (e.g. finance, law) which can amend it before the plenary session.",
+        "status": "verified"
+      },
+      {
+        "step": 3,
+        "name_fr": "Première lecture (1ère chambre)",
+        "name_en": "First reading (1st chamber)",
+        "description_fr": "Débat et vote en séance plénière dans la chambre saisie en premier (souvent l'Assemblée nationale pour les projets de loi gouvernementaux).",
+        "description_en": "Debate and vote in plenary session in the first chamber (usually the National Assembly for government bills).",
+        "status": "verified"
+      },
+      {
+        "step": 4,
+        "name_fr": "Première lecture (2e chambre)",
+        "name_en": "First reading (2nd chamber)",
+        "description_fr": "Le texte adopté est transmis à l'autre chambre (Sénat ou Assemblée) qui l'examine, le débat et peut l'amender.",
+        "description_en": "The adopted text is sent to the other chamber (Senate or Assembly) which examines, debates, and may amend it.",
+        "status": "verified"
+      },
+      {
+        "step": 5,
+        "name_fr": "Navette parlementaire",
+        "name_en": "Parliamentary shuttle (navette)",
+        "description_fr": "Si les deux chambres n'adoptent pas le même texte, il fait la 'navette' entre elles (nouvelles lectures) jusqu'à accord ou blocage.",
+        "description_en": "If both chambers don't adopt the same text, it 'shuttles' back and forth (further readings) until agreement or deadlock.",
+        "status": "verified"
+      },
+      {
+        "step": 6,
+        "name_fr": "Commission mixte paritaire (CMP)",
+        "name_en": "Joint Committee (CMP)",
+        "description_fr": "En cas de désaccord persistant, une commission composée de 7 députés et 7 sénateurs tente de trouver un texte de compromis.",
+        "description_en": "In case of persistent disagreement, a joint committee of 7 deputies and 7 senators attempts to draft a compromise text.",
+        "status": "verified"
+      },
+      {
+        "step": 7,
+        "name_fr": "Dernier mot à l'Assemblée nationale",
+        "name_en": "National Assembly has the final say",
+        "description_fr": "Si la CMP échoue, le gouvernement peut donner le dernier mot à l'Assemblée nationale, qui peut adopter le texte en dernière lecture. Ne s'applique PAS aux révisions constitutionnelles.",
+        "description_en": "If the CMP fails, the government can give the final say to the National Assembly, which adopts the text in final reading. Does NOT apply to constitutional revisions.",
+        "status": "verified"
+      },
+      {
+        "step": 8,
+        "name_fr": "Contrôle constitutionnel (optionnel)",
+        "name_en": "Constitutional review (optional)",
+        "description_fr": "Avant promulgation, le texte peut être soumis au Conseil constitutionnel par le Président, le Premier ministre, ou 60 parlementaires.",
+        "description_en": "Before promulgation, the text can be referred to the Constitutional Council by the President, PM, or 60 parliamentarians.",
+        "status": "verified"
+      },
+      {
+        "step": 9,
+        "name_fr": "Promulgation et publication",
+        "name_en": "Promulgation and publication",
+        "description_fr": "Le Président promulgue la loi dans les 15 jours. Elle est publiée au Journal officiel de la République française (JORF) et entre en vigueur.",
+        "description_en": "The President promulgates the law within 15 days. It is published in the Official Journal (JORF) and enters into force.",
+        "status": "verified"
+      }
+    ],
+    "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale/la-procedure-legislative", "📎 SOURCE: https://www.senat.fr/role/fiche/elaboration_loi.html"]
+  }
+}

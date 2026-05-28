@@ -1,0 +1,545 @@
+{
+  "_meta": {
+    "section": "timeline",
+    "language_primary": "fr",
+    "language_secondary": "en",
+    "last_updated": "2026-05-27",
+    "scope_fr": "1995-2026 (dernières 30 années de politique nationale française)",
+    "scope_en": "1995-2026 (last 30 years of French national politics)",
+    "status_legend": {
+      "verified": "Content confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    },
+    "event_types": ["election", "government", "constitutional", "social-movement", "crisis", "scandal", "law", "attack", "international"],
+    "diagram_hint": "This file is designed for a visual horizontal timeline. Events can be filtered by 'type' and colored accordingly."
+  },
+
+  "events": [
+
+    {
+      "id": "presidentielle-1995",
+      "date": "1995-05",
+      "type": "election",
+      "title_fr": "Élection de Jacques Chirac à la présidence",
+      "title_en": "Jacques Chirac elected President",
+      "description_fr": "Jacques Chirac (RPR) remporte la présidentielle au second tour face à Lionel Jospin (PS) avec 52,6% des voix. Il succède à François Mitterrand après 14 ans de présidence socialiste. Édouard Balladur, rival de Chirac au sein de la droite, est éliminé au premier tour.",
+      "description_en": "Jacques Chirac (RPR) wins the presidential runoff against Lionel Jospin (PS) with 52.6% of the vote. He succeeds François Mitterrand after 14 years of socialist presidency. Chirac's rival on the right, Édouard Balladur, is eliminated in the first round.",
+      "political_impact_fr": "Début d'une longue domination de la droite. Marque aussi la fracture au sein du RPR (Balladur vs Chirac).",
+      "political_impact_en": "Start of a long right-wing dominance. Also marks a split within the RPR (Balladur vs Chirac).",
+      "related_terms": ["president-de-la-republique", "scrutin-uninominal"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-1995"],
+      "status": "verified"
+    },
+
+    {
+      "id": "dissolution-1997",
+      "date": "1997-04",
+      "type": "constitutional",
+      "title_fr": "Dissolution de l'Assemblée nationale par Chirac",
+      "title_en": "Chirac dissolves the National Assembly",
+      "description_fr": "Jacques Chirac dissout l'Assemblée nationale par anticipation pour tenter d'obtenir une majorité renforcée avant les réformes économiques nécessaires à l'euro. Le pari est perdu : la gauche (PS, PCF, Verts) remporte les législatives anticipées.",
+      "description_en": "Jacques Chirac dissolves the National Assembly early, hoping to secure a stronger majority before the economic reforms required to join the euro. The gamble backfires: the left (PS, PCF, Greens) wins the snap elections.",
+      "political_impact_fr": "Déclenche la 3e et plus longue cohabitation de la Ve République (1997-2002) : Chirac président, Jospin Premier ministre.",
+      "political_impact_en": "Triggers the 3rd and longest cohabitation of the Fifth Republic (1997-2002): Chirac as President, Jospin as Prime Minister.",
+      "related_terms": ["dissolution", "cohabitation", "premier-ministre"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/19594-quest-ce-que-la-cohabitation"],
+      "status": "verified"
+    },
+
+    {
+      "id": "35h-1998",
+      "date": "1998-06",
+      "type": "law",
+      "title_fr": "Loi Aubry : les 35 heures",
+      "title_en": "Aubry law: the 35-hour work week",
+      "description_fr": "Première loi Aubry (renforcée en 2000) instaurant la durée légale hebdomadaire de travail à 35 heures, contre 39 heures auparavant. Initiative du gouvernement Jospin, portée par la ministre du Travail Martine Aubry.",
+      "description_en": "First Aubry law (reinforced in 2000) reducing the legal work week from 39 to 35 hours. Led by the Jospin government, championed by Labour Minister Martine Aubry.",
+      "political_impact_fr": "Réforme très contestée par la droite et le patronat. Reste un symbole de la gauche et un sujet de débat politique permanent sur la compétitivité française.",
+      "political_impact_en": "Highly contested by the right and employers. Remains a symbol of the left and a permanent political debate on French competitiveness.",
+      "related_terms": ["gouvernement", "premier-ministre"],
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000572208"],
+      "status": "verified"
+    },
+
+    {
+      "id": "pacs-1999",
+      "date": "1999-11",
+      "type": "law",
+      "title_fr": "Loi instaurant le PACS",
+      "title_en": "PACS civil union law enacted",
+      "description_fr": "Adoption de la loi créant le Pacte Civil de Solidarité (PACS), offrant un statut juridique aux couples non mariés, y compris les couples homosexuels. Votée après de vifs débats à l'Assemblée nationale, avec une forte opposition de droite.",
+      "description_en": "Law creating the Civil Solidarity Pact (PACS) adopted, offering legal status to unmarried couples, including same-sex couples. Passed after fierce debates in the National Assembly, with strong right-wing opposition.",
+      "political_impact_fr": "Première reconnaissance légale des couples homosexuels. Précède de 14 ans le mariage pour tous. Très populaire : devenu un choix courant pour les couples hétérosexuels aussi.",
+      "political_impact_en": "First legal recognition of same-sex couples. Precedes same-sex marriage by 14 years. Very popular: has become a common choice for heterosexual couples too.",
+      "related_terms": ["gouvernement"],
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356"],
+      "status": "verified"
+    },
+
+    {
+      "id": "referendum-quinquennat-2000",
+      "date": "2000-09",
+      "type": "constitutional",
+      "title_fr": "Référendum sur le quinquennat",
+      "title_en": "Referendum on the five-year presidential term",
+      "description_fr": "Référendum approuvant le passage du mandat présidentiel de 7 ans (septennat) à 5 ans (quinquennat), adoptés à 73% des suffrages exprimés, avec une abstention record de 69,8%.",
+      "description_en": "Referendum approving the reduction of the presidential term from 7 years (septennat) to 5 years (quinquennat), approved by 73% of votes cast, with a record abstention of 69.8%.",
+      "political_impact_fr": "Vise à aligner les calendriers présidentiel et législatif pour réduire le risque de cohabitation. N'empêche pas la cohabitation en cours (Chirac/Jospin jusqu'en 2002).",
+      "political_impact_en": "Designed to align presidential and legislative terms to reduce the risk of cohabitation. Does not end the ongoing cohabitation (Chirac/Jospin until 2002).",
+      "related_terms": ["quinquennat", "septennat", "referendum", "cohabitation"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-referendums/referendum-du-24-septembre-2000"],
+      "status": "verified"
+    },
+
+    {
+      "id": "presidentielle-2002",
+      "date": "2002-04",
+      "type": "election",
+      "title_fr": "Présidentielle 2002 : Le Pen au second tour",
+      "title_en": "2002 Presidential election: Le Pen reaches the runoff",
+      "description_fr": "Séisme politique : Jean-Marie Le Pen (FN) se qualifie pour le second tour avec 16,9% des voix, éliminant Lionel Jospin (16,2%). Au second tour, Chirac est réélu avec 82,2% face à Le Pen, bénéficiant d'un front républicain massif (vote 'utile' de toute la gauche).",
+      "description_en": "Political earthquake: Jean-Marie Le Pen (FN) qualifies for the runoff with 16.9%, eliminating Lionel Jospin (16.2%). In the second round, Chirac is re-elected with 82.2% against Le Pen, benefiting from a massive republican front (tactical vote from the entire left).",
+      "political_impact_fr": "Révèle la fragmentation de la gauche et la montée de l'extrême droite. Entraîne la recomposition de la droite (création de l'UMP en 2002). Trauma politique qui marque durablement les stratégies électorales françaises.",
+      "political_impact_en": "Reveals the fragmentation of the left and the rise of the far right. Leads to the reorganization of the right (creation of UMP in 2002). A political trauma that permanently shapes French electoral strategies.",
+      "related_terms": ["front-republicain", "desistement", "scrutin-uninominal"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-2002"],
+      "status": "verified"
+    },
+
+    {
+      "id": "creation-ump-2002",
+      "date": "2002-11",
+      "type": "government",
+      "title_fr": "Création de l'UMP",
+      "title_en": "Creation of the UMP",
+      "description_fr": "Fusion du RPR (Chirac), de Démocratie libérale et d'une partie de l'UDF pour former l'Union pour un Mouvement Populaire (UMP), sous l'impulsion de Nicolas Sarkozy. Vise à unifier la droite après la fragmentation qui a failli coûter la victoire de Chirac en 2002.",
+      "description_en": "Merger of the RPR (Chirac), Liberal Democracy, and part of the UDF to form the Union for a Popular Movement (UMP), driven by Nicolas Sarkozy. Aims to unify the right after the fragmentation that almost cost Chirac the 2002 election.",
+      "political_impact_fr": "Crée le grand parti de droite qui dominera la politique française jusqu'en 2017. L'UMP deviendra 'Les Républicains' (LR) en 2015.",
+      "political_impact_en": "Creates the major right-wing party that will dominate French politics until 2017. UMP becomes 'Les Républicains' (LR) in 2015.",
+      "related_terms": ["parti-politique"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/les-partis-politiques-en-france"],
+      "status": "verified"
+    },
+
+    {
+      "id": "referendum-europe-2005",
+      "date": "2005-05",
+      "type": "constitutional",
+      "title_fr": "Référendum sur la Constitution européenne : le NON l'emporte",
+      "title_en": "Referendum on the European Constitution: NO wins",
+      "description_fr": "Les Français rejettent le projet de Constitution européenne à 54,7% des suffrages. Le Non rassemble des électeurs de gauche (craignant le libéralisme économique de l'Europe) et de droite souverainiste. Chirac avait promu le Oui.",
+      "description_en": "France rejects the European Constitution by 54.7%. The 'No' gathers left-wing voters (fearing European economic liberalism) and right-wing sovereigntists. Chirac had campaigned for Yes.",
+      "political_impact_fr": "Affaiblit considérablement Chirac en fin de mandat. Accélère l'ascension de Sarkozy. Révèle les profondes divisions sur l'Europe au sein des partis. Le texte sera en partie repris dans le Traité de Lisbonne (2007) sans référendum.",
+      "political_impact_en": "Severely weakens Chirac at the end of his term. Accelerates Sarkozy's rise. Reveals deep divisions on Europe within parties. The text will be partly revived in the Lisbon Treaty (2007) without a referendum.",
+      "related_terms": ["referendum"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-referendums/referendum-du-29-mai-2005"],
+      "status": "verified"
+    },
+
+    {
+      "id": "emeutes-banlieues-2005",
+      "date": "2005-10",
+      "type": "crisis",
+      "title_fr": "Émeutes des banlieues",
+      "title_en": "Suburban riots",
+      "description_fr": "Suite à la mort de Bouna Traoré et Zyed Benna (électrocutés dans un transformateur EDF à Clichy-sous-Bois en fuyant la police), des émeutes éclatent dans les banlieues de nombreuses villes françaises pendant plus de 3 semaines. L'état d'urgence est décrété.",
+      "description_en": "Following the deaths of Bouna Traoré and Zyed Benna (electrocuted in an EDF transformer in Clichy-sous-Bois while fleeing police), riots break out in suburbs across France for over 3 weeks. A state of emergency is declared.",
+      "political_impact_fr": "Met en lumière la fracture sociale et les discriminations dans les banlieues. Nicolas Sarkozy, alors ministre de l'Intérieur, est vivement critiqué pour ses propos (qualifiant les émeutiers de 'racailles'). Sujet structurant du débat politique depuis.",
+      "political_impact_en": "Highlights the social fracture and discrimination in French suburbs. Nicolas Sarkozy, then Interior Minister, is sharply criticized for calling rioters 'scum' (racailles). A recurring theme in French political debate ever since.",
+      "related_terms": ["laicite"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/les-emeutes-des-banlieues-de-2005"],
+      "status": "verified"
+    },
+
+    {
+      "id": "cpe-2006",
+      "date": "2006-03",
+      "type": "social-movement",
+      "title_fr": "Retrait du CPE après mobilisation massive",
+      "title_en": "CPE withdrawn after massive protests",
+      "description_fr": "Le Contrat Première Embauche (CPE), instaurant une période d'essai de 2 ans pour les moins de 26 ans, déclenche un mouvement social massif (étudiants, lycéens, syndicats). Après plusieurs semaines de manifestations et blocages d'universités, le Premier ministre Villepin est contraint de retirer le texte.",
+      "description_en": "The First Employment Contract (CPE), introducing a 2-year trial period for under-26s, triggers a massive social movement (students, high schoolers, unions). After weeks of protests and university blockages, PM Villepin is forced to withdraw the text.",
+      "political_impact_fr": "Affaiblit durablement Villepin et renforce Sarkozy dans la course à la présidentielle 2007. Montre la puissance de mobilisation contre les réformes du marché du travail en France.",
+      "political_impact_en": "Permanently weakens Villepin and strengthens Sarkozy ahead of the 2007 presidential election. Demonstrates the power of mobilization against labor market reforms in France.",
+      "related_terms": ["gouvernement"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/le-contrat-premiere-embauche-cpe"],
+      "status": "verified"
+    },
+
+    {
+      "id": "presidentielle-2007",
+      "date": "2007-05",
+      "type": "election",
+      "title_fr": "Élection de Nicolas Sarkozy à la présidence",
+      "title_en": "Nicolas Sarkozy elected President",
+      "description_fr": "Nicolas Sarkozy (UMP) remporte la présidentielle au second tour face à Ségolène Royal (PS) avec 53,1% des voix. Taux de participation très élevé (84%). Sarkozy incarne une droite décomplexée, pro-américaine, et prône une 'rupture' avec le chiraquisme.",
+      "description_en": "Nicolas Sarkozy (UMP) wins the presidential runoff against Ségolène Royal (PS) with 53.1%. Very high turnout (84%). Sarkozy embodies a more assertive right, pro-American, promising a 'break' from Chiraquism.",
+      "political_impact_fr": "Fin de 12 ans de présidence Chirac. Gouvernement d'ouverture avec des personnalités de gauche (Kouchner, Besson). Première femme finaliste à une présidentielle (Royal).",
+      "political_impact_en": "End of 12 years of Chirac's presidency. Government of 'openness' includes left-wing personalities (Kouchner, Besson). First woman to reach a presidential runoff (Royal).",
+      "related_terms": ["president-de-la-republique", "quinquennat"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-2007"],
+      "status": "verified"
+    },
+
+    {
+      "id": "revision-constitutionnelle-2008",
+      "date": "2008-07",
+      "type": "constitutional",
+      "title_fr": "Révision constitutionnelle de 2008",
+      "title_en": "2008 constitutional revision",
+      "description_fr": "Plus importante révision de la Constitution depuis 1958, adoptée par le Congrès à 539 voix contre 357 (seuil des 3/5 atteint de justesse). Introduit notamment : la QPC (Question Prioritaire de Constitutionnalité), le renforcement des droits du Parlement, la limitation à deux mandats présidentiels consécutifs, le Défenseur des droits, la limitation de l'usage du 49-3.",
+      "description_en": "Most significant constitutional revision since 1958, adopted by Congress by 539 votes to 357 (3/5 threshold barely reached). Key changes: QPC (constitutional challenge by citizens), strengthened parliamentary rights, two-term presidential limit, Defender of Rights, restriction of 49-3 use.",
+      "political_impact_fr": "Modernise les institutions et rééquilibre légèrement les pouvoirs au profit du Parlement. La QPC ouvre la voie à un contrôle a posteriori de la constitutionnalité des lois.",
+      "political_impact_en": "Modernizes institutions and slightly rebalances power toward Parliament. The QPC opens the door to post-enactment constitutional review of laws.",
+      "related_terms": ["qpc", "article-49-3", "conseil-constitutionnel"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/la-revision-constitutionnelle-du-23-juillet-2008"],
+      "status": "verified"
+    },
+
+    {
+      "id": "crise-financiere-2008",
+      "date": "2008-09",
+      "type": "international",
+      "title_fr": "Crise financière mondiale",
+      "title_en": "Global financial crisis",
+      "description_fr": "L'effondrement de Lehman Brothers déclenche une crise financière mondiale. Sarkozy, alors Président du Conseil de l'UE, prend un rôle de leadership international en convoquant un sommet du G20 et en orchestrant une réponse européenne coordonnée.",
+      "description_en": "The collapse of Lehman Brothers triggers a global financial crisis. Sarkozy, then EU Council President, takes a leading international role by convening a G20 summit and orchestrating a coordinated European response.",
+      "political_impact_fr": "Renforce temporairement la popularité de Sarkozy. Justifie un plan de relance et creuse le déficit public. La crise pèsera sur toute la décennie suivante.",
+      "political_impact_en": "Temporarily boosts Sarkozy's popularity. Justifies a stimulus plan and widens the public deficit. The crisis will weigh on the entire following decade.",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-crise-financiere-de-2008-et-ses-consequences"],
+      "status": "verified"
+    },
+
+    {
+      "id": "reforme-retraites-2010",
+      "date": "2010-11",
+      "type": "law",
+      "title_fr": "Réforme des retraites 2010 : l'âge légal passe à 62 ans",
+      "title_en": "2010 pension reform: retirement age raised to 62",
+      "description_fr": "Malgré des manifestations massives (plus d'un million de personnes dans la rue à plusieurs reprises), la réforme Woerth-Sarkozy est adoptée. Elle relève l'âge légal de départ à la retraite de 60 à 62 ans et l'âge du taux plein de 65 à 67 ans.",
+      "description_en": "Despite massive protests (over one million people in the streets multiple times), the Woerth-Sarkozy reform is adopted. It raises the legal retirement age from 60 to 62 and the full-rate age from 65 to 67.",
+      "political_impact_fr": "Sujet de tension durable. La gauche promet de l'annuler (Hollande ne le fera qu'en partie). Préfigure les débats de 2023.",
+      "political_impact_en": "A source of lasting tension. The left promises to cancel it (Hollande only partially does). Foreshadows the 2023 debates.",
+      "related_terms": ["gouvernement"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-reforme-des-retraites-de-2010"],
+      "status": "verified"
+    },
+
+    {
+      "id": "affaire-dsk-2011",
+      "date": "2011-05",
+      "type": "scandal",
+      "title_fr": "Affaire DSK",
+      "title_en": "DSK affair",
+      "description_fr": "Dominique Strauss-Kahn, directeur général du FMI et favori de la gauche pour la présidentielle 2012, est arrêté à New York et mis en cause pour agression sexuelle sur une employée d'hôtel. Les charges sont finalement abandonnées aux États-Unis. Il renonce à toute ambition présidentielle.",
+      "description_en": "Dominique Strauss-Kahn, IMF Managing Director and the left's leading 2012 presidential candidate, is arrested in New York on sexual assault charges against a hotel employee. Charges are eventually dropped in the US. He abandons all presidential ambitions.",
+      "political_impact_fr": "Chamboule la présidentielle 2012. Ouvre la voie à la candidature de François Hollande. Déclenche des débats sur le rapport au pouvoir et aux femmes dans la classe politique française.",
+      "political_impact_en": "Reshuffles the 2012 presidential race. Opens the way for François Hollande's candidacy. Sparks debate about power and attitudes toward women in French politics.",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/affaire-dominique-strauss-kahn"],
+      "status": "verified"
+    },
+
+    {
+      "id": "presidentielle-2012",
+      "date": "2012-05",
+      "type": "election",
+      "title_fr": "Élection de François Hollande à la présidence",
+      "title_en": "François Hollande elected President",
+      "description_fr": "François Hollande (PS) devient président avec 51,6% des voix face à Nicolas Sarkozy. Premier président socialiste depuis Mitterrand (14 ans d'absence de la gauche à l'Élysée). Hollande avait promis d'être un 'président normal'.",
+      "description_en": "François Hollande (PS) becomes president with 51.6% of the vote against Nicolas Sarkozy. First socialist president since Mitterrand (14 years without the left at the Élysée). Hollande had promised to be a 'normal president'.",
+      "political_impact_fr": "Le PS remporte également les législatives et contrôle toutes les institutions. Hollande sera le président le plus impopulaire de la Ve République.",
+      "political_impact_en": "The PS also wins the legislative elections and controls all institutions. Hollande will become the most unpopular president of the Fifth Republic.",
+      "related_terms": ["president-de-la-republique"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-2012"],
+      "status": "verified"
+    },
+
+    {
+      "id": "mariage-pour-tous-2013",
+      "date": "2013-05",
+      "type": "law",
+      "title_fr": "Loi sur le mariage pour tous",
+      "title_en": "Same-sex marriage law (Mariage pour tous)",
+      "description_fr": "Adoption de la loi ouvrant le mariage et l'adoption aux couples de même sexe. Suscite une forte mobilisation anti (Manif pour Tous) et pro. Promulguée le 18 mai 2013.",
+      "description_en": "Law opens marriage and adoption to same-sex couples. Triggers a major anti (Manif pour Tous) and pro mobilization. Promulgated on May 18, 2013.",
+      "political_impact_fr": "La mobilisation de la Manif pour Tous révèle une France conservatrice et catholique plus active qu'attendu. La loi est maintenue malgré les pressions. Sujet toujours présent dans les programmes de l'extrême droite (abrogation).",
+      "political_impact_en": "The Manif pour Tous mobilization reveals a more active conservative and Catholic France than expected. The law is maintained despite pressure. Still present in far-right platforms (repeal).",
+      "related_terms": ["laicite"],
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000027414540"],
+      "status": "verified"
+    },
+
+    {
+      "id": "attaques-charlie-hebdo-2015",
+      "date": "2015-01-07",
+      "type": "attack",
+      "title_fr": "Attentats de Charlie Hebdo et de l'Hyper Cacher",
+      "title_en": "Charlie Hebdo and Hyper Cacher attacks",
+      "description_fr": "Attaque terroriste contre la rédaction de Charlie Hebdo (12 morts), suivie d'une prise d'otages à l'Hyper Cacher de la Porte de Vincennes (4 victimes). Trois terroristes islamistes sont tués lors des assauts. Une marche républicaine réunit plus de 4 millions de personnes en France.",
+      "description_en": "Terrorist attack on Charlie Hebdo newsroom (12 killed), followed by a hostage-taking at the Hyper Cacher supermarket (4 victims). Three Islamist terrorists are killed during police assaults. A 'republican march' brings together over 4 million people across France.",
+      "political_impact_fr": "Déclenche un débat intense sur la laïcité, la liberté d'expression et l'islam en France. 'Je suis Charlie' devient un symbole mondial. Renforce les mesures antiterroristes et les débats sur la déchéance de nationalité.",
+      "political_impact_en": "Triggers intense debate on secularism, freedom of expression, and Islam in France. 'Je suis Charlie' becomes a global symbol. Strengthens anti-terrorism measures and debates on stripping nationality.",
+      "related_terms": ["laicite"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/les-attentats-de-janvier-2015"],
+      "status": "verified"
+    },
+
+    {
+      "id": "attaques-novembre-2015",
+      "date": "2015-11-13",
+      "type": "attack",
+      "title_fr": "Attentats du 13 novembre 2015 (Paris)",
+      "title_en": "November 13, 2015 Paris attacks",
+      "description_fr": "Vague d'attaques terroristes coordonnées à Paris et Saint-Denis : Bataclan, terrasses de bars, Stade de France. 130 morts, des centaines de blessés. L'état d'urgence est décrété pour 3 mois (prolongé plusieurs fois jusqu'en 2017).",
+      "description_en": "Coordinated terrorist attacks in Paris and Saint-Denis: Bataclan concert hall, bar terraces, Stade de France. 130 killed, hundreds injured. State of emergency declared for 3 months (extended several times until 2017).",
+      "political_impact_fr": "Plus grande attaque terroriste en France depuis la Seconde Guerre mondiale. Renforce considérablement les pouvoirs de police et de renseignement. Alimente les débats sur la politique migratoire et l'islam.",
+      "political_impact_en": "Largest terrorist attack in France since World War II. Significantly expands police and intelligence powers. Fuels debates on immigration policy and Islam.",
+      "related_terms": ["laicite"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/les-attentats-du-13-novembre-2015"],
+      "status": "verified"
+    },
+
+    {
+      "id": "loi-travail-2016",
+      "date": "2016-07",
+      "type": "law",
+      "title_fr": "Loi Travail (loi El Khomri) adoptée via 49-3",
+      "title_en": "Labour Law (El Khomri law) passed via 49-3",
+      "description_fr": "La ministre du Travail Myriam El Khomri porte une réforme assouplissant le Code du travail (durée du travail, licenciements économiques). Face à une fronde au sein de la majorité PS, le gouvernement Valls utilise l'article 49-3 pour faire passer le texte sans vote. Des mois de manifestations s'ensuivent.",
+      "description_en": "Labour Minister Myriam El Khomri leads a reform loosening the Labour Code (working hours, economic layoffs). Facing rebellion within the PS majority, the Valls government uses Article 49-3 to pass the text without a vote. Months of protests follow.",
+      "political_impact_fr": "Fragilise durablement Hollande. Provoque une rupture dans la gauche (naissance de la France Insoumise de Mélenchon accélérée). Illustre les limites du quinquennat Hollande.",
+      "political_impact_en": "Permanently weakens Hollande. Deepens the split on the left (accelerates the rise of Mélenchon's France Insoumise). Illustrates the limits of Hollande's presidency.",
+      "related_terms": ["article-49-3", "gouvernement"],
+      "sources": ["📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032983085"],
+      "status": "verified"
+    },
+
+    {
+      "id": "hollande-renoncement-2016",
+      "date": "2016-12",
+      "type": "government",
+      "title_fr": "Hollande renonce à se présenter pour un second mandat",
+      "title_en": "Hollande announces he will not seek re-election",
+      "description_fr": "François Hollande annonce, lors d'une allocution télévisée, qu'il renonce à être candidat à sa propre succession pour la présidentielle 2017. Première fois dans l'histoire de la Ve République qu'un président sortant ne se représente pas.",
+      "description_en": "François Hollande announces in a televised address that he will not run for re-election in 2017. First time in the history of the Fifth Republic that a sitting president does not seek a second term.",
+      "political_impact_fr": "Conséquence directe de son impopularité historique. Ouvre une primaire à gauche (remportée par Benoît Hamon) et libère Macron pour se présenter.",
+      "political_impact_en": "Direct consequence of his historic unpopularity. Opens a left-wing primary (won by Benoît Hamon) and frees Macron to run.",
+      "related_terms": ["president-de-la-republique", "quinquennat"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/hollande-presidentielle-2017"],
+      "status": "verified"
+    },
+
+    {
+      "id": "penelopegate-2017",
+      "date": "2017-01",
+      "type": "scandal",
+      "title_fr": "Affaire Fillon (Penelopegate)",
+      "title_en": "Fillon affair (Penelopegate)",
+      "description_fr": "Le Canard Enchaîné révèle que François Fillon, candidat favori de la droite à la présidentielle, a employé son épouse Penelope comme assistante parlementaire fictive, lui versant plus de 800 000€ de fonds publics. Fillon maintient sa candidature malgré les appels à se retirer.",
+      "description_en": "Le Canard Enchaîné reveals that François Fillon, the right's favorite presidential candidate, employed his wife Penelope as a fictitious parliamentary assistant, paying her over €800,000 in public funds. Fillon maintains his candidacy despite calls to step down.",
+      "political_impact_fr": "Détruit les chances de Fillon et ouvre la voie à Macron. En 2020, Fillon est condamné à 5 ans de prison (dont 2 fermes) pour détournement de fonds publics (confirmé en appel en 2022).",
+      "political_impact_en": "Destroys Fillon's chances and opens the way for Macron. In 2020, Fillon is convicted and sentenced to 5 years (2 non-suspended) for misuse of public funds (confirmed on appeal in 2022).",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/affaire-fillon"],
+      "status": "verified"
+    },
+
+    {
+      "id": "presidentielle-2017",
+      "date": "2017-05",
+      "type": "election",
+      "title_fr": "Élection d'Emmanuel Macron à la présidence",
+      "title_en": "Emmanuel Macron elected President",
+      "description_fr": "Emmanuel Macron, fondateur du mouvement En Marche! (créé en 2016, sans jamais avoir été candidat à une élection), remporte la présidentielle face à Marine Le Pen avec 66,1% des voix. Macron, 39 ans, devient le plus jeune président de la Ve République.",
+      "description_en": "Emmanuel Macron, founder of the En Marche! movement (created in 2016, never previously a candidate), wins the presidential election against Marine Le Pen with 66.1% of the vote. Macron, 39, becomes the youngest president of the Fifth Republic.",
+      "political_impact_fr": "Effondrement des deux partis dominants depuis 50 ans (PS et LR). Recomposition totale du paysage politique : LREM au centre, LFI à gauche, RN à droite, LR marginalisé.",
+      "political_impact_en": "Collapse of the two parties that dominated French politics for 50 years (PS and LR). Total realignment: LREM in the centre, LFI on the left, RN on the right, LR marginalized.",
+      "related_terms": ["president-de-la-republique", "quinquennat"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-2017"],
+      "status": "verified"
+    },
+
+    {
+      "id": "legislatives-2017-lrem",
+      "date": "2017-06",
+      "type": "election",
+      "title_fr": "Législatives 2017 : victoire massive de LREM",
+      "title_en": "2017 legislative elections: massive LREM victory",
+      "description_fr": "La République En Marche et ses alliés MoDem remportent 350 sièges sur 577, une majorité absolue écrasante. Fort renouvellement de l'Assemblée (nombreux 'marcheurs' sans expérience politique). Taux de participation historiquement bas (42,6% au second tour).",
+      "description_en": "La République En Marche and its MoDem allies win 350 of 577 seats, a crushing absolute majority. Major renewal of the Assembly (many 'walkers' with no political experience). Historically low turnout (42.6% in the second round).",
+      "political_impact_fr": "Donne à Macron une majorité confortable pour gouverner. L'abstention massive révèle un désengagement électoral inquiétant.",
+      "political_impact_en": "Gives Macron a comfortable majority to govern. The massive abstention reveals a worrying electoral disengagement.",
+      "related_terms": ["assemblee-nationale", "majorite-absolue"],
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-elections-legislatives/les-resultats-des-elections-legislatives-de-2017"],
+      "status": "verified"
+    },
+
+    {
+      "id": "gilets-jaunes-2018",
+      "date": "2018-11",
+      "type": "social-movement",
+      "title_fr": "Mouvement des Gilets Jaunes",
+      "title_en": "Yellow Vests movement",
+      "description_fr": "Mobilisation citoyenne inédite, née sur les réseaux sociaux, contre la hausse de la taxe sur les carburants. Rapidement, le mouvement élargit ses revendications (pouvoir d'achat, justice sociale, fin des privilèges). Occupation des ronds-points, blocages, manifestations violentes à Paris (Champs-Élysées). Dure plusieurs mois.",
+      "description_en": "Unprecedented citizen mobilization, born on social media, against rising fuel taxes. Demands quickly broaden to purchasing power, social justice, and an end to privilege. Roundabout occupations, blockages, and violent Paris demonstrations (Champs-Élysées). Lasts several months.",
+      "political_impact_fr": "Macron annule la hausse de la taxe sur les carburants. Lance le Grand Débat National (2019). Révèle un profond sentiment d'injustice fiscale et sociale. Affaiblit Macron mais il rebondit. Renforce le RN et LFI.",
+      "political_impact_en": "Macron cancels the fuel tax increase. Launches the Grand National Debate (2019). Reveals deep feelings of fiscal and social injustice. Weakens Macron but he recovers. Strengthens RN and LFI.",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/le-mouvement-des-gilets-jaunes"],
+      "status": "verified"
+    },
+
+    {
+      "id": "covid-2020",
+      "date": "2020-03",
+      "type": "crisis",
+      "title_fr": "Pandémie COVID-19 : premier confinement",
+      "title_en": "COVID-19 pandemic: first lockdown",
+      "description_fr": "Le Premier ministre Édouard Philippe annonce un confinement national strict à partir du 17 mars 2020. La France connaît plusieurs vagues et confinements jusqu'en 2021. La gestion de la crise (masques, vaccins, pass sanitaire) devient un sujet politique majeur.",
+      "description_en": "Prime Minister Édouard Philippe announces a strict national lockdown from March 17, 2020. France experiences multiple waves and lockdowns until 2021. Crisis management (masks, vaccines, health pass) becomes a major political issue.",
+      "political_impact_fr": "Renforce temporairement la popularité du gouvernement ('union nationale'). La gestion du début de crise (pénurie de masques) ternit l'image du gouvernement. La question du pass vaccinal divise profondément l'opinion et nourrit les mouvements complotistes.",
+      "political_impact_en": "Temporarily boosts government popularity ('national unity'). Early crisis management failures (mask shortage) tarnish the government's image. The health pass question deeply divides public opinion and feeds conspiracy movements.",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/la-pandemie-de-covid-19-en-france"],
+      "status": "verified"
+    },
+
+    {
+      "id": "meurtre-paty-2020",
+      "date": "2020-10",
+      "type": "attack",
+      "title_fr": "Assassinat de Samuel Paty",
+      "title_en": "Murder of Samuel Paty",
+      "description_fr": "Samuel Paty, professeur d'histoire-géographie à Conflans-Sainte-Honorine, est décapité par un islamiste radical après avoir montré des caricatures de Charlie Hebdo lors d'un cours sur la liberté d'expression. Déclenche une vague nationale d'émotion et de débats sur la laïcité.",
+      "description_en": "Samuel Paty, a history-geography teacher in Conflans-Sainte-Honorine, is beheaded by a radical Islamist after showing Charlie Hebdo cartoons during a lesson on freedom of expression. Triggers a national wave of emotion and debate on secularism.",
+      "political_impact_fr": "Relance intensément le débat sur la laïcité à l'école, l'islam politique et les 'séparatismes'. Conduit à la loi contre le séparatisme (2021). La 'Charte de la laïcité' est renforcée.",
+      "political_impact_en": "Intensely reignites debate on secularism in schools, political Islam, and 'separatism'. Leads to the anti-separatism law (2021). The 'Charter of Secularism' is reinforced.",
+      "related_terms": ["laicite"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/samuel-paty"],
+      "status": "verified"
+    },
+
+    {
+      "id": "condamnation-sarkozy-2021",
+      "date": "2021-03",
+      "type": "scandal",
+      "title_fr": "Condamnation de Nicolas Sarkozy pour corruption",
+      "title_en": "Nicolas Sarkozy convicted of corruption",
+      "description_fr": "Nicolas Sarkozy est condamné à 3 ans de prison (dont 1 an ferme) dans l'affaire dite 'des écoutes' (tentative de corruption d'un magistrat et trafic d'influence avec son avocat). Première condamnation d'un ancien président de la République. Confirmée en appel en 2023, puis en cassation en décembre 2023.",
+      "description_en": "Nicolas Sarkozy is sentenced to 3 years in prison (1 non-suspended) in the 'wiretapping' case (attempted corruption of a magistrate and influence peddling with his lawyer). First conviction of a former President of the Republic. Confirmed on appeal in 2023, then by the Court of Cassation in December 2023.",
+      "political_impact_fr": "Événement judiciaire et politique majeur. Sarkozy multiplie les condamnations (affaire Bygmalion sur le financement de sa campagne 2012, également condamné).",
+      "political_impact_en": "Major judicial and political event. Sarkozy faces multiple convictions (Bygmalion affair on 2012 campaign financing, also convicted).",
+      "related_terms": [],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/affaire-sarkozy-ecoutes"],
+      "status": "verified"
+    },
+
+    {
+      "id": "presidentielle-2022",
+      "date": "2022-04",
+      "type": "election",
+      "title_fr": "Macron réélu face à Le Pen",
+      "title_en": "Macron re-elected against Le Pen",
+      "description_fr": "Emmanuel Macron est réélu avec 58,5% des voix face à Marine Le Pen (41,5%). Le Pen réalise son meilleur score historique. Abstention élevée (28% au second tour). Le contexte international (guerre en Ukraine, inflation) domine la campagne.",
+      "description_en": "Emmanuel Macron is re-elected with 58.5% of the vote against Marine Le Pen (41.5%). Le Pen achieves her best-ever score. High abstention (28% in the second round). International context (Ukraine war, inflation) dominates the campaign.",
+      "political_impact_fr": "Macron est le premier président depuis Chirac (2002) à être réélu. Le score de Le Pen montre la normalisation du RN. Le front républicain s'effiloche.",
+      "political_impact_en": "Macron is the first president since Chirac (2002) to be re-elected. Le Pen's score shows the normalization of RN. The republican front is weakening.",
+      "related_terms": ["president-de-la-republique", "front-republicain"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/les-elections-presidentielles/election-presidentielle-2022"],
+      "status": "verified"
+    },
+
+    {
+      "id": "legislatives-2022-nupes",
+      "date": "2022-06",
+      "type": "election",
+      "title_fr": "Législatives 2022 : Macron perd la majorité absolue",
+      "title_en": "2022 legislative elections: Macron loses absolute majority",
+      "description_fr": "Ensemble (coalition de Macron) obtient 245 sièges — en-dessous des 289 requis pour la majorité absolue. La NUPES (Nouvelle Union Populaire Écologique et Sociale, union LFI-PS-EELV-PCF menée par Mélenchon) obtient 151 sièges. Le RN fait une percée historique avec 89 sièges.",
+      "description_en": "Ensemble (Macron's coalition) wins 245 seats — below the 289 needed for an absolute majority. The NUPES (New Popular Ecological and Social Union, a LFI-PS-EELV-PCF alliance led by Mélenchon) wins 151 seats. The RN achieves a historic breakthrough with 89 seats.",
+      "political_impact_fr": "Macron gouverne sans majorité absolue. Le gouvernement doit négocier chaque texte ou utiliser le 49-3. Recomposition de gauche autour de la NUPES (fragile). Percée sans précédent du RN à l'Assemblée.",
+      "political_impact_en": "Macron governs without an absolute majority. The government must negotiate each bill or use the 49-3. Left-wing realignment around NUPES (fragile). Unprecedented RN breakthrough in the Assembly.",
+      "related_terms": ["assemblee-nationale", "majorite-absolue", "motion-de-censure"],
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-elections-legislatives/les-resultats-des-elections-legislatives-de-2022"],
+      "status": "verified"
+    },
+
+    {
+      "id": "reforme-retraites-2023",
+      "date": "2023-03",
+      "type": "law",
+      "title_fr": "Réforme des retraites 2023 : l'âge passe à 64 ans via 49-3",
+      "title_en": "2023 pension reform: retirement age raised to 64 via 49-3",
+      "description_fr": "Le gouvernement Borne utilise l'article 49-3 pour faire adopter la réforme relevant l'âge légal de départ à la retraite de 62 à 64 ans, sans vote de l'Assemblée. Les motions de censure échouent de peu. La réforme est validée par le Conseil constitutionnel. Des mois de grèves et manifestations massives avaient précédé.",
+      "description_en": "The Borne government uses Article 49-3 to pass the pension reform raising the retirement age from 62 to 64, without an Assembly vote. Motions of no confidence narrowly fail. The reform is validated by the Constitutional Council. Months of strikes and massive protests had preceded.",
+      "political_impact_fr": "Décision la plus controversée du 2e mandat Macron. Affaiblit durablement Borne et Macron. La gauche et les syndicats restent mobilisés. Alimente la colère qui nourrit les extrêmes.",
+      "political_impact_en": "The most controversial decision of Macron's second term. Permanently weakens Borne and Macron. The left and unions remain mobilized. Fuels the anger feeding the extremes.",
+      "related_terms": ["article-49-3", "motion-de-censure", "conseil-constitutionnel"],
+      "sources": ["📎 SOURCE: https://www.conseil-constitutionnel.fr/actualites/decision-2023-849-dc", "📎 SOURCE: https://www.legifrance.gouv.fr"],
+      "status": "verified"
+    },
+
+    {
+      "id": "europeennes-2024-dissolution",
+      "date": "2024-06",
+      "type": "election",
+      "title_fr": "Européennes 2024 : victoire du RN, dissolution de l'Assemblée nationale",
+      "title_en": "2024 European elections: RN victory, dissolution of the National Assembly",
+      "description_fr": "Le RN remporte les élections européennes avec ~32% des voix, soit plus du double d'Ensemble (~15%). Quelques heures après l'annonce des résultats, Emmanuel Macron dissout l'Assemblée nationale, prenant de court toute la classe politique.",
+      "description_en": "RN wins the European elections with ~32% of the vote, more than double Ensemble (~15%). Hours after the results announcement, Emmanuel Macron dissolves the National Assembly, catching the entire political class off-guard.",
+      "political_impact_fr": "Décision controversée : le RN arrive en tête aux législatives anticipées mais ne décroche pas la majorité. Formation du Nouveau Front Populaire (NFP) à gauche. Assemblée très fragmentée.",
+      "political_impact_en": "Controversial decision: RN leads in the snap elections but fails to win a majority. Formation of the Nouveau Front Populaire (NFP) on the left. Highly fragmented Assembly.",
+      "related_terms": ["dissolution", "front-republicain"],
+      "sources": ["📎 SOURCE: https://www.vie-publique.fr/fiches/elections-europeennes-2024"],
+      "status": "verified"
+    },
+
+    {
+      "id": "legislatives-2024",
+      "date": "2024-07",
+      "type": "election",
+      "title_fr": "Législatives anticipées 2024 : Assemblée sans majorité",
+      "title_en": "2024 snap legislative elections: hung Assembly",
+      "description_fr": "Le front républicain se mobilise pour bloquer le RN. Le NFP (Nouveau Front Populaire) arrive en tête (~193 sièges), devant Ensemble (~164) et le RN (~143). Aucune force n'a de majorité absolue. Situation inédite de 'trois blocs' quasi-égaux.",
+      "description_en": "The republican front mobilizes to block RN. The NFP (Nouveau Front Populaire) leads (~193 seats), ahead of Ensemble (~164) and RN (~143). No force has an absolute majority. Unprecedented 'three-bloc' situation.",
+      "political_impact_fr": "Gouvernabilité extrêmement difficile. Macron tente de former un gouvernement de coalition ou de 'rassemblement national' (au sens institutionnel). Nomination de Michel Barnier (LR) comme Premier ministre.",
+      "political_impact_en": "Extremely difficult governability. Macron tries to form a coalition government. Appointment of Michel Barnier (LR) as Prime Minister.",
+      "related_terms": ["assemblee-nationale", "desistement", "front-republicain"],
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-elections-legislatives"],
+      "status": "verified"
+    },
+
+    {
+      "id": "censure-barnier-2024",
+      "date": "2024-12",
+      "type": "government",
+      "title_fr": "Motion de censure contre le gouvernement Barnier",
+      "title_en": "No-confidence vote brings down the Barnier government",
+      "description_fr": "Le gouvernement Barnier est renversé par une motion de censure votée par le NFP et le RN réunis. Première chute d'un gouvernement par motion de censure depuis Pompidou en 1962. Michel Barnier présente la démission de son gouvernement.",
+      "description_en": "The Barnier government is brought down by a motion of no confidence voted by the NFP and RN together. First government fall by no-confidence vote since Pompidou in 1962. Michel Barnier submits his government's resignation.",
+      "political_impact_fr": "Démontre la paralysie institutionnelle de l'Assemblée fragmentée. Macron doit nommer un nouveau Premier ministre dans un contexte politique extrêmement tendu.",
+      "political_impact_en": "Demonstrates the institutional paralysis of the fragmented Assembly. Macron must appoint a new Prime Minister in an extremely tense political context.",
+      "related_terms": ["motion-de-censure", "assemblee-nationale"],
+      "sources": ["📎 SOURCE: https://www.assemblee-nationale.fr"],
+      "status": "verified"
+    },
+
+    {
+      "id": "post-barnier-2025-2026",
+      "date": "2025",
+      "type": "government",
+      "title_fr": "Gouvernements Bayrou et Lecornu (2025-2026)",
+      "title_en": "Bayrou and Lecornu governments (2025-2026)",
+      "description_fr": "François Bayrou (MoDem) est nommé Premier ministre le 13 décembre 2024. Son gouvernement est le premier de la Ve République à tomber après avoir engagé sa responsabilité (article 49-1) et perdu le vote de confiance, le 9 septembre 2025. Sébastien Lecornu (Renaissance) lui succède le même jour. Son premier gouvernement démissionne le 6 octobre 2025 et il est immédiatement renommé à la tête d'un second gouvernement (depuis le 10 octobre 2025).",
+      "description_en": "François Bayrou (MoDem) is appointed Prime Minister on December 13, 2024. His government is the first under the Fifth Republic to fall after engaging a confidence vote (Article 49-1) and losing it, on September 9, 2025. Sébastien Lecornu (Renaissance) succeeds him the same day. His first government resigns on October 6, 2025 and he is immediately reappointed to lead a second government (since October 10, 2025).",
+      "political_impact_fr": "Instabilité gouvernementale prolongée dans un contexte d'Assemblée fragmentée. Événements notables : cyclone Chido (décembre 2024), affaire Notre-Dame de Bétharram, attaques contre des prisons (avril 2025), crise agricole (2025), conclave sur la réforme des retraites.",
+      "political_impact_en": "Prolonged governmental instability in a fragmented Assembly context. Notable events: Cyclone Chido (December 2024), Notre-Dame de Bétharram abuse scandal, prison attacks (April 2025), agricultural crisis (2025), pension reform conclave.",
+      "related_terms": ["premier-ministre", "motion-de-censure"],
+      "sources": ["📎 SOURCE: https://fr.wikipedia.org/wiki/Liste_des_chefs_du_Gouvernement_fran%C3%A7ais", "📎 SOURCE: https://www.gouvernement.fr"],
+      "status": "verified"
+    }
+
+  ]
+}

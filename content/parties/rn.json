@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "rn",
+    "last_updated": "2026-05-27",
+    "sources_policy_fr": "Idéologie et programme issus du site officiel du RN et de ses déclarations publiques. Jugements ou analyses indiqués séparément.",
+    "sources_policy_en": "Ideology and program from the RN's official website and public statements. Judgments or analyses indicated separately.",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "Rassemblement National",
+    "full_name_en": "National Rally",
+    "abbreviation": "RN",
+    "former_name_fr": "Front National (FN) jusqu'en 2018",
+    "former_name_en": "National Front (FN) until 2018",
+    "founded": 1972,
+    "color": "#004FA3",
+    "position_on_spectrum_fr": "Droite nationaliste / Populisme de droite",
+    "position_on_spectrum_en": "Nationalist right / Right-wing populism",
+    "website": "https://www.rassemblementnational.fr",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Nationalisme français",
+      "Souverainisme (priorité aux intérêts nationaux sur les institutions européennes/internationales)",
+      "Protection de l'identité et de la culture française",
+      "Immigration très restrictive (préférence nationale)",
+      "Sécurité et autorité de l'État",
+      "Défense du pouvoir d'achat des classes populaires",
+      "Laïcité stricte"
+    ],
+    "core_values_en": [
+      "French nationalism",
+      "Sovereignism (national interests above European/international institutions)",
+      "Protection of French identity and culture",
+      "Very restrictive immigration (national preference)",
+      "Security and state authority",
+      "Defense of working-class purchasing power",
+      "Strict secularism"
+    ],
+    "eu_position_fr": "Eurosceptique. Partisan d'une refonte des traités européens pour récupérer davantage de souveraineté nationale. Abandonné l'idée de sortie de l'euro (Frexit) après 2017.",
+    "eu_position_en": "Eurosceptic. Supports renegotiating EU treaties to recover national sovereignty. Abandoned the idea of leaving the euro (Frexit) after 2017.",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 1972,
+        "event_fr": "Fondation du Front National (FN) par Jean-Marie Le Pen, issu de l'agrégation de plusieurs mouvements d'extrême droite.",
+        "event_en": "Foundation of the National Front (FN) by Jean-Marie Le Pen, formed from several far-right movements.",
+        "status": "verified"
+      },
+      {
+        "year": 1984,
+        "event_fr": "Percée électorale aux élections européennes (11%). Entre dans l'arène nationale. Obtient 35 sièges à l'Assemblée en 1986 grâce à un scrutin proportionnel exceptionnel.",
+        "event_en": "Electoral breakthrough at European elections (11%). Enters the national arena. Wins 35 seats in the Assembly in 1986 under an exceptional proportional system.",
+        "status": "verified"
+      },
+      {
+        "year": 1999,
+        "event_fr": "Scission du FN : Bruno Mégret quitte le parti pour fonder le Mouvement National Républicain (MNR). Le FN sort affaibli mais survit.",
+        "event_en": "FN split: Bruno Mégret leaves to found the National Republican Movement (MNR). The FN emerges weakened but survives.",
+        "status": "verified"
+      },
+      {
+        "year": 2002,
+        "event_fr": "Jean-Marie Le Pen atteint le second tour de la présidentielle (16,9%). Chirac est réélu avec 82,2% grâce au front républicain. Traumatisme national.",
+        "event_en": "Jean-Marie Le Pen reaches the presidential runoff (16.9%). Chirac re-elected with 82.2% thanks to the republican front. National trauma.",
+        "status": "verified"
+      },
+      {
+        "year": 2011,
+        "event_fr": "Marine Le Pen prend la présidence du FN. Commence la stratégie de 'dédiabolisation' : changement de discours, image plus modérée, éloignement des références explicitement racistes.",
+        "event_en": "Marine Le Pen takes over as FN president. Begins 'de-demonization' strategy: new discourse, more moderate image, distancing from explicitly racist references.",
+        "status": "verified"
+      },
+      {
+        "year": 2015,
+        "event_fr": "Marine Le Pen exclut son père Jean-Marie Le Pen du parti après ses propos répétés qualifiant les chambres à gaz de 'point de détail' de l'histoire.",
+        "event_en": "Marine Le Pen expels her father Jean-Marie Le Pen from the party after his repeated statements calling gas chambers a 'detail of history'.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "Marine Le Pen atteint le second tour de la présidentielle (33,9%). Défaite face à Macron mais score historique. L'abandon de l'euro pendant la campagne est une erreur stratégique reconnue.",
+        "event_en": "Marine Le Pen reaches the presidential runoff (33.9%). Defeat to Macron but a historic score. Abandoning the euro during the campaign is recognized as a strategic error.",
+        "status": "verified"
+      },
+      {
+        "year": 2018,
+        "event_fr": "Le Front National est rebaptisé Rassemblement National (RN) lors du congrès de Lille, dans le cadre de la stratégie de normalisation.",
+        "event_en": "The Front National is renamed Rassemblement National (RN) at the Lille congress, as part of the normalization strategy.",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "event_fr": "Marine Le Pen atteint de nouveau le second tour (41,5%). Jordan Bardella, 26 ans, devient président du parti. Le RN obtient 89 sièges à l'Assemblée — percée historique.",
+        "event_en": "Marine Le Pen reaches the runoff again (41.5%). Jordan Bardella, 26, becomes party president. RN wins 89 seats in the Assembly — a historic breakthrough.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "Le RN remporte les élections européennes (~32%). Lors des législatives anticipées, malgré une forte mobilisation du front républicain, le RN arrive 3e en sièges (~143) mais 1er en voix.",
+        "event_en": "RN wins the European elections (~32%). In the snap legislative elections, despite a strong republican front mobilization, RN comes 3rd in seats (~143) but 1st in votes.",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "Marine Le Pen",
+      "role_fr": "Ancienne présidente du parti (2011-2022), Présidente du groupe RN à l'Assemblée nationale, candidate déclarée pour la présidentielle 2027",
+      "role_en": "Former party president (2011-2022), President of the RN parliamentary group, declared candidate for the 2027 presidential election",
+      "note_fr": "Condamnée en première instance le 31 mars 2025 dans l'affaire des assistants parlementaires européens : 4 ans de prison dont 2 ferme sous bracelet électronique + 5 ans d'inéligibilité avec exécution provisoire immédiate. Inéligibilité confirmée par le Conseil d'État (octobre 2025). Conserve son mandat de députée. Procès en appel : 13 janv. – 12 fév. 2026 — délibéré prévu le 7 juillet 2026.",
+      "note_en": "Convicted at first instance on March 31, 2025 in the EU parliamentary assistants affair: 4 years prison (2 years firm under electronic monitoring) + 5 years ineligibility with immediate enforcement. Ineligibility upheld by the Conseil d'État (October 2025). Retains her deputy mandate. Appeal hearing Jan 13–Feb 12, 2026 — verdict scheduled July 7, 2026.",
+      "status": "verified"
+    },
+    {
+      "name": "Jordan Bardella",
+      "role_fr": "Président du RN depuis 2022. Tête de liste aux européennes 2024. Pressenti comme Premier ministre si le RN avait remporté les législatives 2024.",
+      "role_en": "RN President since 2022. Lead candidate for 2024 European elections. Touted as potential Prime Minister had RN won the 2024 legislative elections.",
+      "status": "verified",
+      "is_leader": true
+    },
+    {
+      "name": "Jean-Marie Le Pen",
+      "role_fr": "Fondateur et président historique du FN (1972-2011). Décédé le 7 janvier 2025.",
+      "role_en": "Founder and historic president of the FN (1972-2011). Died on January 7, 2025.",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_record": {
+    "note_fr": "Le RN a été dans l'opposition nationale pendant toute son histoire. Son bilan est donc essentiellement local (élus municipaux, régionaux) et sa position sur les votes parlementaires.",
+    "note_en": "RN has been in national opposition throughout its history. Its record is therefore mainly local (municipal, regional elected officials) and its positions on parliamentary votes.",
+    "parliamentary_positions": [
+      {
+        "subject_fr": "Réforme des retraites 2023",
+        "subject_en": "2023 pension reform",
+        "position_fr": "Vote contre. A soutenu les motions de censure mais pas déposé la sienne.",
+        "position_en": "Voted against. Supported motions of no confidence but did not file its own.",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Loi immigration 2024 (Darmanin)",
+        "subject_en": "2024 immigration law",
+        "position_fr": "Vote pour. Marine Le Pen a qualifié le texte de victoire idéologique.",
+        "position_en": "Voted for. Marine Le Pen called the text an ideological victory.",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Motion de censure contre Barnier (décembre 2024)",
+        "subject_en": "No-confidence vote against Barnier (December 2024)",
+        "position_fr": "Vote pour la censure (aux côtés du NFP).",
+        "position_en": "Voted for the no-confidence motion (alongside the NFP).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Programme officiel 2027 non encore finalisé à la date de cette fiche. Les positions ci-dessous reflètent les engagements récurrents du RN et les déclarations publiques de Marine Le Pen. Vérifier les détails sur rassemblementnational.fr.",
+    "note_en": "🗓️ SNAPSHOT: Official 2027 program not yet finalized at the date of this file. Positions below reflect RN's recurring commitments and Marine Le Pen's public statements. Verify details at rassemblementnational.fr.",
+    "presidential_candidate_fr": "Marine Le Pen (déclarée)",
+    "presidential_candidate_en": "Marine Le Pen (declared)",
+    "key_policies": {
+      "immigration": {
+        "position_fr": [
+          "Immigration 'zéro nette' : autant de retours que d'arrivées",
+          "Fin du droit du sol automatique pour les enfants nés en France de parents étrangers",
+          "Préférence nationale dans l'accès au logement social et aux aides sociales",
+          "Durcissement massif des conditions de naturalisation",
+          "Accélération des expulsions"
+        ],
+        "position_en": [
+          "'Zero net' immigration: as many departures as arrivals",
+          "End automatic birthright citizenship for children of foreign parents born in France",
+          "National preference for social housing and welfare benefits",
+          "Major tightening of naturalization conditions",
+          "Accelerated deportations"
+        ],
+        "status": "verified"
+      },
+      "economy": {
+        "position_fr": [
+          "Baisse de la TVA sur l'énergie (électricité, gaz, carburants) pour soutenir le pouvoir d'achat",
+          "Exonération d'impôt sur le revenu pour les moins de 30 ans",
+          "Protection de l'industrie française (protectionnisme ciblé)",
+          "Réduction de la dépendance aux importations"
+        ],
+        "position_en": [
+          "Lower VAT on energy (electricity, gas, fuel) to support purchasing power",
+          "Income tax exemption for under-30s",
+          "Protection of French industry (targeted protectionism)",
+          "Reducing import dependence"
+        ],
+        "status": "verified"
+      },
+      "retraites": {
+        "position_fr": "Abroger la réforme de 2023. Retour à la retraite à 60 ans pour ceux ayant effectué une carrière complète.",
+        "position_en": "Repeal the 2023 reform. Return to retirement at 60 for those with a full career.",
+        "status": "verified"
+      },
+      "securite": {
+        "position_fr": [
+          "Augmentation significative des effectifs de police et de gendarmerie",
+          "Peines planchers rétablies",
+          "Tolérance zéro contre la délinquance",
+          "Expulsion des étrangers délinquants"
+        ],
+        "position_en": [
+          "Significant increase in police and gendarmerie numbers",
+          "Mandatory minimum sentences restored",
+          "Zero tolerance against delinquency",
+          "Deportation of foreign criminals"
+        ],
+        "status": "verified"
+      },
+      "europe": {
+        "position_fr": "Rester dans l'UE mais renégocier les traités pour récupérer la souveraineté sur les frontières, la monnaie budgétaire, et certaines politiques. S'opposer au fédéralisme européen.",
+        "position_en": "Remain in the EU but renegotiate treaties to recover sovereignty over borders, budget, and certain policies. Oppose European federalism.",
+        "status": "verified"
+      },
+      "energie": {
+        "position_fr": "Maintien et développement du nucléaire. Opposition aux éoliennes (notamment offshore). Sortie des accords qui 'nuisent' à l'industrie française.",
+        "position_en": "Maintain and expand nuclear power. Opposition to wind turbines (especially offshore). Exit agreements that 'harm' French industry.",
+        "status": "verified"
+      },
+      "sante": {
+        "position_fr": [
+          "Défense du système de santé public universel",
+          "Recrutement de médecins et infirmiers, réduction des déserts médicaux",
+          "Opposition à la privatisation des soins",
+          "Priorité aux Français dans l'accès aux soins de premier niveau"
+        ],
+        "position_en": [
+          "Defense of the universal public health system",
+          "Recruit doctors and nurses, reduce medical deserts",
+          "Opposition to privatization of care",
+          "Priority for French citizens in primary care access"
+        ],
+        "status": "verified"
+      },
+      "environnement": {
+        "position_fr": "Écologie 'patriote et pragmatique' : protection du patrimoine naturel français, mais opposition aux politiques vertes qui pèsent sur le pouvoir d'achat. Contre les éoliennes offshore jugées nuisibles. Favorable au nucléaire.",
+        "position_en": "'Patriotic and pragmatic' ecology: protect French natural heritage, but oppose green policies that hurt purchasing power. Against offshore wind farms. In favour of nuclear power.",
+        "status": "verified"
+      }
+    },
+    "sources_for_verification": ["📎 SOURCE: https://www.rassemblementnational.fr/programme/"]
+  }
+}

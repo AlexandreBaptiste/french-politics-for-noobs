@@ -1,0 +1,198 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "ps",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "Parti Socialiste",
+    "full_name_en": "Socialist Party",
+    "abbreviation": "PS",
+    "founded": 1969,
+    "predecessor_fr": "SFIO (Section Française de l'Internationale Ouvrière, fondée en 1905)",
+    "predecessor_en": "SFIO (French Section of the Workers' International, founded 1905)",
+    "color": "#E75480",
+    "position_on_spectrum_fr": "Centre-gauche / Social-démocratie",
+    "position_on_spectrum_en": "Centre-left / Social democracy",
+    "website": "https://www.parti-socialiste.fr",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Social-démocratie (réguler le capitalisme, renforcer l'État social)",
+      "Justice sociale et fiscale",
+      "Solidarité et réduction des inégalités",
+      "Laïcité",
+      "Pro-européen (Europe sociale)",
+      "Transition écologique",
+      "Défense des libertés individuelles et des droits civiques"
+    ],
+    "core_values_en": [
+      "Social democracy (regulate capitalism, strengthen the welfare state)",
+      "Social and fiscal justice",
+      "Solidarity and reducing inequalities",
+      "Secularism",
+      "Pro-European (social Europe)",
+      "Ecological transition",
+      "Defense of individual liberties and civil rights"
+    ],
+    "eu_position_fr": "Favorable à une Europe sociale et solidaire. Critique des règles d'austérité budgétaire. Pour une harmonisation fiscale et sociale européenne vers le haut.",
+    "eu_position_en": "Supports a social and solidarity-based Europe. Critical of austerity rules. For upward European fiscal and social harmonization.",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 1969,
+        "event_fr": "Fondation du Parti Socialiste au congrès d'Issy-les-Moulineaux, sur les cendres de la SFIO, affaiblie après mai 1968.",
+        "event_en": "Founding of the Socialist Party at the Issy-les-Moulineaux congress, from the ruins of the SFIO, weakened after May 1968.",
+        "status": "verified"
+      },
+      {
+        "year": 1971,
+        "event_fr": "François Mitterrand prend la direction du PS au Congrès d'Épinay. Il entame la stratégie de l'Union de la gauche (Programme commun avec le PCF).",
+        "event_en": "François Mitterrand takes over the PS at the Épinay Congress. He begins the Union of the Left strategy (common program with the PCF).",
+        "status": "verified"
+      },
+      {
+        "year": 1981,
+        "event_fr": "Mitterrand élu président. Le PS obtient la majorité absolue aux législatives. Grandes réformes : nationalisations, 5e semaine de congés payés, abolition de la peine de mort, retraite à 60 ans, décentralisation.",
+        "event_en": "Mitterrand elected president. PS wins an absolute majority in legislative elections. Major reforms: nationalizations, 5th week of paid leave, abolition of the death penalty, retirement at 60, decentralization.",
+        "status": "verified"
+      },
+      {
+        "year": 1988,
+        "event_fr": "Mitterrand réélu. Cohabitation de 1986-1988 (Chirac PM). Second septennat marque un PS plus modéré et de moins en moins réformiste.",
+        "event_en": "Mitterrand re-elected. 1986-1988 cohabitation (Chirac PM). Second term marks a more moderate, less reformist PS.",
+        "status": "verified"
+      },
+      {
+        "year": 1997,
+        "event_fr": "Jospin Premier ministre dans la cohabitation. Bilan : 35h, PACS, CMU, loi sur la parité. Privatisations également.",
+        "event_en": "Jospin Prime Minister during cohabitation. Key acts: 35h, PACS, CMU, parity law. Also privatizations.",
+        "status": "verified"
+      },
+      {
+        "year": 2002,
+        "event_fr": "Catastrophe : Jospin éliminé au 1er tour de la présidentielle (3e derrière Le Pen). Le PS entre dans une longue traversée du désert.",
+        "event_en": "Disaster: Jospin eliminated in presidential round 1 (3rd, behind Le Pen). PS enters a long period in the wilderness.",
+        "status": "verified"
+      },
+      {
+        "year": 2007,
+        "event_fr": "Ségolène Royal, première femme finaliste à une présidentielle, perd face à Sarkozy (46,9%).",
+        "event_en": "Ségolène Royal, first woman in a presidential runoff, loses to Sarkozy (46.9%).",
+        "status": "verified"
+      },
+      {
+        "year": 2012,
+        "event_fr": "François Hollande élu président après avoir remporté la primaire. Le PS gagne aussi les législatives. Mandat très difficile — Hollande finit avec un taux d'approbation historiquement bas.",
+        "event_en": "François Hollande elected president after winning the primary. PS also wins the legislative elections. Very difficult term — Hollande ends with historically low approval ratings.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "Effondrement : Benoît Hamon (candidat PS, battu par Valls à la primaire) n'obtient que 6,4%. Le PS perd l'essentiel de ses cadres (Macron, Valls, etc.).",
+        "event_en": "Collapse: Benoît Hamon (PS candidate, had beaten Valls in the primary) wins only 6.4%. PS loses most of its senior figures (Macron, Valls, etc.).",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "event_fr": "Le PS participe à la NUPES sous leadership de LFI. Obtient environ 30 sièges. Tente de maintenir une identité distincte de LFI.",
+        "event_en": "PS joins NUPES under LFI leadership. Wins around 30 seats. Attempts to maintain an identity distinct from LFI.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "Raphaël Glucksmann mène la liste PS aux européennes et réalise 13,8% (dépassant LFI à 9,9%). Le PS rejoint le NFP pour les législatives. Regain de visibilité.",
+        "event_en": "Raphaël Glucksmann leads the PS list in the European elections, scoring 13.8% (overtaking LFI at 9.9%). PS joins NFP for legislative elections. Renewed visibility.",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "François Mitterrand",
+      "role_fr": "Figure historique fondatrice. Président de la République (1981-1995). A incarné la gauche au pouvoir en France pendant 14 ans.",
+      "role_en": "Historic founding figure. President of the Republic (1981-1995). Embodied the left in power in France for 14 years.",
+      "status": "verified"
+    },
+    {
+      "name": "Lionel Jospin",
+      "role_fr": "Premier ministre (1997-2002). Bilan solide (35h, PACS, CMU). Éliminé au 1er tour en 2002, se retire définitivement de la politique.",
+      "role_en": "Prime Minister (1997-2002). Solid record (35h, PACS, CMU). Eliminated in round 1 in 2002, permanently withdraws from politics.",
+      "status": "verified"
+    },
+    {
+      "name": "François Hollande",
+      "role_fr": "Président de la République (2012-2017). Bilan : mariage pour tous, réforme pénale, COP21. Impopularité historique. A renoncé à se représenter en 2016.",
+      "role_en": "President of the Republic (2012-2017). Key acts: same-sex marriage, penal reform, COP21. Historic unpopularity. Chose not to run in 2016.",
+      "status": "verified"
+    },
+    {
+      "name": "Raphaël Glucksmann",
+      "role_fr": "Eurodéputé PS, figure montante. Tête de liste aux européennes 2024. Potentiel candidat ou soutien pour la présidentielle 2027.",
+      "role_en": "PS MEP, rising figure. PS lead candidate for 2024 European elections. Potential candidate or backer for 2027 presidential election.",
+      "status": "verified"
+    },
+    {
+      "name": "Olivier Faure",
+      "role_fr": "Premier secrétaire du PS. A conduit la stratégie d'union avec LFI (NUPES, NFP).",
+      "role_en": "PS First Secretary. Led the strategy of union with LFI (NUPES, NFP).",
+      "status": "verified",
+      "is_leader": true
+    }
+  ],
+
+  "legislative_record": {
+    "major_reforms_when_in_power": [
+      { "reform_fr": "Abolition de la peine de mort (1981)", "year": 1981, "status": "verified" },
+      { "reform_fr": "Nationalisations et décentralisation (1981-1982)", "year": 1981, "status": "verified" },
+      { "reform_fr": "5e semaine de congés payés (1981)", "year": 1981, "status": "verified" },
+      { "reform_fr": "Retraite à 60 ans (1982)", "year": 1982, "status": "verified" },
+      { "reform_fr": "35 heures (1998-2000)", "year": 1998, "ref": "35h-1998-2000", "status": "verified" },
+      { "reform_fr": "PACS (1999)", "year": 1999, "ref": "pacs-1999", "status": "verified" },
+      { "reform_fr": "CMU (1999)", "year": 1999, "ref": "cmu-1999", "status": "verified" },
+      { "reform_fr": "Mariage pour tous (2013)", "year": 2013, "ref": "mariage-pour-tous-2013", "status": "verified" },
+      { "reform_fr": "Loi Travail El Khomri (2016) — adoptée contre une partie du PS", "year": 2016, "ref": "loi-travail-2016", "status": "verified" }
+    ]
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Programme officiel 2027 non encore publié. Basé sur les positions récentes du PS et de ses représentants. Vérifier sur parti-socialiste.fr.",
+    "note_en": "🗓️ SNAPSHOT: Official 2027 program not yet published. Based on recent PS positions and representatives' statements. Verify at parti-socialiste.fr.",
+    "presidential_candidate_fr": "Pas de candidat PS officiellement désigné. Glucksmann (Place publique) court en son nom propre et refuse la primaire de la gauche unitaire. Jérôme Guedj (PS) a déclaré sa candidature le 5 février 2026 hors primaire. Le PS est très divisé sur la stratégie 2027.",
+    "presidential_candidate_en": "No official PS candidate designated. Glucksmann (Place publique) is running independently and refuses the united left primary. Jérôme Guedj (PS) declared his candidacy on February 5, 2026 outside any primary. The PS is deeply divided over its 2027 strategy.",
+    "key_policies": {
+      "fiscal_fr": "Rétablissement de l'ISF, renforcement de la progressivité de l'impôt, taxation des super-profits et des successions importantes.",
+      "fiscal_en": "Restore the ISF, strengthen income tax progressivity, tax super-profits and large inheritances.",
+      "retraites_fr": "Abrogation de la réforme de 2023. Retour à la retraite à 62 ans minimum, avec des dispositifs pour les carrières longues et pénibles.",
+      "retraites_en": "Repeal the 2023 reform. Return to retirement at 62 minimum, with provisions for long and strenuous careers.",
+      "sante_fr": "Revalorisation des salaires dans la santé publique, plan d'investissement dans l'hôpital public, lutte contre les déserts médicaux.",
+      "sante_en": "Raise wages in public health, invest in public hospitals, fight against medical deserts.",
+      "environnement_fr": "Transition écologique juste (ne pas faire peser les efforts sur les classes populaires), rénovation thermique des logements, sortie progressive des énergies fossiles.",
+      "environnement_en": "Just ecological transition (not burdening the working class), thermal renovation of housing, gradual exit from fossil fuels.",
+      "europe_fr": "Europe sociale, harmonisation par le haut des droits sociaux et fiscaux, révision des règles budgétaires, Europe de la défense.",
+      "europe_en": "Social Europe, upward harmonization of social and fiscal rights, revision of budget rules, European defense.",
+      "immigration_fr": "Immigration régulière favorisée, asile respecté, lutte contre l'immigration irrégulière par des voies légales et la coopération internationale.",
+      "immigration_en": "Regular immigration facilitated, asylum respected, fight against irregular immigration through legal channels and international cooperation.",
+      "economy_fr": "Augmentation du SMIC, rétablissement de l'ISF, investissement public dans l'industrie verte et les services publics, réduction des inégalités salariales.",
+      "economy_en": "Raise the minimum wage, restore the wealth tax (ISF), public investment in green industry and public services, reduce wage inequality.",
+      "securite_fr": "Équilibre entre sécurité et libertés publiques. Davantage de policiers de proximité. Lutte prioritaire contre les violences faites aux femmes. Opposition au tout-répressif.",
+      "securite_en": "Balance between security and civil liberties. More community policing. Priority fight against violence against women. Opposition to purely repressive approach.",
+      "energie_fr": "Maintien du nucléaire pendant la transition énergétique. Développement massif des énergies renouvelables. Sobriété et efficacité énergétique.",
+      "energie_en": "Keep nuclear during the energy transition. Massive development of renewable energy. Energy sobriety and efficiency.",
+      "status": "verified"
+    },
+    "sources_for_verification": ["📎 SOURCE: https://www.parti-socialiste.fr/programme/"]
+  }
+}

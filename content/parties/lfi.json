@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "section": "parties",
+    "party_id": "lfi",
+    "last_updated": "2026-05-27",
+    "status_legend": {
+      "verified": "Confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+
+  "identity": {
+    "full_name_fr": "La France Insoumise",
+    "full_name_en": "France Unbowed",
+    "abbreviation": "LFI",
+    "founded": 2016,
+    "color": "#CC2443",
+    "position_on_spectrum_fr": "Gauche radicale / Populisme de gauche",
+    "position_on_spectrum_en": "Radical left / Left-wing populism",
+    "website": "https://lafranceinsoumise.fr",
+    "structure_note_fr": "LFI se définit comme un 'mouvement' et non un parti classique. Structure délibérément moins formalisée.",
+    "structure_note_en": "LFI defines itself as a 'movement', not a traditional party. Deliberately less formalized structure.",
+    "status": "verified"
+  },
+
+  "ideology": {
+    "core_values_fr": [
+      "Rupture avec la Ve République (6e République via Assemblée constituante)",
+      "Planification écologique (transition vers 100% renouvelables)",
+      "Justice fiscale (ISF, taxation du capital, progressivité de l'impôt)",
+      "Services publics renforcés (santé, éducation, transport)",
+      "Souverainisme de gauche (renegociation des traités UE, sortie du commandement OTAN)",
+      "Féminisme, antiracisme",
+      "Démocratie directe et participation citoyenne"
+    ],
+    "core_values_en": [
+      "Break with the Fifth Republic (6th Republic via constituent assembly)",
+      "Ecological planning (transition to 100% renewables)",
+      "Fiscal justice (wealth tax, capital taxation, income tax progressivity)",
+      "Strengthened public services (health, education, transport)",
+      "Left-wing sovereignism (renegotiate EU treaties, exit NATO command)",
+      "Feminism, anti-racism",
+      "Direct democracy and citizen participation"
+    ],
+    "eu_position_fr": "Critique des traités européens actuels (notamment les règles budgétaires). Favorable à une Europe des peuples et des nations plutôt qu'une Europe des marchés. Prône la désobéissance aux règles européennes si nécessaire.",
+    "eu_position_en": "Critical of current EU treaties (especially budget rules). Favors a 'Europe of peoples and nations' rather than a market-driven Europe. Advocates disobeying EU rules if necessary.",
+    "status": "verified"
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "year": 1976,
+        "event_fr": "Jean-Luc Mélenchon adhère au Parti Socialiste (PS) à 25 ans.",
+        "event_en": "Jean-Luc Mélenchon joins the Socialist Party (PS) at age 25.",
+        "status": "verified"
+      },
+      {
+        "year": 2008,
+        "event_fr": "Mélenchon quitte le PS et co-fonde le Parti de Gauche (PG), en désaccord avec la direction de Martine Aubry.",
+        "event_en": "Mélenchon leaves the PS and co-founds the Left Party (PG), disagreeing with Martine Aubry's leadership.",
+        "status": "verified"
+      },
+      {
+        "year": 2012,
+        "event_fr": "Front de Gauche (PG + PCF + autres) : Mélenchon obtient 11,1% à la présidentielle, en 4e position. Forte dynamique de campagne.",
+        "event_en": "Left Front (PG + PCF + others): Mélenchon wins 11.1% in the presidential election, 4th place. Strong campaign momentum.",
+        "status": "verified"
+      },
+      {
+        "year": 2016,
+        "event_fr": "Mélenchon fonde La France Insoumise (LFI) comme mouvement politique horizontal, en rupture avec la forme partisane classique. Utilise massivement les réseaux sociaux.",
+        "event_en": "Mélenchon founds La France Insoumise (LFI) as a horizontal political movement, breaking with classic party format. Makes heavy use of social media.",
+        "status": "verified"
+      },
+      {
+        "year": 2017,
+        "event_fr": "Mélenchon obtient 19,6% à la présidentielle (4e, manque le second tour de peu). LFI obtient 17 sièges à l'Assemblée.",
+        "event_en": "Mélenchon wins 19.6% in the presidential election (4th, narrowly misses the runoff). LFI wins 17 seats in the Assembly.",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "event_fr": "Mélenchon obtient 22% au 1er tour (3e, éliminé). Fonde la NUPES (union électorale avec PS, EELV, PCF), qui obtient 151 sièges. LFI devient la 1ère force de gauche avec 75 sièges.",
+        "event_en": "Mélenchon wins 22% in round 1 (3rd, eliminated). Forms NUPES (electoral union with PS, EELV, PCF), winning 151 seats. LFI becomes the leading left-wing force with 75 seats.",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "event_fr": "La NUPES éclate. LFI fonde le Nouveau Front Populaire (NFP) avec PS, EELV et PCF pour les législatives anticipées. Le NFP arrive en tête (~193 sièges). Plusieurs figures quittent LFI (François Ruffin notamment).",
+        "event_en": "NUPES collapses. LFI forms the Nouveau Front Populaire (NFP) with PS, EELV and PCF for the snap elections. NFP leads (~193 seats). Several figures leave LFI (notably François Ruffin).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "key_figures": [
+    {
+      "name": "Jean-Luc Mélenchon",
+      "role_fr": "Fondateur de LFI. Candidat à la présidentielle en 2012, 2017 et 2022. Désigné candidat LFI pour 2027 par les élus du mouvement le 3 mai 2026 (4e candidature). Refuse de participer à la primaire de la gauche unitaire.",
+      "role_en": "LFI founder. Presidential candidate in 2012, 2017 and 2022. Designated LFI candidate for 2027 by the movement's elected officials on May 3, 2026 (4th candidacy). Refuses to participate in the united left primary.",
+      "status": "verified",
+      "is_leader": true
+    },
+    {
+      "name": "Mathilde Panot",
+      "role_fr": "Présidente du groupe LFI à l'Assemblée nationale.",
+      "role_en": "President of the LFI group in the National Assembly.",
+      "status": "verified"
+    },
+    {
+      "name": "Manon Aubry",
+      "role_fr": "Co-présidente du groupe La Gauche au Parlement européen, figure montante de LFI.",
+      "role_en": "Co-president of The Left group in the European Parliament, rising LFI figure.",
+      "status": "verified"
+    },
+    {
+      "name": "François Ruffin",
+      "role_fr": "Ancien député LFI, réalisateur de 'Merci Patron !'. A quitté LFI en 2024 en critiquant les méthodes du mouvement.",
+      "role_en": "Former LFI deputy, director of 'Merci Patron!'. Left LFI in 2024 criticizing the movement's methods.",
+      "status": "verified"
+    }
+  ],
+
+  "legislative_record": {
+    "note_fr": "LFI est dans l'opposition depuis sa fondation. Son bilan législatif est celui de son rôle d'opposition : dépôts d'amendements, motions de censure, interpellations du gouvernement.",
+    "note_en": "LFI has been in opposition since its founding. Its legislative record consists of its opposition role: amendments, no-confidence motions, and government challenges.",
+    "parliamentary_positions": [
+      {
+        "subject_fr": "Réforme des retraites 2023",
+        "subject_en": "2023 pension reform",
+        "position_fr": "Vote contre. A déposé et soutenu plusieurs motions de censure. A joué un rôle clé dans la mobilisation sociale.",
+        "position_en": "Voted against. Filed and supported several motions of no confidence. Played a key role in social mobilization.",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Loi immigration 2024",
+        "subject_en": "2024 immigration law",
+        "position_fr": "Vote contre avec l'ensemble de la gauche.",
+        "position_en": "Voted against alongside the entire left.",
+        "status": "verified"
+      },
+      {
+        "subject_fr": "Motion de censure contre Barnier (décembre 2024)",
+        "subject_en": "No-confidence vote against Barnier (December 2024)",
+        "position_fr": "Vote pour (dans le cadre du NFP).",
+        "position_en": "Voted for (within the NFP framework).",
+        "status": "verified"
+      }
+    ]
+  },
+
+  "program_2027": {
+    "snapshot_date": "2026-05-27",
+    "note_fr": "🗓️ SNAPSHOT : Basé sur le programme 2022 'L'Union Populaire' et les déclarations ultérieures. Le programme 2027 officiel n'est pas encore publié. Vérifier sur lafranceinsoumise.fr.",
+    "note_en": "🗓️ SNAPSHOT: Based on the 2022 'L'Union Populaire' program and subsequent statements. The official 2027 program is not yet published. Verify at lafranceinsoumise.fr.",
+    "presidential_candidate_fr": "Jean-Luc Mélenchon. Désigné candidat de LFI le 3 mai 2026 par les élus du mouvement — sa 4e candidature présidentielle. Refuse toute participation à la primaire de la gauche unitaire.",
+    "presidential_candidate_en": "Jean-Luc Mélenchon. Designated LFI candidate on May 3, 2026 by the movement's elected officials — his 4th presidential run. Refuses any participation in the united left primary.",
+    "key_policies": {
+      "institutions": {
+        "position_fr": "Convoquer une Assemblée constituante pour rédiger une 6e République : plus de proportionnelle, référendum d'initiative citoyenne, mandat unique.",
+        "position_en": "Convene a constituent assembly to draft a 6th Republic: more proportional representation, citizen-initiated referendums, single terms.",
+        "status": "verified"
+      },
+      "economy": {
+        "position_fr": [
+          "Augmentation du SMIC (vers 1 600€ net)",
+          "Rétablissement de l'ISF et création d'un impôt sur la fortune 'climatique'",
+          "Blocage des prix des produits de première nécessité",
+          "Planification économique via un pôle public bancaire"
+        ],
+        "position_en": [
+          "Raise the minimum wage (toward €1,600 net)",
+          "Restore the ISF and create a 'climate' wealth tax",
+          "Price controls on essential goods",
+          "Economic planning via a public banking sector"
+        ],
+        "status": "verified"
+      },
+      "retraites": {
+        "position_fr": "Retour à la retraite à 60 ans. Abrogation immédiate de la réforme de 2023.",
+        "position_en": "Return to retirement at 60. Immediate repeal of the 2023 reform.",
+        "status": "verified"
+      },
+      "environnement": {
+        "position_fr": [
+          "Planification écologique : 100% d'énergies renouvelables à terme",
+          "Sortie progressive du nucléaire",
+          "Rénovation thermique des logements (chantier national)",
+          "Agriculture : vers l'agroécologie"
+        ],
+        "position_en": [
+          "Ecological planning: 100% renewable energy long-term",
+          "Gradual nuclear phase-out",
+          "Thermal renovation of housing (national project)",
+          "Agriculture: toward agroecology"
+        ],
+        "status": "verified"
+      },
+      "europe_international": {
+        "position_fr": [
+          "Renégociation des traités européens (règle d'or budgétaire, libre-échange)",
+          "Sortie du commandement intégré de l'OTAN",
+          "Désobéissance aux règles européennes si nécessaire pour appliquer le programme"
+        ],
+        "position_en": [
+          "Renegotiate EU treaties (fiscal golden rule, free trade)",
+          "Exit NATO integrated command",
+          "Disobey EU rules if necessary to implement the program"
+        ],
+        "status": "verified"
+      },
+      "sante_education": {
+        "position_fr": [
+          "Augmentation massive du budget de l'hôpital public",
+          "Gratuité totale des études (université, école)",
+          "Recrutement massif dans l'éducation nationale"
+        ],
+        "position_en": [
+          "Massive increase in public hospital budget",
+          "Free education (university and school)",
+          "Massive recruitment in national education"
+        ],
+        "status": "verified"
+      },
+      "immigration": {
+        "position_fr": "LFI défend la régularisation des sans-papiers, l'accueil des réfugiés et s'oppose aux politiques restrictives. Contre la 'préférence nationale' et les expulsions.",
+        "position_en": "LFI advocates regularizing undocumented workers, welcoming refugees, and opposes restrictive immigration policies. Against 'national preference' and deportations.",
+        "status": "verified"
+      },
+      "securite": {
+        "position_fr": [
+          "Réforme de la police (contrôle indépendant, formation aux droits de l'homme)",
+          "Traiter les causes sociales de la délinquance (pauvreté, précarité, inégalités)",
+          "Opposition aux politiques sécuritaires punitives jugées inefficaces"
+        ],
+        "position_en": [
+          "Police reform (independent oversight, human rights training)",
+          "Address the social roots of delinquency (poverty, precariousness, inequality)",
+          "Opposition to punitive security policies deemed ineffective"
+        ],
+        "status": "verified"
+      },
+      "energie": {
+        "position_fr": "Sortie progressive du nucléaire. Transition vers 100% d'énergies renouvelables. Renationalisation intégrale d'EDF. Planification publique de la transition énergétique.",
+        "position_en": "Gradual nuclear phase-out. Transition to 100% renewable energy. Full renationalization of EDF. Public planning of the energy transition.",
+        "status": "verified"
+      }
+    },
+    "sources_for_verification": ["📎 SOURCE: https://lafranceinsoumise.fr/programme/"]
+  }
+}

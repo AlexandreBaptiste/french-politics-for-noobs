@@ -1,0 +1,771 @@
+{
+  "_meta": {
+    "section": "glossary",
+    "language_primary": "fr",
+    "language_secondary": "en",
+    "last_updated": "2026-05-28",
+    "status_legend": {
+      "verified": "Content confirmed against official source",
+      "needs-verification": "⚠️ AI-drafted — must verify before publishing"
+    }
+  },
+  "terms": [
+    {
+      "id": "abstention",
+      "term_fr": "Abstention",
+      "term_en": "Abstention",
+      "category": "electoral",
+      "definition_fr": "Fait pour un électeur inscrit sur les listes électorales de ne pas participer à un scrutin. L'abstention est en forte hausse en France depuis les années 1990, atteignant des records notamment aux élections législatives. Différent du vote blanc (voter sans choisir).",
+      "definition_en": "Registered voter's choice not to participate in an election. Abstention has risen sharply in France since the 1990s, reaching record levels in legislative elections. Distinct from a blank vote.",
+      "example_fr": "Aux législatives de juin 2022, le taux d'abstention a atteint 52,5 % au premier tour — un niveau historiquement élevé illustrant la désaffection croissante des Français pour ce scrutin.",
+      "example_en": "In the June 2022 legislative elections, 52.5% of registered voters abstained in the first round — a historically high level illustrating growing voter disengagement.",
+      "related_terms": [
+        "vote-blanc",
+        "suffrage-universel"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/abstention-vote-blanc",
+      "status": "verified"
+    },
+    {
+      "id": "amendement",
+      "term_fr": "Amendement",
+      "term_en": "Amendment",
+      "category": "legislative-process",
+      "definition_fr": "Modification proposée à un texte de loi lors de son examen parlementaire. Tout député ou sénateur peut déposer des amendements au cours des débats en commission ou en séance. Les amendements peuvent être adoptés, rejetés ou retirés. Le gouvernement peut également en déposer.",
+      "definition_en": "Proposed modification to a bill during its parliamentary examination. Any deputy or senator may table amendments in committee or in plenary session. Amendments may be adopted, rejected, or withdrawn. The government may also table amendments.",
+      "related_terms": [
+        "navette-parlementaire",
+        "assemblee-nationale",
+        "senat"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19449-quest-ce-quun-amendement",
+      "status": "verified"
+    },
+    {
+      "id": "article-16",
+      "term_fr": "Article 16",
+      "term_en": "Article 16 — Emergency powers",
+      "category": "constitutional",
+      "definition_fr": "Article de la Constitution permettant au Président de concentrer temporairement les pleins pouvoirs en cas de menace grave et immédiate sur les institutions, l'indépendance nationale ou l'intégrité du territoire. N'a été utilisé qu'une seule fois, par De Gaulle, en 1961 lors du putsch des généraux en Algérie.",
+      "definition_en": "Constitutional article allowing the President to temporarily assume full powers in case of a grave and immediate threat to institutions, national independence, or territorial integrity. Used only once, by De Gaulle in 1961 during the generals' coup attempt in Algeria.",
+      "related_terms": [
+        "president-de-la-republique",
+        "constitution"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+      "status": "verified"
+    },
+    {
+      "id": "article-49-3",
+      "term_fr": "Article 49 alinéa 3 (49-3)",
+      "term_en": "Article 49.3",
+      "category": "constitutional",
+      "definition_fr": "Disposition constitutionnelle permettant au gouvernement d'engager sa responsabilité sur un texte de loi afin de le faire adopter sans vote de l'Assemblée nationale. Si aucune motion de censure n'est déposée dans les 24h ou si elle échoue, le texte est considéré comme adopté. Depuis 2008, son usage est limité aux lois de finances et de financement de la sécurité sociale, sauf une fois par session pour les autres textes.",
+      "definition_en": "Constitutional provision allowing the government to pass a bill without a parliamentary vote by staking its survival on the text. If no motion of no confidence is filed within 24 hours (or if it fails), the text is automatically adopted. Since 2008, its use is restricted to budget and social security finance bills (plus one other per session).",
+      "example_fr": "Utilisé par Élisabeth Borne pour faire passer la réforme des retraites en 2023 sans vote de l'Assemblée.",
+      "related_terms": [
+        "motion-de-censure",
+        "assemblee-nationale",
+        "gouvernement",
+        "loi-de-finances"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+      "status": "verified"
+    },
+    {
+      "id": "assemblee-nationale",
+      "term_fr": "Assemblée nationale",
+      "term_en": "National Assembly",
+      "category": "institutions",
+      "definition_fr": "Chambre basse du Parlement français, composée de 577 députés élus pour 5 ans au scrutin uninominal majoritaire à deux tours. Elle partage le pouvoir législatif avec le Sénat, mais a le dernier mot en cas de désaccord entre les deux chambres.",
+      "definition_en": "Lower house of the French Parliament, made up of 577 deputies elected for 5-year terms. It shares legislative power with the Senate but has the final say in case of disagreement.",
+      "example_fr": "L'Assemblée nationale peut renverser le gouvernement via une motion de censure (article 49).",
+      "related_terms": [
+        "senat",
+        "depute",
+        "motion-de-censure",
+        "dissolution",
+        "scrutin-uninominal"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale",
+      "status": "verified"
+    },
+    {
+      "id": "circonscription",
+      "term_fr": "Circonscription",
+      "term_en": "Electoral constituency / District",
+      "category": "electoral",
+      "definition_fr": "Division territoriale dans laquelle est élu un député. La France métropolitaine et les territoires d'outre-mer sont divisés en 577 circonscriptions. Chaque circonscription élit un seul député à l'Assemblée nationale au scrutin uninominal majoritaire à deux tours.",
+      "definition_en": "Territorial division in which a deputy is elected. France is divided into 577 constituencies (including overseas territories). Each elects one deputy to the National Assembly via the two-round majority system.",
+      "related_terms": [
+        "assemblee-nationale",
+        "depute",
+        "scrutin-uninominal"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-deputes/les-deputes-et-leurs-circonscriptions",
+      "status": "verified"
+    },
+    {
+      "id": "cohabitation",
+      "term_fr": "Cohabitation",
+      "term_en": "Cohabitation",
+      "category": "political-culture",
+      "definition_fr": "Situation politique dans laquelle le Président de la République et le Premier ministre appartiennent à des camps politiques opposés. Elle survient lorsque les élections législatives donnent une majorité contraire à la majorité présidentielle.",
+      "definition_en": "Political situation where the President and Prime Minister come from opposing political parties, occurring when legislative elections produce a majority opposed to the President.",
+      "example_fr": "Trois cohabitations sous la Ve République : Mitterrand/Chirac (1986-1988), Mitterrand/Balladur (1993-1995), Chirac/Jospin (1997-2002).",
+      "related_terms": [
+        "president-de-la-republique",
+        "premier-ministre",
+        "dissolution",
+        "quinquennat"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19594-quest-ce-que-la-cohabitation",
+      "status": "verified"
+    },
+    {
+      "id": "conseil-constitutionnel",
+      "term_fr": "Conseil constitutionnel",
+      "term_en": "Constitutional Council",
+      "category": "institutions",
+      "definition_fr": "Institution chargée de veiller au respect de la Constitution. Composé de 9 membres nommés pour 9 ans (3 par le Président de la République, 3 par le Président de l'Assemblée nationale, 3 par le Président du Sénat). Contrôle la constitutionnalité des lois avant leur promulgation (saisine a priori) ou après leur adoption via la Question Prioritaire de Constitutionnalité (QPC, depuis 2008).",
+      "definition_en": "Institution responsible for ensuring laws comply with the Constitution. Composed of 9 members serving 9-year terms (3 each appointed by the President, the President of the National Assembly, and the President of the Senate). Reviews constitutionality before promulgation or via the Priority Constitutional Question (QPC) procedure.",
+      "example_fr": "Le Conseil constitutionnel a validé la réforme des retraites de 2023, malgré une forte opposition populaire.",
+      "related_terms": [
+        "constitution",
+        "qpc",
+        "assemblee-nationale",
+        "senat"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-conseil-constitutionnel/presentation-du-conseil-constitutionnel",
+      "status": "verified"
+    },
+    {
+      "id": "conseil-etat",
+      "term_fr": "Conseil d'État",
+      "term_en": "Council of State",
+      "category": "institutions",
+      "definition_fr": "Plus haute juridiction administrative de France. Il a deux missions : conseiller le gouvernement sur les projets de loi et décrets (rôle consultatif), et juger les litiges entre les citoyens et l'administration (rôle juridictionnel). Distinct du Conseil constitutionnel.",
+      "definition_en": "France's highest administrative court. It serves two roles: advising the government on draft laws and decrees (advisory role), and adjudicating disputes between citizens and public administration (judicial role). Distinct from the Constitutional Council.",
+      "related_terms": [
+        "conseil-constitutionnel",
+        "decret",
+        "ordonnance"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-etat.fr/le-conseil-d-etat/missions",
+      "status": "verified"
+    },
+    {
+      "id": "conseil-des-ministres",
+      "term_fr": "Conseil des ministres",
+      "term_en": "Council of Ministers (Cabinet meeting)",
+      "category": "institutions",
+      "definition_fr": "Réunion hebdomadaire de l'ensemble des membres du gouvernement, présidée par le Président de la République à l'Élysée. C'est lors du Conseil des ministres que sont officiellement adoptés les projets de loi et les décrets délibérés en conseil, et que sont nommés les hauts fonctionnaires.",
+      "definition_en": "Weekly meeting of all government members, chaired by the President at the Élysée Palace. Bills and decrees are officially adopted here, and senior civil servants are appointed.",
+      "related_terms": [
+        "president-de-la-republique",
+        "premier-ministre",
+        "gouvernement",
+        "decret",
+        "elysee"
+      ],
+      "source": "📎 SOURCE: https://www.gouvernement.fr/conseil-des-ministres",
+      "status": "verified"
+    },
+    {
+      "id": "decret",
+      "term_fr": "Décret",
+      "term_en": "Decree",
+      "category": "legislative-process",
+      "definition_fr": "Acte réglementaire signé par le Président de la République ou le Premier ministre. Les décrets en Conseil d'État nécessitent l'avis préalable du Conseil d'État. Ils servent notamment à mettre en application les lois votées par le Parlement (décrets d'application).",
+      "definition_en": "Regulatory act signed by the President or Prime Minister. Decrees en Conseil d'État require prior review by the Council of State. They are used to implement laws passed by Parliament.",
+      "related_terms": [
+        "ordonnance",
+        "conseil-etat",
+        "president-de-la-republique",
+        "premier-ministre"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19439-les-actes-du-pouvoir-executif-decrets-et-arretes",
+      "status": "verified"
+    },
+    {
+      "id": "depute",
+      "term_fr": "Député",
+      "term_en": "Member of Parliament (Deputy)",
+      "category": "roles",
+      "definition_fr": "Membre élu de l’Assemblée nationale, représentant une circonscription pour un mandat de 5 ans. La France compte 577 députés. Ils votent les lois, contrôlent l’action du gouvernement et peuvent cosigner une motion de censure. Élus au scrutin uninominal majoritaire à deux tours.",
+      "definition_en": "Elected member of the National Assembly, representing a constituency for a 5-year term. France has 577 deputies. They vote on laws, oversee government action, and may co-sign a motion of no confidence. Elected by the two-round majority system.",
+      "related_terms": [
+        "assemblee-nationale",
+        "circonscription",
+        "scrutin-uninominal",
+        "mandat"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-deputes",
+      "status": "verified"
+    },
+    {
+      "id": "desistement",
+      "term_fr": "Désistement",
+      "term_en": "Electoral withdrawal",
+      "category": "electoral",
+      "definition_fr": "Décision d'un candidat qualifié pour le second tour de se retirer de la course électorale, souvent pour favoriser un autre candidat mieux placé pour gagner, ou pour faire barrage à un adversaire. Pratique centrale dans la culture du 'front républicain'.",
+      "definition_en": "Decision by a second-round-qualified candidate to withdraw from the race, often to consolidate votes behind a stronger candidate or block an opponent. Central to the concept of 'front républicain'.",
+      "example_fr": "Au second tour des législatives de 2024, de nombreux candidats de gauche et du centre se sont désistés mutuellement pour faire barrage au RN.",
+      "example_en": "In the second round of the 2024 legislative elections, many left-wing and centrist candidates withdrew to consolidate votes behind the best-placed alternative to the RN.",
+      "related_terms": [
+        "scrutin-uninominal",
+        "front-republicain"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19603-quest-ce-que-le-desistement",
+      "status": "verified"
+    },
+    {
+      "id": "dissolution",
+      "term_fr": "Dissolution (de l'Assemblée nationale)",
+      "term_en": "Dissolution (of the National Assembly)",
+      "category": "constitutional",
+      "definition_fr": "Droit accordé au Président de la République (article 12 de la Constitution) de mettre fin par anticipation au mandat des députés et de convoquer de nouvelles élections législatives. Ne peut pas être utilisé dans les 12 mois suivant une dissolution précédente.",
+      "definition_en": "Presidential power (Article 12 of the Constitution) to end the National Assembly's term early and call new legislative elections. Cannot be used within 12 months of a previous dissolution.",
+      "example_fr": "En juin 2024, Emmanuel Macron a dissous l'Assemblée nationale après les résultats des élections européennes.",
+      "related_terms": [
+        "assemblee-nationale",
+        "article-12",
+        "elections-legislatives"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+      "status": "verified"
+    },
+    {
+      "id": "elysee",
+      "term_fr": "Élysée (Palais de l'Élysée)",
+      "term_en": "Élysée Palace",
+      "category": "institutions",
+      "definition_fr": "Résidence officielle et lieu de travail du Président de la République, situé dans le 8e arrondissement de Paris. Par métonymie, désigne souvent la présidence elle-même.",
+      "definition_en": "Official residence and workplace of the President of the Republic, located in the 8th arrondissement of Paris. Often used as a metonym for the presidency itself.",
+      "related_terms": [
+        "president-de-la-republique",
+        "matignon"
+      ],
+      "source": "📎 SOURCE: https://www.elysee.fr/la-presidence/le-palais-de-l-elysee",
+      "status": "verified"
+    },
+    {
+      "id": "fascisme",
+      "term_fr": "Fascisme",
+      "term_en": "Fascism",
+      "category": "political-culture",
+      "definition_fr": "Idéologie et système politique autoritaire apparu en Europe dans les années 1920-1930, notamment en Italie sous Mussolini et en Allemagne sous Hitler (nazisme). Le fascisme se caractérise par un nationalisme exacerbé, le culte du chef, le rejet de la démocratie libérale et du communisme, la glorification de la violence, le corporatisme et la subordination totale de l'individu à l'État-nation. En France, il a trouvé une expression notamment dans les ligues nationalistes et d'extrême droite des années 1930, ainsi que dans le régime de Vichy (1940-1944), autoritaire et collaborationniste. Le terme est aujourd'hui couramment utilisé — parfois abusivement — pour qualifier des mouvements jugés autoritaires ou d'extrême droite.",
+      "definition_en": "Authoritarian political ideology that emerged in Europe in the 1920s–1930s, most notably in Italy under Mussolini and Germany under Hitler (Nazism). Fascism is characterised by extreme nationalism, cult of the leader, rejection of liberal democracy and communism, glorification of violence, corporatism, and total subordination of the individual to the nation-state. In France, it manifested notably in the nationalist and far-right leagues of the 1930s, and the Vichy regime (1940–1944), authoritarian and collaborationist. The term is today widely used — sometimes loosely — to describe movements deemed authoritarian or far-right.",
+      "example_fr": "Le Front populaire (1936) fut une coalition de gauche formée en réaction à la montée des ligues nationalistes et d'extrême droite françaises.",
+      "example_en": "The Popular Front (1936) was a left-wing coalition formed in reaction to the rise of French nationalist and far-right leagues.",
+      "related_terms": [
+        "ve-republique",
+        "laicite",
+        "front-republicain"
+      ],
+      "source": "📎 SOURCE: https://www.larousse.fr/encyclopedie/divers/fascisme/54004",
+      "status": "verified"
+    },
+    {
+      "id": "front-republicain",
+      "term_fr": "Front républicain",
+      "term_en": "Republican front",
+      "category": "political-culture",
+      "definition_fr": "Pratique informelle par laquelle des partis de bords politiques différents s'accordent pour soutenir un candidat unique au second tour afin d'empêcher l'élection d'un candidat jugé menaçant pour les valeurs républicaines (historiquement, contre l'extrême droite). Implique souvent des désistements et des reports de voix.",
+      "definition_en": "Informal practice whereby parties across the political spectrum agree to support a single candidate in the second round to block a candidate seen as a threat to republican values (historically against the far right). Usually involves withdrawals and vote transfers.",
+      "example_fr": "En 2002, face à Jean-Marie Le Pen au second tour de la présidentielle, l'ensemble des partis de gauche et du centre ont appelé à voter pour Jacques Chirac, qui l'emporta avec 82,2 % des voix.",
+      "example_en": "In 2002, facing Jean-Marie Le Pen in the presidential second round, all left and centrist parties called to vote for Jacques Chirac, who won with 82.2% of the vote.",
+      "related_terms": [
+        "desistement"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/front-republicain",
+      "status": "verified"
+    },
+    {
+      "id": "garde-des-sceaux",
+      "term_fr": "Garde des Sceaux",
+      "term_en": "Keeper of the Seals (Minister of Justice)",
+      "category": "roles",
+      "definition_fr": "Titre officiel du ministre de la Justice. Hérite son nom de la tradition de garder les sceaux de l'État (symbole d'autorité). Responsable de la politique judiciaire, du système pénitentiaire et de la supervision du parquet.",
+      "definition_en": "Official title of the Minister of Justice. The name comes from the historical role of keeping the state seals. Responsible for justice policy, the prison system, and oversight of public prosecutors.",
+      "related_terms": [
+        "gouvernement",
+        "conseil-des-ministres"
+      ],
+      "source": "📎 SOURCE: https://www.justice.gouv.fr/ministre/",
+      "status": "verified"
+    },
+    {
+      "id": "gaullisme",
+      "term_fr": "Gaullisme",
+      "term_en": "Gaullism",
+      "category": "political-culture",
+      "definition_fr": "Courant politique fondé sur la pensée et l’héritage du Général de Gaulle, fondateur de la Ve République (1958). Se caractérise par le nationalisme français, l’indépendance nationale face aux blocs (politique de grandeur), un exécutif fort et une vision sociale de l’État. A dominé la droite française de 1958 aux années 1990 via des partis successifs : RPF, UNR, RPR, puis UMP/LR.",
+      "definition_en": "Political movement founded on the thought and legacy of General de Gaulle, founder of the Fifth Republic (1958). Characterised by French nationalism, national independence from blocs, a strong executive, and a social vision of the state. Dominated the French right from 1958 to the 1990s through successive parties: RPF, UNR, RPR, then UMP/LR.",
+      "example_fr": "Jacques Chirac et Alain Juppé sont des figures emblématiques du gaullisme au sein du RPR.",
+      "example_en": "Jacques Chirac and Alain Juppe are emblematic figures of Gaullism within the RPR.",
+      "related_terms": [
+        "ve-republique",
+        "souverainisme"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/gaullisme",
+      "status": "verified"
+    },
+    {
+      "id": "gouvernement",
+      "term_fr": "Gouvernement",
+      "term_en": "Government / Cabinet",
+      "category": "institutions",
+      "definition_fr": "Ensemble des ministres dirigé par le Premier ministre, chargé de définir et conduire la politique de la nation. Nommé par le Président de la République sur proposition du Premier ministre. Responsable devant l’Assemblée nationale, qui peut le renverser par une motion de censure. Se réunit en Conseil des ministres chaque semaine à l’Élysée.",
+      "definition_en": "Body of ministers led by the Prime Minister, responsible for defining and conducting national policy. Appointed by the President on the Prime Minister's proposal. Accountable to the National Assembly, which may bring it down through a motion of no confidence. Meets weekly as the Council of Ministers at the Elysee.",
+      "related_terms": [
+        "premier-ministre",
+        "conseil-des-ministres",
+        "motion-de-censure",
+        "remaniement-ministeriel"
+      ],
+      "source": "📎 SOURCE: https://www.gouvernement.fr/le-gouvernement",
+      "status": "verified"
+    },
+    {
+      "id": "laicite",
+      "term_fr": "Laïcité",
+      "term_en": "Secularism / Laicity",
+      "category": "political-culture",
+      "definition_fr": "Principe constitutionnel (article 1er) fondant la séparation des Églises et de l'État en France. Issu de la loi du 9 décembre 1905 sur la séparation des Églises et de l'État. Implique la neutralité de l'État vis-à-vis des religions, la liberté de conscience, et l'absence de religion officielle. Sujet de débats politiques intenses, notamment autour de l'islam et des signes religieux dans l'espace public.",
+      "definition_en": "Constitutional principle (Article 1) establishing the separation of churches and the State in France. Rooted in the 1905 law on the separation of Church and State. Implies state neutrality toward religions, freedom of conscience, and no official religion. A politically contentious subject, particularly around Islam and religious symbols in public spaces.",
+      "example_fr": "La loi de 2004 interdisant le port de signes religieux ostensibles dans les établissements scolaires publics s'appuie sur le principe de laïcité.",
+      "related_terms": [
+        "article-1",
+        "republique"
+      ],
+      "source": "📎 SOURCE: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508749 | https://www.conseil-constitutionnel.fr",
+      "status": "verified"
+    },
+    {
+      "id": "majorite-absolue",
+      "term_fr": "Majorité absolue",
+      "term_en": "Absolute majority",
+      "category": "electoral",
+      "definition_fr": "Plus de la moitié des suffrages exprimés (ou des membres d'une assemblée). À l'Assemblée nationale, la majorité absolue est de 289 sièges sur 577. Requise notamment pour adopter une motion de censure.",
+      "definition_en": "More than half of votes cast (or members of an assembly). In the National Assembly, absolute majority equals 289 out of 577 seats. Required to pass a motion of no confidence.",
+      "example_fr": "Après les législatives de juin 2022, la coalition Ensemble n'a obtenu que 245 sièges sur 577, en deçà de la majorité absolue (289), ce qui l'a contrainte à chercher des alliances vote par vote.",
+      "example_en": "After the June 2022 legislative elections, the Ensemble coalition won only 245 of 577 seats, falling short of the absolute majority (289), forcing it to seek alliances on a vote-by-vote basis.",
+      "related_terms": [
+        "majorite-relative",
+        "assemblee-nationale",
+        "motion-de-censure"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/majorite-absolue",
+      "status": "verified"
+    },
+    {
+      "id": "majorite-relative",
+      "term_fr": "Majorité relative",
+      "term_en": "Relative / Simple majority",
+      "category": "electoral",
+      "definition_fr": "Obtenir plus de voix que tout autre candidat ou parti, sans nécessairement dépasser la moitié. Suffit pour être élu au second tour des législatives (entre les candidats qualifiés).",
+      "definition_en": "Obtaining more votes than any other candidate or party, without necessarily exceeding half. Sufficient to be elected in the second round of legislative elections.",
+      "example_fr": "En 2022, plusieurs triangulaires ont eu lieu au second tour des législatives : le candidat ayant obtenu le plus de voix a été élu à la majorité relative, sans nécessairement dépasser 50 %.",
+      "example_en": "In 2022, several three-way second rounds took place in the legislative elections: the candidate with the most votes was elected by a relative majority, without necessarily exceeding 50%.",
+      "related_terms": [
+        "majorite-absolue",
+        "scrutin-uninominal"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/majorite-relative",
+      "status": "verified"
+    },
+    {
+      "id": "mandat",
+      "term_fr": "Mandat",
+      "term_en": "Term of office / Electoral mandate",
+      "category": "electoral",
+      "definition_fr": "Durée pendant laquelle un élu exerce ses fonctions. Désigne aussi la mission confiée par les électeurs. En France : mandat présidentiel = 5 ans (quinquennat), mandat législatif = 5 ans, mandat sénatorial = 6 ans, mandat municipal = 6 ans.",
+      "definition_en": "Period during which an elected official holds office. Also refers to the mandate given by voters. In France: presidential term = 5 years, legislative term = 5 years, senatorial term = 6 years, municipal term = 6 years.",
+      "example_fr": "Nicolas Sarkozy a exercé un seul mandat présidentiel de 5 ans (2007–2012) et n'a pas réussi à en obtenir un second face à François Hollande.",
+      "example_en": "Nicolas Sarkozy served a single five-year presidential term (2007–2012) and failed to win a second one against François Hollande.",
+      "related_terms": [
+        "quinquennat",
+        "assemblee-nationale",
+        "senat"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/mandat-electoral",
+      "status": "verified"
+    },
+    {
+      "id": "matignon",
+      "term_fr": "Matignon (Hôtel de Matignon)",
+      "term_en": "Matignon",
+      "category": "institutions",
+      "definition_fr": "Résidence officielle et lieu de travail du Premier ministre, situé dans le 7e arrondissement de Paris. Par métonymie, désigne souvent le gouvernement ou le bureau du Premier ministre.",
+      "definition_en": "Official residence and workplace of the Prime Minister, located in the 7th arrondissement of Paris. Often used as a metonym for the Prime Minister's office or the government.",
+      "related_terms": [
+        "premier-ministre",
+        "elysee"
+      ],
+      "source": "📎 SOURCE: https://www.gouvernement.fr/le-premier-ministre/hotel-de-matignon",
+      "status": "verified"
+    },
+    {
+      "id": "motion-de-censure",
+      "term_fr": "Motion de censure",
+      "term_en": "Motion of no confidence / Vote of no confidence",
+      "category": "constitutional",
+      "definition_fr": "Procédure par laquelle l'Assemblée nationale peut renverser le gouvernement (article 49 alinéa 3). Elle doit être signée par au moins 1/10 des députés et adoptée à la majorité absolue des membres de l'Assemblée. En cas d'adoption, le Premier ministre remet la démission de son gouvernement.",
+      "definition_en": "Procedure by which the National Assembly can bring down the government (Article 49). Must be signed by at least 1/10 of deputies and adopted by an absolute majority. If passed, the Prime Minister must resign.",
+      "example_fr": "Seule une motion de censure a abouti sous la Ve République, en 1962, forçant la démission du gouvernement Pompidou.",
+      "related_terms": [
+        "assemblee-nationale",
+        "article-49-3",
+        "premier-ministre",
+        "gouvernement"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale/la-mise-en-jeu-de-la-responsabilite-du-gouvernement",
+      "status": "verified"
+    },
+    {
+      "id": "navette-parlementaire",
+      "term_fr": "Navette parlementaire",
+      "term_en": "Parliamentary shuttle",
+      "category": "legislative-process",
+      "definition_fr": "Procédure par laquelle un projet ou une proposition de loi fait des allers-retours entre l’Assemblée nationale et le Sénat jusqu’à l’adoption d’un texte identique par les deux chambres. En cas de désaccord persistant après deux lectures, une Commission mixte paritaire (CMP) est réunie. Si elle échoue, l’Assemblée nationale peut statuer définitivement et avoir le dernier mot.",
+      "definition_en": "Legislative procedure in which a bill shuttles between the National Assembly and the Senate until both chambers adopt an identical text. If persistent disagreement remains after two readings, a joint committee (CMP) meets to find a compromise. If that fails, the National Assembly may rule definitively.",
+      "related_terms": [
+        "assemblee-nationale",
+        "senat",
+        "parlement"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19463-la-navette-parlementaire",
+      "status": "verified"
+    },
+    {
+      "id": "ordonnance",
+      "term_fr": "Ordonnance",
+      "term_en": "Ordinance / Executive order",
+      "category": "legislative-process",
+      "definition_fr": "Mesure prise par le gouvernement dans le domaine normalement réservé à la loi, après autorisation du Parlement (loi d'habilitation) et avis du Conseil d'État. Permet de légiférer rapidement par voie exécutive. Les ordonnances deviennent caduques si le projet de loi de ratification n'est pas soumis dans le délai imparti.",
+      "definition_en": "Government measure taken in areas normally reserved for law, after parliamentary authorization. Allows the executive to legislate quickly. Ordonnances lapse if a ratification bill is not submitted within the required timeframe.",
+      "example_fr": "Les ordonnances Macron de 2017 ont réformé le Code du travail.",
+      "related_terms": [
+        "decret",
+        "parlement",
+        "conseil-etat"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19538-quest-ce-quune-ordonnance",
+      "status": "verified"
+    },
+    {
+      "id": "palais-bourbon",
+      "term_fr": "Palais Bourbon",
+      "term_en": "Palais Bourbon",
+      "category": "institutions",
+      "definition_fr": "Siège de l'Assemblée nationale, situé dans le 7e arrondissement de Paris, sur la rive gauche de la Seine face à la place de la Concorde. Par métonymie, désigne l'Assemblée nationale elle-même.",
+      "definition_en": "Seat of the National Assembly, located on the Left Bank in Paris. Often used as a metonym for the National Assembly.",
+      "related_terms": [
+        "assemblee-nationale"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/les-lieux/le-palais-bourbon",
+      "status": "verified"
+    },
+    {
+      "id": "parlement",
+      "term_fr": "Parlement",
+      "term_en": "Parliament",
+      "category": "institutions",
+      "definition_fr": "Institution bicamérale composée de l’Assemblée nationale (chambre basse, 577 députés) et du Sénat (chambre haute, 348 sénateurs). Vote les lois, contrôle l’action du gouvernement et autorise la déclaration de guerre. En cas de désaccord entre les deux chambres au terme de la navette parlementaire, l’Assemblée nationale a généralement le dernier mot.",
+      "definition_en": "Bicameral institution made up of the National Assembly (lower house, 577 deputies) and the Senate (upper house, 348 senators). Passes laws, oversees government action, and authorises declarations of war. In case of disagreement after the parliamentary shuttle, the National Assembly generally has the final say.",
+      "related_terms": [
+        "assemblee-nationale",
+        "senat",
+        "navette-parlementaire",
+        "depute"
+      ],
+      "source": "📎 SOURCE: https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale",
+      "status": "verified"
+    },
+    {
+      "id": "premier-ministre",
+      "term_fr": "Premier ministre",
+      "term_en": "Prime Minister",
+      "category": "roles",
+      "definition_fr": "Chef du gouvernement. Nommé par le Président de la République, il est responsable devant l'Assemblée nationale. Il dirige l'action du gouvernement, assure l'exécution des lois et dispose du pouvoir réglementaire.",
+      "definition_en": "Head of government. Appointed by the President, accountable to the National Assembly. Leads government action, ensures laws are implemented, and holds regulatory power.",
+      "example_fr": "En période de cohabitation, le Premier ministre peut appartenir à un parti opposé au Président (ex. Jospin sous Chirac, 1997-2002).",
+      "related_terms": [
+        "president-de-la-republique",
+        "cohabitation",
+        "conseil-des-ministres",
+        "matignon"
+      ],
+      "source": "📎 SOURCE: https://www.gouvernement.fr/le-premier-ministre",
+      "status": "verified"
+    },
+    {
+      "id": "president-de-la-republique",
+      "term_fr": "Président de la République",
+      "term_en": "President of the Republic",
+      "category": "roles",
+      "definition_fr": "Chef de l'État. Élu au suffrage universel direct pour un mandat de 5 ans (quinquennat), renouvelable une seule fois. Il nomme le Premier ministre, préside le Conseil des ministres, est garant des institutions et chef des armées.",
+      "definition_en": "Head of state. Elected by direct universal suffrage for a 5-year term (renewable once). Appoints the Prime Minister, chairs the Council of Ministers, and is commander-in-chief of the armed forces.",
+      "example_fr": "Depuis 2002, le quinquennat remplace le septennat (mandat de 7 ans) afin de réduire les risques de cohabitation.",
+      "related_terms": [
+        "premier-ministre",
+        "quinquennat",
+        "cohabitation",
+        "elysee",
+        "article-16"
+      ],
+      "source": "📎 SOURCE: https://www.elysee.fr/la-presidence/le-role-du-president-de-la-republique",
+      "status": "verified"
+    },
+    {
+      "id": "programme-politique",
+      "term_fr": "Programme politique",
+      "term_en": "Political platform / Party program",
+      "category": "political-culture",
+      "definition_fr": "Ensemble des propositions et engagements qu'un parti ou un candidat soumet aux électeurs avant une élection. Constitue la base du contrat électoral entre les élus et les citoyens. Distinct du programme de gouvernement, qui précise les priorités une fois au pouvoir.",
+      "definition_en": "Set of proposals and commitments a party or candidate presents to voters before an election. Forms the basis of the electoral contract between elected officials and citizens.",
+      "example_fr": "Pour la présidentielle de 2022, La France Insoumise a présenté un programme intitulé 'L'Avenir en commun', proposant la planification écologique et une VIe République.",
+      "example_en": "For the 2022 presidential election, La France Insoumise presented a programme called 'L'Avenir en commun' (The Future in Common), proposing ecological planning and a Sixth Republic.",
+      "related_terms": [],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/programme-politique",
+      "status": "verified"
+    },
+    {
+      "id": "promulgation",
+      "term_fr": "Promulgation",
+      "term_en": "Promulgation",
+      "category": "legislative-process",
+      "definition_fr": "Acte par lequel le Président de la République certifie l’existence d’une loi adoptée par le Parlement et ordonne son exécution en la publiant au Journal officiel. Le Président dispose de 15 jours pour promulguer ou renvoyer la loi au Parlement pour nouvelle délibération. Il peut aussi, avant promulgation, saisir le Conseil constitutionnel.",
+      "definition_en": "Act by which the President certifies the existence of a law passed by Parliament and orders its enforcement by publishing it in the Journal officiel. The President has 15 days to promulgate or send the law back to Parliament. The President may also refer it to the Constitutional Council before promulgation.",
+      "related_terms": [
+        "president-de-la-republique",
+        "conseil-constitutionnel",
+        "parlement"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19475-la-promulgation-des-lois",
+      "status": "verified"
+    },
+    {
+      "id": "qpc",
+      "term_fr": "Question Prioritaire de Constitutionnalité (QPC)",
+      "term_en": "Priority Constitutional Question",
+      "category": "constitutional",
+      "definition_fr": "Procédure introduite par la révision constitutionnelle de 2008, permettant à tout justiciable de contester la constitutionnalité d'une loi lors d'un procès. Transmise par le Conseil d'État ou la Cour de cassation au Conseil constitutionnel si les conditions sont réunies. Mécanisme de contrôle a posteriori.",
+      "definition_en": "Procedure introduced in 2008 allowing any litigant to challenge the constitutionality of a law during a trial. Referred to the Constitutional Council by the Council of State or Court of Cassation. A form of ex post (after-the-fact) constitutional review.",
+      "related_terms": [
+        "conseil-constitutionnel",
+        "conseil-etat"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/la-qpc/presentation-de-la-qpc",
+      "status": "verified"
+    },
+    {
+      "id": "quinquennat",
+      "term_fr": "Quinquennat",
+      "term_en": "Five-year presidential term",
+      "category": "constitutional",
+      "definition_fr": "Mandat présidentiel de 5 ans, instauré par référendum en 2000 (révision constitutionnelle), remplaçant le septennat (7 ans). Renouvelable une seule fois consécutivement. L'objectif était de faire coïncider le calendrier présidentiel et législatif pour réduire les risques de cohabitation.",
+      "definition_en": "Five-year presidential term introduced by referendum in 2000, replacing the septennat (7 years). Renewable only once consecutively. The change aimed to align presidential and legislative calendars, reducing the risk of cohabitation.",
+      "example_fr": "Nicolas Sarkozy est le premier président à avoir été élu pour un quinquennat complet (2007-2012).",
+      "related_terms": [
+        "septennat",
+        "president-de-la-republique",
+        "cohabitation",
+        "referendum"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19473-quinquennat-et-septennat-histoire-et-enjeux",
+      "status": "verified"
+    },
+    {
+      "id": "referendum",
+      "term_fr": "Référendum",
+      "term_en": "Referendum",
+      "category": "constitutional",
+      "definition_fr": "Vote direct des citoyens sur une question ou un texte. En France, prévu par l’article 11 (soumis par le Président sur proposition du gouvernement ou du Parlement) et par l’article 89 (révision constitutionnelle). Sous la Ve République, les référendums sont rares : 2000 (quinquennat), 2005 (Constitution européenne, rejeté à 54,7 %), etc.",
+      "definition_en": "Direct vote by citizens on a question or text. In France, provided for by Article 11 (initiated by the President at government or Parliament's proposal) and Article 89 (constitutional revision). Under the Fifth Republic, referendums are rare: 2000 (quinquennat), 2005 (European Constitution, rejected by 54.7%), etc.",
+      "example_fr": "Le référendum de mai 2005 sur le Traité constitutionnel européen a été rejeté à 54,7 % des voix, affaiblissant considérablement Jacques Chirac.",
+      "example_en": "The May 2005 referendum on the European Constitutional Treaty was rejected by 54.7% of voters, significantly weakening Jacques Chirac.",
+      "related_terms": [
+        "president-de-la-republique",
+        "constitution",
+        "quinquennat",
+        "ve-republique"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19477-le-referendum",
+      "status": "verified"
+    },
+    {
+      "id": "remaniement-ministeriel",
+      "term_fr": "Remaniement ministériel",
+      "term_en": "Cabinet reshuffle",
+      "category": "institutions",
+      "definition_fr": "Modification partielle ou totale de la composition du gouvernement, décidée par le Président de la République sur proposition du Premier ministre. Peut concerner quelques ministres ou l'ensemble du gouvernement. Souvent motivé par des départs volontaires, des résultats électoraux, des scandales, ou un changement de stratégie politique.",
+      "definition_en": "Partial or full reorganization of the government composition, decided by the President on the Prime Minister's proposal. May affect a few ministers or the entire cabinet. Often prompted by resignations, electoral results, scandals, or strategic shifts.",
+      "example_fr": "En juillet 2020, après les élections municipales, Édouard Philippe a remis sa démission, permettant à Emmanuel Macron de nommer Jean Castex à Matignon et de recomposer le gouvernement.",
+      "example_en": "In July 2020, following the municipal elections, Édouard Philippe resigned, allowing Emmanuel Macron to appoint Jean Castex as Prime Minister and reshuffle the government.",
+      "related_terms": [
+        "conseil-des-ministres",
+        "president-de-la-republique",
+        "premier-ministre"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/remaniement-ministeriel",
+      "status": "verified"
+    },
+    {
+      "id": "scrutin-proportionnel",
+      "term_fr": "Scrutin proportionnel",
+      "term_en": "Proportional representation",
+      "category": "electoral",
+      "definition_fr": "Mode de scrutin dans lequel les sièges sont attribués en proportion des voix obtenues par chaque liste ou parti. Favorise la représentation des petits partis mais peut compliquer la formation de majorités stables. En France, utilisé pour les élections européennes (listes nationales) et régionales (proportionnelle corrigée avec prime majoritaire).",
+      "definition_en": "Voting system in which seats are allocated proportionally to votes received by each list or party. Favours representation of smaller parties but can complicate the formation of stable majorities. In France, used for European and regional elections.",
+      "related_terms": [
+        "scrutin-uninominal"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19601-scrutin-proportionnel",
+      "status": "verified"
+    },
+    {
+      "id": "scrutin-uninominal",
+      "term_fr": "Scrutin uninominal majoritaire à deux tours",
+      "term_en": "Two-round first-past-the-post voting system",
+      "category": "electoral",
+      "definition_fr": "Mode de scrutin utilisé pour les élections législatives et présidentielles. Au premier tour, un candidat est élu s'il obtient la majorité absolue des suffrages exprimés et au moins 25% des inscrits. Sinon, un second tour est organisé entre les candidats ayant obtenu au moins 12,5% des inscrits (ou les deux meilleurs si moins de deux atteignent ce seuil).",
+      "definition_en": "Voting system used for legislative and presidential elections. In the first round, a candidate wins with an absolute majority of votes cast and at least 25% of registered voters. Otherwise, a second round is held between candidates who received at least 12.5% of registered voters.",
+      "example_fr": "En 2017, Macron (24%) et Le Pen (21,3%) se sont qualifiés pour le second tour de la présidentielle.",
+      "related_terms": [
+        "premier-tour",
+        "deuxieme-tour",
+        "desistement",
+        "majorite-absolue",
+        "circonscription"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19600-quest-ce-que-le-scrutin-majoritaire",
+      "status": "verified"
+    },
+    {
+      "id": "senat",
+      "term_fr": "Sénat",
+      "term_en": "Senate",
+      "category": "institutions",
+      "definition_fr": "Chambre haute du Parlement français, composée de 348 sénateurs élus pour 6 ans au suffrage indirect (par des grands électeurs : élus locaux). Le Sénat représente les collectivités territoriales de la République.",
+      "definition_en": "Upper house of the French Parliament, composed of 348 senators elected for 6-year terms by indirect suffrage (via local elected officials). The Senate represents France's territorial communities.",
+      "example_fr": "Contrairement aux députés, les sénateurs ne peuvent pas être renversés par dissolution présidentielle.",
+      "related_terms": [
+        "assemblee-nationale",
+        "senateur",
+        "suffrage-indirect",
+        "collectivites-territoriales"
+      ],
+      "source": "📎 SOURCE: https://www.senat.fr/role/index.html",
+      "status": "verified"
+    },
+    {
+      "id": "septennat",
+      "term_fr": "Septennat",
+      "term_en": "Seven-year presidential term",
+      "category": "constitutional",
+      "definition_fr": "Mandat présidentiel de 7 ans, en vigueur sous la Ve République de 1958 à 2000. Remplacé par le quinquennat par référendum en septembre 2000. Son abandon visait à réduire les risques de cohabitation en alignant les mandats présidentiel et législatif.",
+      "definition_en": "Seven-year presidential term used under the Fifth Republic from 1958 to 2000. Replaced by the quinquennat via referendum in September 2000.",
+      "related_terms": [
+        "quinquennat",
+        "president-de-la-republique",
+        "cohabitation"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19473-quinquennat-et-septennat-histoire-et-enjeux",
+      "status": "verified"
+    },
+    {
+      "id": "souverainisme",
+      "term_fr": "Souverainisme",
+      "term_en": "Sovereigntism",
+      "category": "political-culture",
+      "definition_fr": "Position politique privilégiant la souveraineté nationale face aux transferts de compétences vers les institutions supranationales, notamment l’Union européenne. En France, le souverainisme traverse les clivages gauche-droite : on le trouve à gauche (Mélenchon, Chévènement) comme à droite (Le Pen, Zemmour, une partie des gaullistes). S’oppose au fédéralisme européen.",
+      "definition_en": "Political position prioritising national sovereignty over transfers of power to supranational institutions, notably the European Union. In France, sovereigntism crosses the left-right divide: it is found on the left (Melenchon, Chevenement) and the right (Le Pen, Zemmour, some Gaullists). Opposed to European federalism.",
+      "related_terms": [
+        "gaullisme",
+        "ve-republique",
+        "front-republicain"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/souverainisme",
+      "status": "verified"
+    },
+    {
+      "id": "suffrage-indirect",
+      "term_fr": "Suffrage indirect",
+      "term_en": "Indirect suffrage",
+      "category": "electoral",
+      "definition_fr": "Mode d'élection où les citoyens n'élisent pas directement le représentant final, mais des intermédiaires (grands électeurs) qui votent à leur place. En France, le Sénat est élu au suffrage indirect par un collège d'environ 162 000 grands électeurs composé principalement d'élus locaux.",
+      "definition_en": "Election method where citizens elect intermediaries (electors) who then elect the final representative. In France, the Senate is elected this way by a college of approximately 162,000 electors, mostly local officials.",
+      "example_fr": "Lors des élections sénatoriales de septembre 2023, environ 162 000 grands électeurs — principalement des conseillers municipaux — ont élu les sénateurs dans chaque département.",
+      "example_en": "In the September 2023 senatorial elections, approximately 162,000 electors — mainly municipal councillors — elected senators in each department.",
+      "related_terms": [
+        "senat",
+        "suffrage-universel"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/suffrage-indirect",
+      "status": "verified"
+    },
+    {
+      "id": "suffrage-universel",
+      "term_fr": "Suffrage universel",
+      "term_en": "Universal suffrage",
+      "category": "electoral",
+      "definition_fr": "Droit de vote accordé à tous les citoyens, sans distinction de sexe, de fortune ou d'instruction. En France, le suffrage universel masculin est instauré en 1848, le suffrage universel féminin en 1944. S'applique à partir de 18 ans.",
+      "definition_en": "Voting right granted to all citizens, regardless of gender, wealth, or education. Universal male suffrage was established in France in 1848, universal female suffrage in 1944. Applies from age 18.",
+      "related_terms": [
+        "suffrage-indirect",
+        "elections-presidentielles",
+        "elections-legislatives"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/19613-le-suffrage-universel",
+      "status": "verified"
+    },
+    {
+      "id": "triangulaire",
+      "term_fr": "Triangulaire",
+      "term_en": "Three-way runoff",
+      "category": "electoral",
+      "definition_fr": "Second tour d’une élection législative opposant trois candidats qualifiés, lorsque trois candidats ont obtenu au moins 12,5 % des électeurs inscrits au premier tour. Moins fréquente que le duel classique, la triangulaire complique les calculs de désistement et peut avantager ou pénaliser un candidat selon la répartition des voix.",
+      "definition_en": "Second-round legislative runoff featuring three qualifying candidates, when three or more candidates each receive at least 12.5% of registered voters in the first round. Less common than the classic duel, a three-way race complicates withdrawal strategies and can advantage or penalise a candidate depending on how the other votes split.",
+      "example_fr": "En 2022, plusieurs triangulaires ont eu lieu au second tour des législatives, notamment dans des circonscriptions où le RN était qualifié aux côtés d’un candidat de gauche et d’un candidat macroniste.",
+      "example_en": "In 2022, several three-way runoffs occurred in the legislative elections, particularly in constituencies where an RN candidate qualified alongside a left-wing and a centrist candidate.",
+      "related_terms": [
+        "scrutin-uninominal",
+        "desistement",
+        "front-republicain"
+      ],
+      "source": "📎 SOURCE: https://www.vie-publique.fr/fiches/triangulaire",
+      "status": "verified"
+    },
+    {
+      "id": "ve-republique",
+      "term_fr": "Ve République",
+      "term_en": "Fifth Republic",
+      "category": "political-culture",
+      "definition_fr": "Régime politique français actuel, instauré par la Constitution du 4 octobre 1958, sous l'impulsion du Général De Gaulle. Il remplace la IVe République, caractérisée par une forte instabilité gouvernementale. La Ve République renforce considérablement le pouvoir exécutif, notamment celui du Président.",
+      "definition_en": "France's current political regime, established by the Constitution of October 4, 1958, under General De Gaulle. It replaced the Fourth Republic, which was marked by frequent government changes. The Fifth Republic greatly strengthens executive power, particularly that of the President.",
+      "related_terms": [
+        "constitution",
+        "president-de-la-republique",
+        "de-gaulle"
+      ],
+      "source": "📎 SOURCE: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+      "status": "verified"
+    },
+    {
+      "id": "vote-blanc",
+      "term_fr": "Vote blanc",
+      "term_en": "Blank vote",
+      "category": "electoral",
+      "definition_fr": "Vote exprimé sans choisir aucun candidat. Depuis la loi du 21 février 2014, les votes blancs sont comptabilisés séparément des votes nuls dans les résultats officiels, mais ne sont toujours pas comptabilisés dans les suffrages exprimés (n'influencent pas les seuils d'élection ou de qualification).",
+      "definition_en": "Vote cast without choosing any candidate. Since a 2014 law, blank votes are counted separately from null votes in official results, but still do not count toward 'suffrages exprimés' (do not affect election thresholds).",
+      "related_terms": [
+        "abstention",
+        "suffrages-exprimes"
+      ],
+      "source": "📎 SOURCE: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028630351",
+      "status": "verified"
+    }
+  ]
+}
