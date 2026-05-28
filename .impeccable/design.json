@@ -1,0 +1,108 @@
+{
+  "name": "french-politics-for-noobs",
+  "version": "1.0.0",
+  "colorMeta": {
+    "seal-blue": {
+      "oklch": "oklch(17% 0.07 252)",
+      "displayName": "Seal Blue",
+      "usage": "Nav and hero band backgrounds only",
+      "tonalRamp": [
+        { "token": "civic-800", "oklch": "oklch(32% 0.10 255)", "usage": "Active nav link tint" },
+        { "token": "civic-900", "oklch": "oklch(23% 0.09 255)", "usage": "Hover nav link tint" },
+        { "token": "civic-950", "oklch": "oklch(17% 0.07 252)", "usage": "Nav/hero background (darkest)" }
+      ]
+    },
+    "civic-amber": {
+      "oklch": "oklch(62% 0.13 65)",
+      "displayName": "Civic Amber",
+      "usage": "The sole interactive accent. Links, primary buttons, timeline numerals.",
+      "tonalRamp": [
+        { "token": "amber-50",  "oklch": "oklch(97.5% 0.008 72)", "usage": "Page / archive paper background" },
+        { "token": "amber-100", "oklch": "oklch(94% 0.022 70)",   "usage": "Section tint backgrounds" },
+        { "token": "amber-200", "oklch": "oklch(88% 0.048 68)",   "usage": "All borders/dividers (vellum edge)" },
+        { "token": "amber-400", "oklch": "oklch(79% 0.082 66)",   "usage": "Gilt text on dark surfaces" },
+        { "token": "amber-500", "oklch": "oklch(70% 0.11 65)",    "usage": "Link text hover / secondary accent" },
+        { "token": "amber-600", "oklch": "oklch(62% 0.13 65)",    "usage": "Primary accent (Civic Amber canonical)" },
+        { "token": "amber-700", "oklch": "oklch(52% 0.12 64)",    "usage": "Ledger tone (labels, metadata)" },
+        { "token": "amber-900", "oklch": "oklch(36% 0.09 63)",    "usage": "Verify badge text, strong metadata" },
+        { "token": "amber-950", "oklch": "oklch(30% 0.08 68)",    "usage": "Reading ink (primary body text)" }
+      ]
+    }
+  },
+  "motion": {
+    "easing": {
+      "ease-out-quart": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "ease-out-expo":  "cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    "animations": {
+      "fade-up": {
+        "keyframes": "from { opacity:0; transform:translateY(10px) } to { opacity:1; transform:translateY(0) }",
+        "duration": "500ms",
+        "easing": "ease-out-quart",
+        "fillMode": "both"
+      }
+    },
+    "pageLoad": {
+      "description": "data-enter=\"1|2|3|4\" on elements inside the hero band, staggered by 120ms per step",
+      "step-1": "delay 0ms",
+      "step-2": "delay 120ms",
+      "step-3": "delay 240ms",
+      "step-4": "delay 360ms"
+    },
+    "scrollReveal": {
+      "class": "js-reveal",
+      "visibleClass": "is-visible",
+      "threshold": 0.07,
+      "rootMargin": "0px 0px -30px 0px",
+      "description": "IntersectionObserver in Layout.astro module script. Cards use inline transition-delay for stagger."
+    }
+  },
+  "shadows": {
+    "whisper-hover": {
+      "value": "0 2px 16px oklch(17% 0.07 252 / 8%)",
+      "usage": "Applied on hover via .js-card class. Never at rest.",
+      "duration": "200ms",
+      "easing": "ease-out-quart",
+      "translate": "0 -1px (160ms ease-out-quart)"
+    }
+  },
+  "components": {
+    "card-interactive": {
+      "classes": "js-card js-reveal border border-amber-200 rounded-sm",
+      "hoverClasses": "hover:border-amber-400 hover:bg-amber-50/80",
+      "description": "All interactive cards use js-card for whisper hover + js-reveal for scroll entrance"
+    },
+    "hero-band": {
+      "classes": "bg-civic-950 px-5 py-12",
+      "contentClasses": "max-w-5xl mx-auto",
+      "headingClasses": "font-display text-amber-100",
+      "subtitleClasses": "text-amber-400/80"
+    },
+    "nav": {
+      "containerClasses": "bg-civic-950 text-amber-100",
+      "linkDefault": "text-amber-400 hover:text-amber-100 hover:bg-civic-800/40",
+      "linkActive": "text-amber-100 bg-civic-800/60",
+      "langToggle": "text-xs font-semibold text-amber-400 border border-amber-700 hover:bg-civic-800 hover:text-amber-200"
+    },
+    "verify-badge": {
+      "classes": "verify-badge",
+      "css": "display:inline-flex; align-items:center; gap:2px; font-size:0.7rem; font-family:Figtree; font-weight:500; background:oklch(94% 0.022 70); color:oklch(40% 0.10 65); border:1px solid oklch(82% 0.07 70); border-radius:9999px; padding:1px 6px 1px 5px;",
+      "usage": "Wrap unverified claims. Always include warning emoji inside."
+    },
+    "timeline-year": {
+      "classes": "font-display text-amber-500 font-bold",
+      "layout": "Two-column: year column 3.5rem wide right-aligned, entry column with 1px amber-200 left-border"
+    }
+  },
+  "designInvariants": [
+    "All content must have .fr-content / .en-content language toggle duplicates",
+    "Party colors as color badges max 44x44px only — never as UI backgrounds",
+    "Whisper hover only — no resting-state shadows",
+    "Civic amber is the sole interactive accent on light surfaces",
+    "Civic blue is structural (nav/hero) only — never used as an accent on light pages",
+    "Every border, divider, and card outline uses the amber-200 vellum-edge value",
+    "No gradient text, no glassmorphism, no border-left stripes > 1px",
+    "No tricolore in UI chrome",
+    "All new color values in OKLCH — never sRGB hex outside the defined scale"
+  ]
+}

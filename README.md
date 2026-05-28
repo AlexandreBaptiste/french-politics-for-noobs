@@ -17,7 +17,7 @@ No punditry, no spin. Just structured, verified facts.
 | Electoral system | `/systeme-electoral` | Voting rules, two-round system, upcoming 2027 elections |
 | Timeline | `/chronologie` | 30 years of French political history (1995–2026) |
 | Reforms | `/reformes` | Major reforms with balanced supporters/opponents perspectives |
-| Glossary | `/glossaire` | 32+ political terms, searchable and filterable |
+| Glossary | `/glossaire` | 48 political terms, searchable and filterable |
 
 ## Tech stack
 
@@ -68,7 +68,7 @@ public/           # Static assets
 
 The site is deployed to **GitHub Pages** via GitHub Actions on every push to `main`.
 
-Live URL: `https://albaptis.github.io/french-politics-for-noobs`
+Live URL: `https://alexandrebaptiste.github.io/french-politics-for-noobs/`
 
 > [!IMPORTANT]
 > If you fork this repository, update the `site` and `base` values in `astro.config.mjs` to match your own GitHub username and repository name before deploying.
@@ -85,3 +85,15 @@ Parties covered: Renaissance, RN, LFI, PS, LR, MoDem, and others.
 
 > [!TIP]
 > Content snapshots are dated. Check `status` fields and source URLs before citing any data.
+
+## Impeccable
+
+The UI was shaped with [Impeccable](https://impeccable.style/), an AI-driven frontend design workflow. Commands applied, in order:
+
+- **craft** — Established the civic design system: two-color palette (civic blue + amber), flat-by-default card architecture, `lbl` label utility, and the swatch-based badge pattern used across all pages.
+- **colorize** — Defined color roles: OKLCH civic blue for structural headers, amber for interactive accents, and a three-level controversy color scale (amber-700 / amber-500 / red-600) on the reforms page.
+- **typeset** — Set the type system: Spectral serif for display headings, Figtree sans-serif for body text, with size and weight contrast governing hierarchy throughout.
+- **animate** — Built the SpectrumStrip Direction B overdrive on `/partis`: staggered WAAPI entrance (ease-out-expo), click/tap focus mode with info panel, and a `prefers-reduced-motion` fallback.
+- **clarify** — Added contextual legend strips on `/institutions`, `/chronologie`, and `/reformes` so badge systems are explained before readers scroll into content. Also sorted and expanded the glossary to 48 terms.
+- **layout** — Tuned responsive grid layouts for legend strips (2-col → 4-col on desktop), card spacing, and consistent horizontal rhythm across all pages.
+- **polish** — Fixed badge label accents (`Exécutif`, `Législatif`), updated the footer attribution, and verified bilingual copy parity across the FR/EN toggle.
