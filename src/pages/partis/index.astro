@@ -54,7 +54,7 @@ const spectrum = [
         const d = data as any;
         return (
           <a
-            href={`/partis/${id}`}
+            href={`${import.meta.env.BASE_URL}partis/${id}`}
             class="group flex items-start gap-4 p-5 border border-amber-200 rounded-sm
                    hover:border-amber-400 hover:bg-amber-50 js-card js-reveal"
             style={`transition-delay:${i * 50}ms`}

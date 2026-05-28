@@ -1,11 +1,12 @@
 ﻿---
+const base = import.meta.env.BASE_URL;
 const navItems = [
-  { href: "/partis",             fr: "Partis",       en: "Parties"    },
-  { href: "/institutions",       fr: "Institutions", en: "Institutions"},
-  { href: "/systeme-electoral",  fr: "Elections",    en: "Elections"   },
-  { href: "/chronologie",        fr: "Chronologie",  en: "Timeline"    },
-  { href: "/reformes",           fr: "Réformes",     en: "Reforms"     },
-  { href: "/glossaire",          fr: "Glossaire",    en: "Glossary"    },
+  { href: `${base}partis`,             fr: "Partis",       en: "Parties"    },
+  { href: `${base}institutions`,       fr: "Institutions", en: "Institutions"},
+  { href: `${base}systeme-electoral`,  fr: "Elections",    en: "Elections"   },
+  { href: `${base}chronologie`,        fr: "Chronologie",  en: "Timeline"    },
+  { href: `${base}reformes`,           fr: "Réformes",     en: "Reforms"     },
+  { href: `${base}glossaire`,          fr: "Glossaire",    en: "Glossary"    },
 ];
 
 const current = Astro.url.pathname;
@@ -16,7 +17,7 @@ const current = Astro.url.pathname;
     <div class="flex items-center justify-between h-14">
 
       <!-- Logotype -->
-      <a href="/" class="flex items-center gap-2.5 group" aria-label="Accueil — La politique Française pour les nuls">
+      <a href={import.meta.env.BASE_URL} class="flex items-center gap-2.5 group" aria-label="Accueil — La politique Française pour les nuls">
         <svg width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <polygon points="16,3 29,9.5 29,22.5 16,29 3,22.5 3,9.5"
             stroke="oklch(57% 0.215 30)" stroke-width="1.5" fill="none"/>

@@ -2,10 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import SpectrumStrip from "../components/SpectrumStrip.astro";
 
+const base = import.meta.env.BASE_URL;
 const sections = [
   {
     num: "01",
-    href: "/partis",
+    href: `${base}partis`,
     fr: "Les partis politiques",
     en: "Political parties",
     descFr: "Idéologie, historique, figures clés et programme 2027 de chaque parti — de l'extrême gauche à l'extrême droite.",
@@ -13,7 +14,7 @@ const sections = [
   },
   {
     num: "02",
-    href: "/institutions",
+    href: `${base}institutions`,
     fr: "Les institutions",
     en: "The institutions",
     descFr: "Comment fonctionne le gouvernement français : Élysée, Matignon, Assemblée nationale, Sénat et tribunaux.",
@@ -21,7 +22,7 @@ const sections = [
   },
   {
     num: "03",
-    href: "/systeme-electoral",
+    href: `${base}systeme-electoral`,
     fr: "Le système électoral",
     en: "The electoral system",
     descFr: "Comment voter en France — présidentielles, législatives, européennes — et les règles du jeu.",
@@ -29,7 +30,7 @@ const sections = [
   },
   {
     num: "04",
-    href: "/chronologie",
+    href: `${base}chronologie`,
     fr: "La chronologie",
     en: "The timeline",
     descFr: "Les événements majeurs de la politique française de 1995 à aujourd'hui : élections, crises, réformes.",
@@ -37,7 +38,7 @@ const sections = [
   },
   {
     num: "05",
-    href: "/reformes",
+    href: `${base}reformes`,
     fr: "Les réformes",
     en: "The reforms",
     descFr: "Les grandes lois par domaine — retraites, travail, immigration, environnement — avec les pour et les contre.",
@@ -45,7 +46,7 @@ const sections = [
   },
   {
     num: "06",
-    href: "/glossaire",
+    href: `${base}glossaire`,
     fr: "Le glossaire",
     en: "The glossary",
     descFr: "32 termes politiques expliqués clairement : motion de censure, cohabitation, article 49-3, scrutin...",
@@ -81,13 +82,13 @@ const sections = [
       </p>
 
       <div data-enter="4" class="flex flex-wrap gap-3">
-        <a href="/partis"
+        <a href={`${import.meta.env.BASE_URL}partis`}
            class="bg-amber-500 text-amber-950 font-semibold text-sm px-6 py-3
                   rounded-sm hover:bg-amber-400 transition-colors">
           <span class="fr-content">Découvrir les partis →</span>
           <span class="en-content">Explore parties →</span>
         </a>
-        <a href="/glossaire"
+        <a href={`${import.meta.env.BASE_URL}glossaire`}
            class="border border-amber-700 text-amber-300 font-medium text-sm px-6 py-3
                   rounded-sm hover:bg-civic-900 transition-colors">
           <span class="fr-content">Glossaire</span>
