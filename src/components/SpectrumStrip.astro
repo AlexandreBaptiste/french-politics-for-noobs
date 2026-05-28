@@ -11,18 +11,18 @@ const findOther = (id: string) =>
   (others.parties as any[]).find((p: any) => p.party_id === id);
 
 // Approximate left-to-right positions (0–100). Clusters are intentional:
-// far-left bunched at 3–10, left spread 22–32, centre trio 48–64, LR at 76, far-right 90–97.
+// far-left bunched at 3–10, left spread 22–32, Ensemble! trio 47–57, LR at 74, far-right 88–96.
 const raw = [
   { id: "pcf",         data: findOther("pcf"),        pct:  3 },
   { id: "lfi",         data: lfi as any,              pct: 10 },
   { id: "eelv",        data: findOther("eelv"),       pct: 22 },
   { id: "ps",          data: ps as any,               pct: 32 },
-  { id: "renaissance", data: renaissance as any,      pct: 48 },
-  { id: "modem",       data: modem as any,            pct: 56 },
-  { id: "horizons",    data: findOther("horizons"),   pct: 64 },
-  { id: "lr",          data: lr as any,               pct: 76 },
-  { id: "rn",          data: rn as any,               pct: 90 },
-  { id: "reconquete",  data: findOther("reconquete"), pct: 97 },
+  { id: "modem",       data: modem as any,            pct: 47 },
+  { id: "renaissance", data: renaissance as any,      pct: 52 },
+  { id: "horizons",    data: findOther("horizons"),   pct: 57 },
+  { id: "lr",          data: lr as any,               pct: 74 },
+  { id: "rn",          data: rn as any,               pct: 88 },
+  { id: "reconquete",  data: findOther("reconquete"), pct: 96 },
 ].filter((e) => e.data);
 
 const parties = raw.map((e) => {
@@ -87,7 +87,7 @@ const parties = raw.map((e) => {
         <!-- Party nodes -->
         {parties.map((p) => (
           <a
-            href={`/partis/${p.id}`}
+            href={`${import.meta.env.BASE_URL}partis/${p.id}`}
             class="sp-node absolute flex flex-col items-center gap-1
                    focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2
                    focus-visible:outline-amber-500"
@@ -236,7 +236,7 @@ const parties = raw.map((e) => {
             </div>
           </div>
           <div class="flex items-center gap-2 flex-shrink-0 mt-0.5">
-            <a href="/partis/${id}"
+            <a href="${import.meta.env.BASE_URL}partis/${id}"
                class="text-[0.68rem] font-semibold tracking-wide uppercase text-amber-600
                       hover:text-amber-950 transition-colors whitespace-nowrap
                       border border-amber-300 hover:border-amber-500 rounded-sm px-2 py-1">
