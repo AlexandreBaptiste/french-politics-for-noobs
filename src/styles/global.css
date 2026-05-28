@@ -1,0 +1,179 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --font-display: "Spectral", Georgia, serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+
+  /* Tricolore palette — Bleu, Blanc, Rouge                        */
+  /* RF blue:  oklch(37% 0.18 258)  — flag reference               */
+  /* RF white: cool near-white      — crisp, not warm parchment     */
+  /* RF red:   oklch(57% 0.22 30)   — flag reference                */
+
+  /* Neutral light — RF White family (cool body surfaces) */
+  --color-amber-50:  oklch(97.5% 0.006 258);  /* card surfaces */
+  --color-amber-100: oklch(94%   0.010 258);  /* section tints */
+  --color-amber-200: oklch(87%   0.018 258);  /* borders / dividers */
+
+  /* Reversed text on dark surfaces */
+  --color-amber-300: oklch(90%   0.028  30);  /* near-white warm (ghost btn text, subtitles on dark) */
+
+  /* RF Red accent family */
+  --color-amber-400: oklch(73%   0.145  30);  /* lighter red (nav links, dashes, bullets) */
+  --color-amber-500: oklch(57%   0.215  30);  /* RF Red — primary accent */
+  --color-amber-600: oklch(48%   0.178  30);  /* dark red (italic labels, eyebrows) */
+
+  /* Dark ink — blue-gray family */
+  --color-amber-700: oklch(36%   0.048 260);  /* muted text (descriptions, captions) */
+  --color-amber-800: oklch(27%   0.058 260);  /* reading ink */
+  --color-amber-900: oklch(19%   0.088 260);  /* headings / ghost btn hover bg */
+  --color-amber-950: oklch(13%   0.068 260);  /* deepest (text on red buttons) */
+
+  /* RF Blue — structural surfaces (full chroma) */
+  --color-civic-950: oklch(22%   0.15  258);  /* nav / hero bg */
+  --color-civic-900: oklch(29%   0.18  258);  /* hover tint on dark */
+  --color-civic-800: oklch(39%   0.20  258);  /* active state tint */
+
+  /* Type scale — prose body at 1rem (16px), not 14px */
+  --text-sm: 1rem;
+}
+
+/* ===== Type system ===== */
+
+/* Tighten heading line-heights — Spectral headings should never inherit body looseness */
+h1, h2, h3 { line-height: 1.2; }
+
+/* Fluid hero — home page display headline */
+.text-fluid-hero {
+  font-size: clamp(2rem, 4vw + 1rem, 4.5rem);
+  line-height: 1.06;
+  letter-spacing: -0.015em;
+}
+
+/* Fluid page title — all inner page hero bands */
+.text-fluid-page {
+  font-size: clamp(1.625rem, 2.5vw + 1rem, 2.875rem);
+  line-height: 1.12;
+  letter-spacing: -0.008em;
+}
+
+/* Canonical small-caps label — one value across all pages */
+/* font-weight intentionally absent — compose with font-medium or font-semibold in markup */
+.lbl {
+  font-size: 0.6875rem;    /* 11px — sharper than text-xs at 12px */
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* Base */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: "Figtree", system-ui, sans-serif;
+  background: oklch(98.5% 0.004 258);
+  color: oklch(22% 0.058 260);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body { margin: 0; }
+
+/* Language toggle — show FR, hide EN by default */
+.en-content { display: none; }
+body.lang-en .fr-content { display: none; }
+body.lang-en .en-content { display: revert; }
+
+/* Verification badge */
+.verify-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Figtree", system-ui, sans-serif;
+  color: oklch(48% 0.178 30);
+  background: oklch(94% 0.010 258);
+  border: 1px solid oklch(87% 0.018 258);
+  border-radius: 9999px;
+  padding: 0.1rem 0.45rem;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Timeline layout */
+.tl-year {
+  flex-shrink: 0;
+  width: 3.5rem;
+  text-align: right;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.875rem;    /* intentionally compact — dimension label, not prose */
+  color: oklch(57% 0.215 30);
+  padding-top: 0.1rem;
+}
+
+.tl-body {
+  flex: 1;
+  border-left: 1px solid oklch(87% 0.018 258);
+  padding-left: 1.25rem;
+  padding-bottom: 1.5rem;
+}
+
+/* ===== Motion system ===== */
+:root {
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fade-up {
+  from { opacity: 0; translate: 0 14px; }
+  to   { opacity: 1; translate: 0 0; }
+}
+
+/* Page-load entrance — data-enter="1|2|3|4" */
+[data-enter] {
+  animation: fade-up 580ms var(--ease-out-expo) both;
+}
+[data-enter="2"] { animation-delay: 110ms; }
+[data-enter="3"] { animation-delay: 230ms; }
+[data-enter="4"] { animation-delay: 360ms; }
+
+/* Scroll-driven reveals */
+.js-reveal {
+  opacity: 0;
+  translate: 0 10px;
+  transition:
+    opacity  500ms var(--ease-out-quart),
+    translate 500ms var(--ease-out-quart);
+}
+.js-reveal.is-visible {
+  opacity: 1;
+  translate: 0 0;
+}
+
+/* Button hover lift */
+a[href].btn-lift {
+  transition: translate 160ms var(--ease-out-quart), box-shadow 160ms var(--ease-out-quart);
+}
+a[href].btn-lift:hover {
+  translate: 0 -1px;
+}
+
+/* Whisper hover — flat at rest, lifts on hover */
+.js-card {
+  transition:
+    border-color    200ms var(--ease-out-quart),
+    background-color 200ms var(--ease-out-quart),
+    box-shadow      200ms var(--ease-out-quart),
+    translate       160ms var(--ease-out-quart);
+}
+.js-card:hover {
+  box-shadow: 0 2px 16px oklch(22% 0.15 258 / 8%);
+  translate: 0 -1px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  [data-enter]  { animation: none; }
+  .js-reveal    { opacity: 1; translate: 0 0; transition: none; }
+}

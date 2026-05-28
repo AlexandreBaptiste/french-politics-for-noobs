@@ -1,0 +1,84 @@
+﻿---
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Comprendre la politique française, sans parti pris.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Figtree:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title} — La politique Française pour les nuls</title>
+    <script is:inline>
+      (function () {
+        var lang = localStorage.getItem("fpfn-lang") || "fr";
+        if (lang === "en") {
+          document.documentElement.setAttribute("lang", "en");
+          document.write(
+            '<style>.fr-content{display:none}.en-content{display:revert}</style>'
+          );
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <script is:inline>
+      (function () {
+        var lang = localStorage.getItem("fpfn-lang") || "fr";
+        if (lang === "en") document.body.classList.add("lang-en");
+      })();
+
+      function toggleLang() {
+        var isEn = document.body.classList.contains("lang-en");
+        var next = isEn ? "fr" : "en";
+        document.body.classList.toggle("lang-en", !isEn);
+        document.documentElement.setAttribute("lang", next);
+        localStorage.setItem("fpfn-lang", next);
+        document.querySelectorAll("[data-lang-toggle]").forEach(function (el) {
+          el.textContent = next === "fr" ? "EN" : "FR";
+        });
+      }
+    </script>
+
+    <Nav />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      // Scroll-driven reveal
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.07, rootMargin: "0px 0px -30px 0px" }
+      );
+      document.querySelectorAll(".js-reveal").forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>

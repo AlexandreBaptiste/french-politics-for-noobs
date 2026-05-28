@@ -1,0 +1,54 @@
+﻿---
+const links = [
+  { href: "/partis",            fr: "Partis politiques",   en: "Political parties"   },
+  { href: "/institutions",      fr: "Institutions",        en: "Institutions"        },
+  { href: "/systeme-electoral", fr: "Système électoral",   en: "Electoral system"    },
+  { href: "/chronologie",       fr: "Chronologie",         en: "Timeline"            },
+  { href: "/reformes",          fr: "Réformes",            en: "Reforms"             },
+  { href: "/glossaire",         fr: "Glossaire",           en: "Glossary"            },
+];
+---
+
+<footer class="mt-20 border-t border-amber-200 bg-amber-50/60">
+  <div class="max-w-7xl mx-auto px-5 py-12">
+    <div class="grid md:grid-cols-3 gap-10">
+
+      <!-- Brand -->
+      <div class="md:col-span-2">
+        <p class="font-display font-semibold text-amber-950 mb-3">La politique Française pour les nuls</p>
+        <p class="text-sm text-amber-800/80 leading-relaxed max-w-md fr-content">
+          Ressource educative independante et non partisane. Aucun financement politique.
+          Le contenu est issu de sources officielles et academiques.
+        </p>
+        <p class="text-sm text-amber-800/80 leading-relaxed max-w-md en-content">
+          Independent non-partisan educational resource. No political funding.
+          Content sourced from official and academic sources. 
+        </p>
+      </div>
+
+      <!-- Links -->
+      <nav aria-label="Footer navigation">
+        <p class="text-xs tracking-widest uppercase text-amber-600 font-medium mb-4">
+          <span class="fr-content">Sections</span>
+          <span class="en-content">Sections</span>
+        </p>
+        <ul class="space-y-2">
+          {links.map((l) => (
+            <li>
+              <a href={l.href} class="text-sm text-amber-700 hover:text-amber-950 transition-colors">
+                <span class="fr-content">{l.fr}</span>
+                <span class="en-content">{l.en}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+
+    <p class="mt-10 pt-6 border-t border-amber-200 text-xs text-amber-500">
+      <span class="fr-content">Ressource purement informative et apolitique, sans affiliation militante d'aucune sorte. Créé par Alexandre BAPTISTE.</span>
+      <span class="en-content">Purely informational and apolitical resource, with no militant affiliation of any kind. Created by Alexandre BAPTISTE.</span>
+      {" "}· Snapshot 2026-05-27
+    </p>
+  </div>
+</footer>

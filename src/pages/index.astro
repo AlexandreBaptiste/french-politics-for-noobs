@@ -1,0 +1,147 @@
+﻿---
+import Layout from "../layouts/Layout.astro";
+import SpectrumStrip from "../components/SpectrumStrip.astro";
+
+const sections = [
+  {
+    num: "01",
+    href: "/partis",
+    fr: "Les partis politiques",
+    en: "Political parties",
+    descFr: "Idéologie, historique, figures clés et programme 2027 de chaque parti — de l'extrême gauche à l'extrême droite.",
+    descEn: "Ideology, history, key figures and 2027 program for each party — from far left to far right.",
+  },
+  {
+    num: "02",
+    href: "/institutions",
+    fr: "Les institutions",
+    en: "The institutions",
+    descFr: "Comment fonctionne le gouvernement français : Élysée, Matignon, Assemblée nationale, Sénat et tribunaux.",
+    descEn: "How the French government works: Elysee, Matignon, National Assembly, Senate and courts.",
+  },
+  {
+    num: "03",
+    href: "/systeme-electoral",
+    fr: "Le système électoral",
+    en: "The electoral system",
+    descFr: "Comment voter en France — présidentielles, législatives, européennes — et les règles du jeu.",
+    descEn: "How voting works in France — presidential, legislative, European — and the rules of the game.",
+  },
+  {
+    num: "04",
+    href: "/chronologie",
+    fr: "La chronologie",
+    en: "The timeline",
+    descFr: "Les événements majeurs de la politique française de 1995 à aujourd'hui : élections, crises, réformes.",
+    descEn: "Major events in French politics from 1995 to today: elections, crises, reforms.",
+  },
+  {
+    num: "05",
+    href: "/reformes",
+    fr: "Les réformes",
+    en: "The reforms",
+    descFr: "Les grandes lois par domaine — retraites, travail, immigration, environnement — avec les pour et les contre.",
+    descEn: "Major laws by area — pensions, labour, immigration, environment — with arguments for and against.",
+  },
+  {
+    num: "06",
+    href: "/glossaire",
+    fr: "Le glossaire",
+    en: "The glossary",
+    descFr: "32 termes politiques expliqués clairement : motion de censure, cohabitation, article 49-3, scrutin...",
+    descEn: "32 political terms clearly explained: motion of censure, cohabitation, article 49-3, ballot system...",
+  },
+];
+---
+
+<Layout title="Accueil">
+
+  <!-- Hero -->
+  <section class="bg-civic-950 px-5 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto">
+      <p data-enter="1" class="text-amber-500 text-xs tracking-[0.25em] uppercase mb-8 font-medium">
+        <span class="fr-content">Comprendre · Comparer · Voter</span>
+        <span class="en-content">Understand · Compare · Vote</span>
+      </p>
+
+      <h1 data-enter="2" class="font-display text-fluid-hero font-bold text-amber-50 mb-6">
+        <span class="fr-content">La politique française<br>expliquée simplement.</span>
+        <span class="en-content">French politics<br>explained simply.</span>
+      </h1>
+
+      <p data-enter="3" class="text-amber-300 text-xl md:text-2xl max-w-xl leading-[1.5] mb-10 tracking-[0.01em]">
+        <span class="fr-content">
+          Partis, institutions, élections et réformes — sans parti pris.
+          Pour voter en connaissance de cause.
+        </span>
+        <span class="en-content">
+          Parties, institutions, elections and reforms — without bias.
+          To vote with confidence.
+        </span>
+      </p>
+
+      <div data-enter="4" class="flex flex-wrap gap-3">
+        <a href="/partis"
+           class="bg-amber-500 text-amber-950 font-semibold text-sm px-6 py-3
+                  rounded-sm hover:bg-amber-400 transition-colors">
+          <span class="fr-content">Découvrir les partis →</span>
+          <span class="en-content">Explore parties →</span>
+        </a>
+        <a href="/glossaire"
+           class="border border-amber-700 text-amber-300 font-medium text-sm px-6 py-3
+                  rounded-sm hover:bg-civic-900 transition-colors">
+          <span class="fr-content">Glossaire</span>
+          <span class="en-content">Glossary</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <SpectrumStrip />
+
+  <!-- Section cards -->
+  <section class="max-w-7xl mx-auto px-5 py-10 md:py-14">
+    <h2 class="font-display text-2xl font-bold text-amber-950 mb-8">
+      <span class="fr-content">Explorer le contenu</span>
+      <span class="en-content">Explore the content</span>
+    </h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {sections.map((s, i) => (
+        <a
+          href={s.href}
+          class="group block border border-amber-200 rounded-sm p-6
+                 hover:border-amber-400 hover:bg-amber-50/80 js-card js-reveal"
+          style={`transition-delay:${i * 60}ms`}
+        >
+          <span class="block font-display text-4xl font-bold text-amber-200
+                       group-hover:text-amber-300 transition-colors mb-5">{s.num}</span>
+          <h3 class="font-display text-base font-semibold text-amber-950 mb-2">
+            <span class="fr-content">{s.fr}</span>
+            <span class="en-content">{s.en}</span>
+          </h3>
+          <p class="text-xs text-amber-700/80 leading-relaxed mb-4">
+            <span class="fr-content">{s.descFr}</span>
+            <span class="en-content">{s.descEn}</span>
+          </p>
+          <span class="text-xs font-semibold text-amber-500 group-hover:text-amber-700">
+            <span class="fr-content">Voir →</span>
+            <span class="en-content">View →</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <div class="bg-amber-100 border-t border-amber-200 px-5 py-5">
+    <div class="max-w-3xl mx-auto text-xs text-amber-800 leading-relaxed">
+      <span class="fr-content">
+        Contenu vérifié le 27 mai 2026. Sources : <a href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027" class="underline hover:text-amber-950" target="_blank" rel="noopener noreferrer">Wikipédia — Élection présidentielle française de 2027</a>.
+      </span>
+      <span class="en-content">
+        Content verified on May 27, 2026. Sources: <a href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027" class="underline hover:text-amber-950" target="_blank" rel="noopener noreferrer">Wikipedia — 2027 French presidential election</a>.
+      </span>
+    </div>
+  </div>
+
+</Layout>

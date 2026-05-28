@@ -1,0 +1,183 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../content/electoral-system.json";
+
+const elections = (data as any).elections as any[];
+const calendar  = (data as any).election_calendar as any[];
+const overview  = (data as any).overview as any;
+---
+
+<Layout title="Système électoral">
+
+  <div class="bg-civic-950 px-5 py-10 md:py-12">
+    <div class="max-w-3xl mx-auto">
+      <h1 data-enter="1" class="font-display text-fluid-page font-bold text-amber-50 mb-4">
+        <span class="fr-content">Le système électoral français</span>
+        <span class="en-content">The French electoral system</span>
+      </h1>
+      {overview?.summary_fr && (
+        <p class="text-amber-300 text-sm max-w-xl leading-relaxed fr-content">{overview.summary_fr}</p>
+      )}
+      {overview?.summary_en && (
+        <p class="text-amber-300 text-sm max-w-xl leading-relaxed en-content">{overview.summary_en}</p>
+      )}
+    </div>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-5 py-8 md:py-12 space-y-6">
+
+    {elections.map((el, i) => (
+      <article class="border border-amber-200 rounded-sm overflow-hidden js-card js-reveal" style={`transition-delay:${i * 70}ms`}>
+        <div class="bg-amber-50 border-b border-amber-200 px-5 py-4 flex flex-wrap items-start gap-3 justify-between">
+          <div>
+            <h2 class="font-display text-lg font-semibold text-amber-950">
+              <span class="fr-content">{el.name_fr}</span>
+              <span class="en-content">{el.name_en}</span>
+            </h2>
+            <p class="text-xs text-amber-500 mt-0.5">
+              <span class="fr-content">{el.system_fr}</span>
+              <span class="en-content">{el.system_en}</span>
+            </p>
+          </div>
+          {el.status === "needs-verification" && (
+            <span class="verify-badge">&#9888;&#65039;</span>
+          )}
+        </div>
+
+        <div class="px-5 py-5 space-y-4">
+
+          <!-- Elects -->
+          {(el.elects_fr || el.elects_en) && (
+            <div>
+              <p class="lbl font-medium text-amber-500 mb-1">
+                <span class="fr-content">Elit</span><span class="en-content">Elects</span>
+              </p>
+              <p class="text-sm text-amber-800 fr-content">{el.elects_fr}</p>
+              <p class="text-sm text-amber-800 en-content">{el.elects_en}</p>
+            </div>
+          )}
+
+          <!-- How it works -->
+          {el.how_it_works && el.how_it_works.length > 0 && (
+            <div>
+              <p class="lbl font-medium text-amber-500 mb-2">
+                <span class="fr-content">Comment ça marche</span><span class="en-content">How it works</span>
+              </p>
+              <ol class="space-y-1 list-decimal list-inside text-sm text-amber-800">
+                {(el.how_it_works as any[]).map((step) => (
+                  <li class="text-sm text-amber-800 leading-relaxed">
+                    <span class="fr-content">{step.step_fr ?? step.rule_fr ?? step}</span>
+                    <span class="en-content">{step.step_en ?? step.rule_en ?? step}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
+          <!-- Key rules -->
+          {el.key_rules && el.key_rules.length > 0 && (
+            <div>
+              <p class="lbl font-medium text-amber-500 mb-2">
+                <span class="fr-content">Regles cles</span><span class="en-content">Key rules</span>
+              </p>
+              <ul class="space-y-1">
+                {(el.key_rules as any[]).map((kr) => (
+                  <li class="flex items-start gap-2 text-sm text-amber-800">
+                    <span class="text-amber-400 flex-shrink-0 mt-0.5">·</span>
+                    <span>
+                      <span class="fr-content">{kr.rule_fr ?? kr}</span>
+                      <span class="en-content">{kr.rule_en ?? kr}</span>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <!-- Meta: frequency, last/next -->
+          <div class="flex flex-wrap gap-6 text-xs">
+            {el.frequency_years && (
+              <div>
+                <p class="text-amber-500 font-medium mb-0.5 fr-content">Frequence</p>
+                <p class="text-amber-500 font-medium mb-0.5 en-content">Frequency</p>
+                <p class="text-amber-800">{el.frequency_years} ans / years</p>
+              </div>
+            )}
+            {el.last_held && (
+              <div>
+                <p class="text-amber-500 font-medium mb-0.5 fr-content">Dernier scrutin</p>
+                <p class="text-amber-500 font-medium mb-0.5 en-content">Last held</p>
+                <p class="text-amber-800">{el.last_held}</p>
+              </div>
+            )}
+            {el.next_scheduled && (
+              <div>
+                <p class="text-amber-500 font-medium mb-0.5 fr-content">Prochain prevu</p>
+                <p class="text-amber-500 font-medium mb-0.5 en-content">Next scheduled</p>
+                <p class="text-amber-800">{el.next_scheduled}</p>
+              </div>
+            )}
+          </div>
+
+          <!-- Recent results summary -->
+          {(el.recent_results_summary?.summary_fr || el.result_2024_fr) && (
+            <div class="border-t border-amber-100 pt-4">
+              <p class="lbl font-medium text-amber-500 mb-1">
+                <span class="fr-content">Resultats recents</span><span class="en-content">Recent results</span>
+              </p>
+              <p class="text-sm text-amber-800 fr-content">
+                {el.recent_results_summary?.summary_fr ?? el.result_2024_fr}
+              </p>
+              <p class="text-sm text-amber-800 en-content">
+                {el.recent_results_summary?.summary_en ?? el.result_2024_en}
+              </p>
+            </div>
+          )}
+        </div>
+      </article>
+    ))}
+
+    <!-- Calendar -->
+    {calendar && calendar.length > 0 && (
+      <section class="mt-4">
+        <h2 class="font-display text-xl font-semibold text-amber-950 mb-5 pb-2 border-b border-amber-200">
+          <span class="fr-content">Calendrier electoral</span>
+          <span class="en-content">Election calendar</span>
+        </h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-amber-50 border-b border-amber-200">
+                <th class="text-left px-4 py-2 text-amber-700 font-semibold">
+                  <span class="fr-content">Election</span><span class="en-content">Election</span>
+                </th>
+                <th class="text-left px-4 py-2 text-amber-700 font-semibold">
+                  <span class="fr-content">Annee</span><span class="en-content">Year</span>
+                </th>
+                <th class="text-left px-4 py-2 text-amber-700 font-semibold">
+                  <span class="fr-content">Note</span><span class="en-content">Note</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {(calendar as any[]).map((row: any) => (
+                <tr class="border-b border-amber-100 hover:bg-amber-50 transition-colors">
+                  <td class="px-4 py-2 text-amber-900">
+                    <span class="fr-content">{row.election_fr ?? row.election}</span>
+                    <span class="en-content">{row.election_en ?? row.election}</span>
+                  </td>
+                  <td class="px-4 py-2 text-amber-700">{row.year ?? row.date}</td>
+                  <td class="px-4 py-2 text-amber-600 text-xs">
+                    <span class="fr-content">{row.note_fr ?? row.note ?? ""}</span>
+                    <span class="en-content">{row.note_en ?? row.note ?? ""}</span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+  </div>
+
+</Layout>

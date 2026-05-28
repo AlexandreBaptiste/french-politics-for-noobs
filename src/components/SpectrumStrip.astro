@@ -1,0 +1,305 @@
+---
+import rn from "../../content/parties/rn.json";
+import lfi from "../../content/parties/lfi.json";
+import renaissance from "../../content/parties/renaissance.json";
+import lr from "../../content/parties/lr.json";
+import ps from "../../content/parties/ps.json";
+import modem from "../../content/parties/modem.json";
+import others from "../../content/parties/others.json";
+
+const findOther = (id: string) =>
+  (others.parties as any[]).find((p: any) => p.party_id === id);
+
+// Approximate left-to-right positions (0–100). Clusters are intentional:
+// far-left bunched at 3–10, left spread 22–32, centre trio 48–64, LR at 76, far-right 90–97.
+const raw = [
+  { id: "pcf",         data: findOther("pcf"),        pct:  3 },
+  { id: "lfi",         data: lfi as any,              pct: 10 },
+  { id: "eelv",        data: findOther("eelv"),       pct: 22 },
+  { id: "ps",          data: ps as any,               pct: 32 },
+  { id: "renaissance", data: renaissance as any,      pct: 48 },
+  { id: "modem",       data: modem as any,            pct: 56 },
+  { id: "horizons",    data: findOther("horizons"),   pct: 64 },
+  { id: "lr",          data: lr as any,               pct: 76 },
+  { id: "rn",          data: rn as any,               pct: 90 },
+  { id: "reconquete",  data: findOther("reconquete"), pct: 97 },
+].filter((e) => e.data);
+
+const parties = raw.map((e) => {
+  const d = e.data as any;
+  return {
+    id:     e.id,
+    abbr:   (d.identity.abbreviation as string).split("/")[0].trim().slice(0, 4),
+    color:  d.identity.color as string,
+    nameFr: d.identity.full_name_fr as string,
+    nameEn: d.identity.full_name_en as string,
+    posFr:  d.identity.position_on_spectrum_fr as string,
+    posEn:  d.identity.position_on_spectrum_en as string,
+    pct:    e.pct,
+  };
+});
+---
+
+<!-- Spectrum strip: focus-mode interactive diagram -->
+<div class="border-y border-amber-200 bg-amber-50/60">
+  <div class="max-w-5xl mx-auto px-5 py-5 md:py-6">
+
+    <!-- Header row -->
+    <div class="flex items-center justify-between mb-4">
+      <p class="lbl font-semibold text-amber-500">
+        <span class="fr-content">Spectre politique</span>
+        <span class="en-content">Political spectrum</span>
+      </p>
+      <div class="flex items-center gap-4 text-[0.58rem] tracking-[0.1em] uppercase font-medium">
+        <span class="text-amber-400">
+          <span class="fr-content">← Gauche</span>
+          <span class="en-content">← Left</span>
+        </span>
+        <span class="font-bold text-amber-700">◆ Centre</span>
+        <span class="text-amber-400">
+          <span class="fr-content">Droite →</span>
+          <span class="en-content">Right →</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Scrollable rail (overflow-x on mobile) -->
+    <div class="overflow-x-auto">
+      <div
+        class="relative min-w-[600px]"
+        id="sp-rail"
+        style="height: 72px;"
+      >
+        <!-- Axis: gradient blue→neutral→red -->
+        <div
+          class="absolute inset-x-0 rounded-full pointer-events-none"
+          style="top: 26px; height: 4px; background: linear-gradient(to right, oklch(39% 0.20 258), oklch(87% 0.018 258) 50%, oklch(57% 0.215 30));"
+          aria-hidden="true"
+        ></div>
+
+        <!-- Centre guide -->
+        <div
+          class="absolute pointer-events-none"
+          style="left: 50%; top: 0; width: 1px; height: 72px; transform: translateX(-50%); background: repeating-linear-gradient(to bottom, oklch(48% 0.178 30 / 35%) 0px, oklch(48% 0.178 30 / 35%) 4px, transparent 4px, transparent 6px);"
+          aria-hidden="true"
+        ></div>
+
+        <!-- Party nodes -->
+        {parties.map((p) => (
+          <a
+            href={`/partis/${p.id}`}
+            class="sp-node absolute flex flex-col items-center gap-1
+                   focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2
+                   focus-visible:outline-amber-500"
+            style={`left: ${p.pct}%; top: 12px; transform: translateX(-50%);`}
+            data-id={p.id}
+            data-name-fr={p.nameFr}
+            data-name-en={p.nameEn}
+            data-pos-fr={p.posFr}
+            data-pos-en={p.posEn}
+            data-color={p.color}
+            aria-label={`${p.nameFr} — ${p.posFr} / ${p.posEn}`}
+          >
+            <div
+              class="sp-badge w-8 h-8 rounded-sm flex-shrink-0"
+              style={`background: ${p.color};`}
+              aria-hidden="true"
+            ></div>
+            <span class="sp-abbr text-[0.58rem] font-semibold tracking-wide leading-none whitespace-nowrap text-amber-500 transition-colors">
+              {p.abbr}
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Info panel: grid-row reveal, lives outside overflow-x so it's full-width -->
+    <div class="sp-info-wrap" id="sp-info-wrap" aria-live="polite" aria-atomic="true">
+      <div class="sp-info-inner">
+        <div class="sp-info-content" id="sp-info-content"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<style>
+  /* Badges start invisible; JS entrance animation reveals them */
+  .sp-node { opacity: 0; }
+  @media (prefers-reduced-motion: reduce) {
+    .sp-node { opacity: 1 !important; }
+  }
+
+  /* Focus mode: dim non-active nodes */
+  #sp-rail.sp-focused .sp-node {
+    opacity: 0.2;
+    transition: opacity 260ms ease-out;
+  }
+  #sp-rail.sp-focused .sp-node.sp-active { opacity: 1; }
+
+  /* Badge scale on active */
+  .sp-badge {
+    transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 300ms ease-out;
+  }
+  .sp-node.sp-active .sp-badge {
+    transform: scale(1.45);
+    box-shadow: 0 4px 20px oklch(22% 0.15 258 / 22%);
+  }
+
+  /* Abbr label on active */
+  .sp-abbr { transition: color 220ms ease-out; }
+  .sp-node.sp-active .sp-abbr { color: oklch(27% 0.058 260); font-weight: 700; }
+
+  /* Info panel: grid-row reveal */
+  .sp-info-wrap {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .sp-info-wrap.is-open { grid-template-rows: 1fr; }
+  .sp-info-inner { overflow: hidden; }
+
+  /* Info content fade-up */
+  .sp-info-content {
+    opacity: 0;
+    translate: 0 6px;
+    transition: opacity 260ms ease-out 80ms, translate 260ms ease-out 80ms;
+  }
+  .sp-info-wrap.is-open .sp-info-content {
+    opacity: 1;
+    translate: 0 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sp-badge,
+    .sp-abbr,
+    .sp-info-wrap,
+    .sp-info-content { transition: none !important; }
+    .sp-info-content { opacity: 1 !important; translate: 0 0 !important; }
+  }
+</style>
+
+<script>
+  (function () {
+    const rail = document.getElementById("sp-rail") as HTMLElement | null;
+    const infoWrap = document.getElementById("sp-info-wrap") as HTMLElement | null;
+    const infoContent = document.getElementById("sp-info-content") as HTMLElement | null;
+    if (!rail || !infoWrap || !infoContent) return;
+
+    const nodes = Array.from(rail.querySelectorAll<HTMLAnchorElement>(".sp-node"));
+    let activeId: string | null = null;
+    let isTouchDevice = false;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    /* ── Staggered entrance animation ── */
+    if (!reducedMotion) {
+      const io = new IntersectionObserver((entries) => {
+        if (!entries[0].isIntersecting) return;
+        io.disconnect();
+        nodes.forEach((node, i) => {
+          node.animate(
+            [
+              { opacity: "0", translate: "0 10px" },
+              { opacity: "1", translate: "0 0" },
+            ],
+            {
+              duration: 420,
+              delay: 60 + i * 55,
+              easing: "cubic-bezier(0.16, 1, 0.3, 1)",
+              fill: "both",
+            }
+          );
+        });
+      }, { threshold: 0.3 });
+      io.observe(rail);
+    }
+
+    /* ── Info panel content renderer ── */
+    function renderInfo(node: HTMLAnchorElement): void {
+      const { color, nameFr, nameEn, posFr, posEn, id } =
+        node.dataset as Record<string, string>;
+      // Values come from build-time static JSON — safe to interpolate
+      infoContent!.innerHTML = `
+        <div class="flex items-start justify-between gap-3 border-t border-amber-200 pt-4 pb-1">
+          <div class="flex items-start gap-3 min-w-0 flex-1">
+            <div class="w-3 h-3 rounded-sm mt-[3px] flex-shrink-0" style="background:${color}" aria-hidden="true"></div>
+            <div class="min-w-0">
+              <p class="font-display font-semibold text-amber-950 text-sm leading-tight mb-1">
+                <span class="fr-content">${nameFr}</span>
+                <span class="en-content">${nameEn}</span>
+              </p>
+              <p class="text-xs text-amber-600 leading-relaxed">
+                <span class="fr-content">${posFr}</span>
+                <span class="en-content">${posEn}</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 flex-shrink-0 mt-0.5">
+            <a href="/partis/${id}"
+               class="text-[0.68rem] font-semibold tracking-wide uppercase text-amber-600
+                      hover:text-amber-950 transition-colors whitespace-nowrap
+                      border border-amber-300 hover:border-amber-500 rounded-sm px-2 py-1">
+              <span class="fr-content">Voir →</span>
+              <span class="en-content">View →</span>
+            </a>
+            <button id="sp-reset" aria-label="Fermer / Close"
+              class="w-7 h-7 flex items-center justify-center rounded-sm
+                     text-amber-400 hover:text-amber-900 hover:bg-amber-100
+                     transition-colors text-sm leading-none">✕</button>
+          </div>
+        </div>`;
+      document.getElementById("sp-reset")?.addEventListener("click", deactivate);
+    }
+
+    /* ── Focus / deactivate ── */
+    function activate(node: HTMLAnchorElement): void {
+      nodes.forEach((n) => n.classList.remove("sp-active"));
+      rail!.classList.add("sp-focused");
+      node.classList.add("sp-active");
+      activeId = node.dataset.id ?? null;
+      renderInfo(node);
+      infoWrap!.classList.add("is-open");
+    }
+
+    function deactivate(): void {
+      nodes.forEach((n) => n.classList.remove("sp-active"));
+      rail!.classList.remove("sp-focused");
+      infoWrap!.classList.remove("is-open");
+      activeId = null;
+    }
+
+    /* ── Click / tap handling ── */
+    nodes.forEach((node) => {
+      // Set isTouchDevice on first touch anywhere on the rail
+      node.addEventListener("touchstart", () => { isTouchDevice = true; }, { passive: true, once: true });
+
+      node.addEventListener("click", (e) => {
+        const id = node.dataset.id;
+        if (isTouchDevice) {
+          // Mobile: first tap = focus, second tap on same = navigate (allow default)
+          if (activeId === id) return;
+          e.preventDefault();
+          activate(node);
+        } else {
+          // Desktop: click = focus; click same = deactivate
+          if (activeId === id) { deactivate(); return; }
+          e.preventDefault();
+          activate(node);
+        }
+      });
+    });
+
+    /* ── Keyboard: Escape closes ── */
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && activeId) deactivate();
+    });
+
+    /* ── Outside click closes ── */
+    document.addEventListener("click", (e) => {
+      if (!activeId) return;
+      const t = e.target as Node;
+      if (!rail!.contains(t) && !infoWrap!.contains(t)) deactivate();
+    });
+  })();
+</script>

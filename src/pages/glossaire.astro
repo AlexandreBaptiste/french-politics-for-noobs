@@ -1,0 +1,174 @@
+﻿---
+import Layout from "../layouts/Layout.astro";
+import glossaryData from "../../content/glossary.json";
+
+const terms = glossaryData.terms as any[];
+const categories = [...new Set(terms.map((t) => t.category))] as string[];
+
+const categoryLabels: Record<string, { fr: string; en: string }> = {
+  "institutions":       { fr: "Institutions",          en: "Institutions" },
+  "roles":              { fr: "Rôles",                  en: "Roles" },
+  "legislative-process":{ fr: "Processus législatif",  en: "Legislative process" },
+  "electoral":          { fr: "Électoral",              en: "Electoral" },
+  "constitutional":     { fr: "Constitutionnel",        en: "Constitutional" },
+  "political-culture":  { fr: "Culture politique",      en: "Political culture" },
+};
+
+// Build lookup: id → { fr, en } for related_terms tags
+const termLabels: Record<string, { fr: string; en: string }> = Object.fromEntries(
+  terms.map((t) => [t.id, { fr: t.term_fr, en: t.term_en }])
+);
+---
+
+<Layout title="Glossaire">
+
+  <div class="bg-civic-950 px-5 py-10 md:py-12">
+    <div class="max-w-3xl mx-auto">
+      <h1 data-enter="1" class="font-display text-fluid-page font-bold text-amber-50 mb-3">
+        <span class="fr-content">Glossaire politique</span>
+        <span class="en-content">Political glossary</span>
+      </h1>
+      <p data-enter="2" class="text-amber-400 text-sm">
+        <span class="fr-content">{terms.length} termes politiques français expliqués clairement.</span>
+        <span class="en-content">{terms.length} French political terms clearly explained.</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-5 py-10">
+
+    <!-- Search -->
+    <div class="mb-7">
+      <input
+        type="search"
+        id="glossary-search"
+        placeholder="Rechercher un terme / Search..."
+        class="w-full border border-amber-300 rounded-sm px-4 py-3 text-sm
+               text-amber-900 bg-white focus:outline-none focus:border-amber-500
+               focus:ring-1 focus:ring-amber-500 transition-colors"
+        aria-label="Rechercher dans le glossaire / Search the glossary"
+      />
+    </div>
+
+    <!-- Category filters -->
+    <div class="flex flex-wrap gap-2 mb-8" id="cat-filters" role="group" aria-label="Filtrer par categorie">
+      <button
+        class="cat-btn px-3 py-1.5 text-xs font-medium border rounded-full transition-colors
+               border-amber-500 bg-amber-500 text-white"
+        data-cat="all"
+      >
+        <span class="fr-content">Tous</span><span class="en-content">All</span>
+      </button>
+      {categories.map((cat) => (
+        <button
+          class="cat-btn px-3 py-1.5 text-xs font-medium border rounded-full transition-colors
+                 border-amber-300 text-amber-700 hover:border-amber-500 hover:bg-amber-50"
+          data-cat={cat}
+        >
+          <span class="fr-content">{categoryLabels[cat]?.fr ?? cat}</span>
+          <span class="en-content">{categoryLabels[cat]?.en ?? cat}</span>
+        </button>
+      ))}
+    </div>
+
+    <!-- Terms -->
+    <div id="terms-list" class="space-y-4">
+      {terms.map((term) => (
+        <article
+          class="term border border-amber-200 rounded-sm p-5 hover:border-amber-300 transition-colors"
+          data-cat={term.category}
+          data-fr={`${term.term_fr} ${term.definition_fr}`.toLowerCase()}
+          data-en={`${term.term_en} ${term.definition_en}`.toLowerCase()}
+        >
+          <div class="flex items-start justify-between gap-4 mb-2">
+            <div>
+              <h2 class="font-display text-lg font-semibold text-amber-950 fr-content">{term.term_fr}</h2>
+              <h2 class="font-display text-lg font-semibold text-amber-950 en-content">{term.term_en}</h2>
+              <span class="text-xs text-amber-400 mt-0.5 block">
+                <span class="fr-content">{categoryLabels[term.category]?.fr ?? term.category}</span>
+                <span class="en-content">{categoryLabels[term.category]?.en ?? term.category}</span>
+              </span>
+            </div>
+            {term.status === "needs-verification" && (
+              <span class="verify-badge flex-shrink-0 mt-1">
+                <span class="fr-content">Source : <a href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027" class="underline" target="_blank" rel="noopener noreferrer">Wikipédia</a></span>
+                <span class="en-content">Source: <a href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027" class="underline" target="_blank" rel="noopener noreferrer">Wikipedia</a></span>
+              </span>
+            )}
+          </div>
+          <p class="text-sm text-amber-800 leading-relaxed mb-3 fr-content">{term.definition_fr}</p>
+          <p class="text-sm text-amber-800 leading-relaxed mb-3 en-content">{term.definition_en}</p>
+          {term.example_fr && (
+            <p class="text-xs text-amber-600 italic bg-amber-50 px-3 py-1.5 rounded-sm fr-content">
+              Ex.&nbsp;: {term.example_fr}
+            </p>
+          )}
+          {term.example_en && (
+            <p class="text-xs text-amber-600 italic bg-amber-50 px-3 py-1.5 rounded-sm en-content">
+              E.g.&nbsp;: {term.example_en}
+            </p>
+          )}
+          {term.related_terms?.length > 0 && (
+            <div class="mt-3 flex flex-wrap gap-1.5">
+              {(term.related_terms as string[]).map((r) => (
+                <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">
+                  <span class="fr-content">{termLabels[r]?.fr ?? r}</span>
+                  <span class="en-content">{termLabels[r]?.en ?? r}</span>
+                </span>
+              ))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+
+    <p id="no-results" class="hidden text-center text-amber-600 py-16 text-sm">
+      <span class="fr-content">Aucun terme trouve.</span>
+      <span class="en-content">No terms found.</span>
+    </p>
+  </div>
+
+  <script>
+    const input  = document.getElementById("glossary-search") as HTMLInputElement;
+    const items  = document.querySelectorAll<HTMLElement>(".term");
+    const catBtns= document.querySelectorAll<HTMLButtonElement>(".cat-btn");
+    const noRes  = document.getElementById("no-results")!;
+
+    let activeCat = "all";
+
+    function isEn() { return document.body.classList.contains("lang-en"); }
+
+    function filter() {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      items.forEach(el => {
+        const cat = el.dataset.cat ?? "";
+        const txt = isEn() ? el.dataset.en ?? "" : el.dataset.fr ?? "";
+        const ok  = (activeCat === "all" || cat === activeCat) && (!q || txt.includes(q));
+        el.style.display = ok ? "" : "none";
+        if (ok) shown++;
+      });
+      noRes.classList.toggle("hidden", shown > 0);
+    }
+
+    input?.addEventListener("input", filter);
+
+    catBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeCat = btn.dataset.cat ?? "all";
+        catBtns.forEach(b => {
+          b.classList.remove("border-amber-500","bg-amber-500","text-white");
+          b.classList.add("border-amber-300","text-amber-700");
+        });
+        btn.classList.add("border-amber-500","bg-amber-500","text-white");
+        btn.classList.remove("border-amber-300","text-amber-700");
+        filter();
+      });
+    });
+
+    // Re-filter on lang toggle
+    document.addEventListener("click", e => {
+      if ((e.target as Element)?.hasAttribute?.("data-lang-toggle")) setTimeout(filter, 30);
+    });
+  </script>
+</Layout>

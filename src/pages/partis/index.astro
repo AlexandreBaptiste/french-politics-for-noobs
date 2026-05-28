@@ -1,0 +1,98 @@
+﻿---
+import Layout from "../../layouts/Layout.astro";
+import SpectrumStrip from "../../components/SpectrumStrip.astro";
+import rn from "../../../content/parties/rn.json";
+import lfi from "../../../content/parties/lfi.json";
+import renaissance from "../../../content/parties/renaissance.json";
+import lr from "../../../content/parties/lr.json";
+import ps from "../../../content/parties/ps.json";
+import modem from "../../../content/parties/modem.json";
+import others from "../../../content/parties/others.json";
+
+// Ordered left to right on the political spectrum
+const spectrum = [
+  { id: "pcf",        data: others.parties.find((p: any) => p.party_id === "pcf") },
+  { id: "lfi",        data: lfi },
+  { id: "eelv",       data: others.parties.find((p: any) => p.party_id === "eelv") },
+  { id: "ps",         data: ps },
+  { id: "renaissance",data: renaissance },
+  { id: "modem",      data: modem },
+  { id: "horizons",   data: others.parties.find((p: any) => p.party_id === "horizons") },
+  { id: "lr",         data: lr },
+  { id: "rn",         data: rn },
+  { id: "reconquete", data: others.parties.find((p: any) => p.party_id === "reconquete") },
+].filter((p) => p.data);
+---
+
+<Layout title="Partis politiques">
+
+  <div class="bg-civic-950 px-5 py-10 md:py-12">
+    <div class="max-w-3xl mx-auto">
+      <h1 data-enter="1" class="font-display text-fluid-page font-bold text-amber-50 mb-4">
+        <span class="fr-content">Les partis politiques</span>
+        <span class="en-content">Political parties</span>
+      </h1>
+      <p data-enter="2" class="text-amber-300 max-w-xl leading-relaxed text-sm">
+        <span class="fr-content">
+          Profils complets : histoire, idéologie, figures clés et programme 2027.
+          Presentes de gauche a droite sur le spectre politique.
+        </span>
+        <span class="en-content">
+          Complete profiles: history, ideology, key figures and 2027 program.
+          Presented from left to right on the political spectrum.
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <SpectrumStrip />
+
+  <!-- Party cards -->
+  <div class="max-w-5xl mx-auto px-5 py-8 md:py-12">
+    <div class="grid md:grid-cols-2 gap-4">
+      {spectrum.map(({ id, data }, i) => {
+        const d = data as any;
+        return (
+          <a
+            href={`/partis/${id}`}
+            class="group flex items-start gap-4 p-5 border border-amber-200 rounded-sm
+                   hover:border-amber-400 hover:bg-amber-50 js-card js-reveal"
+            style={`transition-delay:${i * 50}ms`}
+          >
+            <!-- Color badge -->
+            <div
+              class="flex-shrink-0 w-11 h-11 rounded-sm flex items-center justify-center
+                     text-white font-bold text-xs leading-none"
+              style={`background:${d.identity.color};`}
+              aria-hidden="true"
+            >
+              {d.identity.abbreviation.split("/")[0].trim().slice(0, 3)}
+            </div>
+
+            <div class="flex-1 min-w-0">
+              <div class="flex items-baseline gap-2 flex-wrap mb-1">
+                <h2 class="font-display text-base font-semibold text-amber-950 group-hover:text-amber-800">
+                  <span class="fr-content">{d.identity.full_name_fr}</span>
+                  <span class="en-content">{d.identity.full_name_en}</span>
+                </h2>
+                <span class="text-xs text-amber-400 flex-shrink-0">· {d.identity.founded}</span>
+              </div>
+              <p class="text-xs text-amber-600 mb-2 leading-snug">
+                <span class="fr-content">{d.identity.position_on_spectrum_fr}</span>
+                <span class="en-content">{d.identity.position_on_spectrum_en}</span>
+              </p>
+              {d.identity.current_leader_fr && (
+                <p class="text-xs text-amber-400 truncate">
+                  <span class="fr-content">{(d.identity.current_leader_fr as string).split(".")[0]}</span>
+                  <span class="en-content">{(d.identity.current_leader_en as string).split(".")[0]}</span>
+                </p>
+              )}
+            </div>
+            <span class="text-amber-300 group-hover:text-amber-500 transition-colors flex-shrink-0 mt-1 text-lg">→</span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+
+</Layout>
