@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://AlexandreBaptiste.github.io",
-  base: "/french-politics-for-noobs",
+  base: "/french-politics-for-noobs/",
   vite: {
     plugins: [tailwindcss()],
   },
